@@ -15,9 +15,8 @@ To enable Tangerine on your vmst.io account, visit Preferences > [Appearance](ht
 
 :button-link[Enable Tangerine]{icon="fluent-emoji-high-contrast:tangerine" href="https://vmst.io/settings/preferences/appearance" blank}
 
-Tangerine will currently only work with the default single-column options.
 Unlike other theme options, it will automatically switch between dark and light mode based on your system settings.
-For folks who like the layout options of Tangerine, but prefer a more stock color scheme, there is a purple option.
+There are also a Cherry variant, and for folks who like the layout options of Tangerine, but prefer a the stock Mastodon color scheme, there is also a purple option.
 
 To disable Tangerine, select one of the default Mastodon themes from the same control panel option.
 
