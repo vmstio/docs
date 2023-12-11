@@ -16,7 +16,7 @@ This is crucial for providing a good user experience, especially considering the
 
 In the vmst.io environment, Sidekiq processes nearly two million tasks per day.
 
-Sidekiq runs on the Digital Ocean managed [Kubernetes](https://kubernetes.io) platform which automatically scales the number of required resources.
+Sidekiq runs on the DigitalOcean managed [Kubernetes](https://kubernetes.io) platform which automatically scales the number of required resources.
 
 ## Tuning
 
@@ -40,7 +40,7 @@ However, a single popular toot going viral can quickly cause queues to back up a
 Moreover, when one instance struggles, it can cause delays in other instances within the federation, leading to "red light" errors and other issues.
 
 One solution could be to add more threads to your service, but this may result in additional database connections.
-PostgreSQL has limits based on the deployment size, which can be addressed by using pgBouncer as part of the deployment.
+PostgreSQL has limits based on the deployment size, which can be addressed by using PgBouncer as part of the deployment.
 
 It might be tempting to increase the number of threads in your Sidekiq service file from 25 to 50, 100, etc.
 However, this is not the correct approach.

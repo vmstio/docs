@@ -13,7 +13,7 @@ Aside from the various external dependencies, Mastodon is three main application
 ## Web
 
 The Mastodon Web tier consists of the Mastodon Web UI/API and the separate Streaming API service.
-Our Web tier runs on the Digital Ocean managed Kubernetes platform.
+Our Web tier runs on the DigitalOcean managed Kubernetes platform.
 
 ### Puma
 
@@ -35,7 +35,7 @@ Previously they were served directly from our core servers, which being in Canad
 
 The Streaming API is a separate [node.js](https://nodejs.org/en/) application which provides a background WebSockets connection between your browser session and the Mastodon server to provide real-time "streaming" updates as new posts are loaded to your timeline, to send notifications, etc.
 
-As explained more in-depth in another section, the connection to the Digital Ocean-managed Redis database must be done via TLS.
+As explained more in-depth in another section, the connection to the DigitalOcean-managed Redis database must be done via TLS.
 For the Streaming API, there are additional configuration options that must be set to allow node.js to connect when it expects a non-encrypted connection by default.
 
 Example of `.env.production` configuration settings relevant to Streaming:
@@ -48,4 +48,4 @@ NODE_EXTRA_CA_CERTS=/path/to/certs/do-internal.crt
 ```
 
 The `DB_SSLMODE` and `NODE_EXTRA_CA_CERTS` settings are not there by default.
-The Digital Ocean databases use self-signed/private certificates, but the variable set will tell the Streaming API to trust that connection based on the CA certs that are downloaded from Digital Ocean and uploaded to the server.
+The DigitalOcean databases use self-signed/private certificates, but the variable set will tell the Streaming API to trust that connection based on the CA certs that are downloaded from DigitalOcean and uploaded to the server.

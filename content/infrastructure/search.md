@@ -15,7 +15,7 @@ The availability of the more advanced full text searching depends on if your ins
 
 ## Basic Search
 
-By default, Mastodon has limited abilities to allow searching of hashtags and to display recent posts made with that tag, using data stored in the primary Postgres database.
+By default, Mastodon has limited abilities to allow searching of hashtags and to display recent posts made with that tag, using data stored in the primary PostgreSQL database.
 Including a hashtag in your post can that post discoverable by anyone else who might click on the hashtag in the interface.
 
 ![Debian Search](/debian-search.png)

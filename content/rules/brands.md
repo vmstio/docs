@@ -17,7 +17,7 @@ Corporate brand accounts are currently not permitted on vmst·io
 We feel that brands and companies should be setting up their own instances under domains they're identified with and control.
 This not only benefits the brands in terms of verifying that their accounts are self-verified, but helps users control their interactions with those brands.
 
-Examples of the types of accounts prohibited under this policy would be accounts identifying as the official account for VMware, Digital Ocean, Fastmail, Chipotle, Delta Airlines, etc. Unofficial or parody accounts for brands are prohibited by our [account impersonation policy](/rules).
+Examples of the types of accounts prohibited under this policy would be accounts identifying as the official account for VMware, DigitalOcean, Fastmail, Chipotle, Delta Airlines, etc. Unofficial or parody accounts for brands are prohibited by our [account impersonation policy](/rules).
 
 This policy in no way prohibits members of vmst.io from interacting or boosting content from brands, nor prohibits brand accounts from interacting or federating with our instance.
 It only prohibits such accounts from being hosted by vmst.io.

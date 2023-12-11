@@ -8,15 +8,15 @@ We backup the persistent data storage of vmst.io multiple times per day/week and
 
 ## Database Backups
 
-Posts made to [vmst.io](https://vmst.io) are stored in backend Postgres databases with Redis used as a key value store and timeline cache.
+Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databases with Redis used as a key value store and timeline cache.
 
 - For the backup of PostgreSQL we use `pg_dump` with some custom scripts that process each task and then fire off notifications to our backend Slack channels.
 - Database backups are currently made every day, and replicated twice, across geographies.
-- In addition, Digital Ocean provides transaction level rollback functionality as part of their managed database service.
+- In addition, DigitalOcean provides transaction level rollback functionality as part of their managed database service.
 
 ## Media/CDN Store Backups
 
-- The CDN/media data is sync'd directly to another Digital Ocean object store via the `rclone` [utility](https://rclone.org).
+- The CDN/media data is sync'd directly to another DigitalOcean object store via the `rclone` [utility](https://rclone.org).
 - This is done using some custom scripts that process each task and then fire off notifications to our backend Slack channels.
 - CDN backups currently run every day.
 - Only the latest copy of CDN data is retained.
@@ -29,11 +29,11 @@ Posts made to [vmst.io](https://vmst.io) are stored in backend Postgres database
 
 We have a customized container image available from both Docker and GitHub container registries used for backup purposes.
 This image is designed for backup, replication and maintenance of container based Mastodon implementations.
-It includes rclone, Postgres and Redis utilities.
+It includes rclone, PostgreSQL and Redis utilities.
 
 - The version tags for the image represent the version of rclone used.
 - The image is based on Debian 11.
-- Postgres utilities are based on version 15.
+- PostgreSQL utilities are based on version 15.
 - Redis utilities are based on version 7.
 
 There are `/root/backups` and `/root/scripts` directories suitable for mounting and processing relevant files.

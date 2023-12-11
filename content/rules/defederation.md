@@ -76,7 +76,7 @@ At this time vmst.io does not plan to defederate from Threads, although we may t
 
 ### Privacy Implications
 
-Mastodon instances do not broadcast private data like e-mail or the IP address you use to other instances.
+Mastodon instances do not broadcast private data like email or the IP address you use to other instances.
 The software is built on the reasonable assumption that third party servers cannot be trusted.
 
 vmst.io servers download, process and cache images and videos for you to view. Not only is this more efficient when multiple users want to view the same content from another instance, it helps to preserve your privacy by acting as a proxy to that resource. Unless you choose to click through to the source content the originating server cannot get your IP address, browser name, or time of access.

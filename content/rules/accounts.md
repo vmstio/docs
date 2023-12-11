@@ -18,7 +18,7 @@ In order to keep the number of junk accounts on vmst.io as low as possible, we a
 Depending on if our systems identify your request as a risk, we may still flag some account requests for additional review by a member of our staff.
 
 ::alert{type="danger"}
-All new account requests that do not complete e-mail and hCaptcha verification **within 72 hours** are automatically deleted.
+All new account requests that do not complete email and hCaptcha verification **within 72 hours** are automatically deleted.
 ::
 
 ## Preserving Your Account

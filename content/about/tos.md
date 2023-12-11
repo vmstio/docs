@@ -32,7 +32,7 @@ Definitions of various terms used throughout this document:
 
 ### Basic account information
 
-- If you register on this instance, you will be asked to enter a username, an e-mail address and a password.
+- If you register on this instance, you will be asked to enter a username, an email address and a password.
 - You may also enter additional profile information such as a display name, biography, links, upload a profile picture and/or header image.
 - Your username, display name, biography, links, profile picture and header image are always listed publicly.
 
@@ -149,7 +149,7 @@ Your public and followers-only posts are delivered to the instance where your fo
 
 When you authorize an application to use your account, depending on the scope of permissions you approve, it may access your public profile information, your following list, your followers, your lists, all your posts, and your favorites.
 
-Applications can never access your e-mail address or password.
+Applications can never access your email address or password.
 
 ## Moving Away
 

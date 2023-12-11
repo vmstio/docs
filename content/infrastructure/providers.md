@@ -10,7 +10,7 @@ Some of these services are paid for while others are free to use.
 
 | Vendor | Service |
 |---|---|
-| Digital Ocean | Managed Postgres, Managed Redis, Managed Kubernetes, Object Storage, Content Delivery Network (CDN), Load Balancer, and Nameservers |
+| DigitalOcean | Managed PostgreSQL, Managed Redis, Managed Kubernetes, Object Storage, Content Delivery Network (CDN), Load Balancer, and Nameservers |
 | AWS | Simple Email Service |
 | BetterUptime | Status Monitoring |
 | DNSimple | Domain Registrar |

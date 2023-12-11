@@ -26,7 +26,7 @@ At the moment all of our staff are volunteers, and our only expenses are monthly
 
 | **Vendor**    | **Monthly** |
 |---------------|-------------|
-| Digital Ocean | $513        |
+| DigitalOcean | $513        |
 | Grafana Labs  | $29         |
 | AWS           | $1          |
 

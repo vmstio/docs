@@ -25,11 +25,11 @@ Uptime is calculated for the last 30/90 days.
 
 In addition to providing a page for members to check when there might be issues, it actively alerts our team to any issues.
 
-## Digital Ocean
+## DigitalOcean
 
-We use integrated metrics monitoring available through Digital Ocean to monitor and alert on CPU, memory, disk and other performance metrics of the host virtual machine and managed database systems.
+We use integrated metrics monitoring available through DigitalOcean to monitor and alert on CPU, memory, disk and other performance metrics of the host virtual machine and managed database systems.
 
-![Digital Ocean Alerts](/do-alert.png)
+![DigitalOcean Alerts](/do-alert.png)
 
 ## Community Monitoring
 
