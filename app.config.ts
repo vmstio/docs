@@ -9,7 +9,7 @@ export default defineAppConfig({
         icon: 'simple-icons:mastodon',
         href: 'https://vmst.io',
       },
-      github: 'vmstan/vmstio'
+      github: 'vmstio/docs'
     },
     aside: {
       level: 1,
