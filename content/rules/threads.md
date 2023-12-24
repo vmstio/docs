@@ -14,6 +14,17 @@ At this time, Threads has very limited federation abilities:
 
 Meta controls how much they federate and when, Mastodon instances are generally compatiable with any other ActivityPub deployment.
 
+## Known Issues
+
+Some members have experienced issues following users on threads.net, where the requests are stuck in a state of pending approval, but the Threads users are not able to approve it.
+This is not anything specific to vmst.io and users from other instances have reported the same issue.
+
+We use a feature known as "authorized fetch" which is essentially a security feature that uses signed requests for ActivityPub data.
+It prevents instances or users that have been blocked from obtaining post data when they shouldn't be. It is not enabled by default in Mastodon.
+
+At this time Threads doesn't seem to have proper support for instances with authorized fetch enabled, but their engineers are aware of it we we assume this will be resolved soon.
+This is also not a problem specific to Threads and their implementation of ActivityPub, as there are other non-Meta software implementations of ActivityPub which sometimes fail to properly implement this feature.
+
 ## Defederation Questions
 
 Some Mastodon instances have announced proactive defederation from the `threads.net` domain, and some have gone further and agreed to defederate from any instance that does not also defederate from Threads.
