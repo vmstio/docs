@@ -31,15 +31,15 @@ In order to get new features, Mastodon administrators must upgrade to the next `
 Some Mastodon instances, including vmst.io, run pre-release versions of Mastodon to get quicker access to new features as well as to help with testing before they're released to the community for administrators who want to only run stable releases.
 Our users feedback helps shape the Mastodon product for everyone!
 
-Starting with Mastodon 4.2, the project is standardizing the use of `dev`, `nightly`, `beta` and `rc` pre-releases.
+Starting with Mastodon 4.2, the project is standardizing the use of `alpha`, `nightly`, `beta` and `rc` pre-releases.
 
-- `dev.X` is used to identify instances running directly from the `main` branch on GitHub, either compiled from source directly or using their own container images.
+- `alpha.X` is used to identify instances running directly from the `main` branch on GitHub, either compiled from source directly or using their own container images.
 - `nightly` is used to identify instances running typically from the project compiled container images which are automatically published with the current status of `main` every night.
 - `betaX` or `rcX` will identify instances running from a soon to be finalized release of Mastodon, from a tagged pre-release on GitHub or from a project compiled container image.
 
-Instances which run on `dev.X` or `nightly` are typically running the latest code available when it went into production, and not waiting for an official release.
+Instances which run on `alpha.X` or `nightly` are typically running the latest code available when it went into production, and not waiting for an official release.
 
-Additional "metadata" about the release can be added after the pre-release flag, such as a GitHub commit or PR. (Ex: `v4.2.0-beta2+pr-41231`)
+Additional "metadata" about the release can be added after the pre-release flag, such as a GitHub commit or PR. (Ex: `v4.3.0-alpha.0+pr-41231`)
 
 ## Forks & Metadata
 
@@ -57,5 +57,5 @@ Version information is visible in the lower left corner of the web interface on 
 
 In the image example, vmst.io is running the `4.2.0-dev.0` version of Mastodon, which the `dev.0` indicates it was being built from the `main` branch on GitHub, at commit [ecd76fa](https://github.com/mastodon/mastodon/commit/ecd76fa413e31d4eb26e09fa4b65f8b13bbbb0b7) (represented by the first seven characters of the hash), plus minimal local changes specific to vmst.io as noted by `+io`.
 
-Once Mastodon 4.2 is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.3.0-dev.0+io` automatically.
+Once Mastodon 4.2 is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.3.0-alpha.0+io` automatically.
 Our [custom Mastodon build](/infrastructure/source) includes the commit ID as part of the about page display code but not in actual the version string.
