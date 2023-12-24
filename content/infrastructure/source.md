@@ -14,7 +14,7 @@ We then build the modified code inside a Docker container, publish it to GitHub 
 Our instance specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
-- Raising the post character count limit from 500 to 512 ([vmstan/mastodon #1](https://github.com/vmstan/mastodon/pull/1))
+- Raising the post character count limit from 500 to 640 ([vmstan/mastodon #16](https://github.com/vmstan/mastodon/pull/16))
 - Removing the Hiredis driver ([vmstan/mastodon #2](https://github.com/vmstan/mastodon/pull/2))
 - Adding an S3 retry option ([vmstan/mastodon #3](https://github.com/vmstan/mastodon/pull/3))
 - Adding the [Elephant](/clients/elephant) and [Tangerine](/clients/tangerine) themes ([vmstan/mastodon #6](https://github.com/vmstan/mastodon/pull/6))
