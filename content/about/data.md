@@ -20,3 +20,21 @@ You should use [Signal](https://www.signal.org/), [Matrix](https://joinmatrix.or
 ## Privacy Policy
 
 Please review our full [Privacy Policy](/about/tos) for more information.
+
+## Search Indexing
+
+Public search engines, like Google and Bing, have the ability to crawl vmst.io and index any public posts they're allowed to see.
+Mastodon provides some control to users to limit the visibility of posts and to opt-out of allowing search engines to crawl their content.
+Mastodon has, for a long while, had some basic search but starting in version 4.2 now has a robust opt-in search indexer.
+
+For additional information on these controls please see our [/infrastructure/search] page.
+
+In general, we do not inhibit the ability of public indexing services to crawl vmst.io content so long as they respect user controls and do not place an unreasonable increased load on our servers.
+
+### Large Language Models
+
+A large language model, like ChatGPT, is a type of "artificial intelligence" program designed to understand and generate human-like text by processing vast amounts of written language.
+While the creation and use of large language models are not inherently unethical or illegal, there are many important questions about how companies obtain their data to train their models and how that data is used.
+
+vmst.io has taken some steps to limit organizations who build these models from accessing your public post data.
+In some cases this involves directly blocking the accessiblity of third-parties to our site through firewalls, but in most cases this is done by requesting that they not index our site through user agent flags in our [robots.txt](https://vmst.io/robots.txt) file.
