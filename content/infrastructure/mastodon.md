@@ -33,10 +33,10 @@ Previously they were served directly from our core servers, which being in Canad
 
 ### Streaming
 
-The Streaming API is a separate [node.js](https://nodejs.org/en/) application which provides a background WebSockets connection between your browser session and the Mastodon server to provide real-time "streaming" updates as new posts are loaded to your timeline, to send notifications, etc.
+The Streaming API is a separate [Node.js](https://nodejs.org/en/) application which provides a background WebSockets connection between your browser session and the Mastodon server to provide real-time "streaming" updates as new posts are loaded to your timeline, to send notifications, etc.
 
 As explained more in-depth in another section, the connection to the DigitalOcean-managed Redis database must be done via TLS.
-For the Streaming API, there are additional configuration options that must be set to allow node.js to connect when it expects a non-encrypted connection by default.
+For the Streaming API, there are additional configuration options that must be set to allow Node.js to connect when it expects a non-encrypted connection by default.
 
 Example of `.env.production` configuration settings relevant to Streaming:
 
