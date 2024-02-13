@@ -44,3 +44,9 @@ At this time, we have defederated from the known Bluesky bridge that is being de
 Nostr is another decentralized and federated service that uses their own protocol instead of ActivityPub.
 
 At this time, we have defederated from the known Nostr bridges in operation, based on [Mostr](https://gitlab.com/soapbox-pub/mostr).
+
+## Threads
+
+Threads, the micro-blogging app from Meta, has announced their intent to implement ActivityPub and join their user base to the rest of the Fediverse.
+Since this is a native implementation and not a bridge, it is not covered by our general prohibition on these services.
+More information can be found [here](/rules/threads]).
