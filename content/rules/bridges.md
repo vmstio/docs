@@ -20,7 +20,8 @@ In general, vmst.io does not connect to these services or allow our users' posts
 
 Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) runs on a server connecting to the Twitter API. The software then creates stub accounts of Twitter users and uses the stub accounts to then mirror their content as accounts on Mastodon.
 
-Although the bridge might work to make Twitter content visible, it can't create real conversation; your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
+Although the bridge might work to make Twitter content visible, it can't create real conversation.
+Your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
 
 We have, since late 2022, actively been defederated from all known and active Twitter bridge sites.
 
