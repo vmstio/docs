@@ -50,4 +50,4 @@ At this time, we have defederated from the known Nostr bridges in operation, bas
 Threads, the micro-blogging app from Meta, has announced their intent to implement ActivityPub and join their user base to the rest of the Fediverse.
 Since this is a native implementation and not a bridge, it is not covered by our general prohibition on these services.
 
-More information can be found [here](/rules/threads]).
+More information can be found [here](/rules/threads).
