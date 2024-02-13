@@ -23,7 +23,7 @@ Bridging with Twitter is typically a one-way operation, where software like [bir
 Although the bridge might work to make Twitter content visible, it can't create real conversation.
 Your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
 
-We have, since late 2022, actively been defederated from all known and active Twitter bridge sites.
+We have, since late 2022, actively been defederated from known and active Twitter bridge sites.
 
 ### Exceptions
 
