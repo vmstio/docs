@@ -14,7 +14,7 @@ There are a few issues here:
 - These bridges may not respect the original author's privacy, or require them to opt-out of federation, republishing without the original author's permission or consent.
 - There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on. For example, often the bridge implementations does not respond properly because it's overloaded or incorrectly implemented.
 
-In general, vmst.io does not connect to these services or allow our user's posts to be accessed through these services.
+In general, vmst.io does not connect to these services or allow our users' posts to be accessed through these services.
 
 ## Twitter
 
