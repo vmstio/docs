@@ -12,14 +12,13 @@ There are a few issues here:
 
 - While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else in the instance.
 - These bridges may not respect the original author's privacy, or require them to opt-out of federation, republishing without the original author's permission or consent.
-- In fact, there are a variety of backend issues when these stubs are followed, unfollowed, replied to, and so on, and their implementations don’t respond properly.
-- These instances are sometimes overloaded or limited by API issues.
+- There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on, and their implementations don’t respond properly because they're overloaded or incorrectly implemented.
 
 In general, vmst.io does not connect to these services or our users to be accessed through these services.
 
 ## Twitter
 
-Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) running on a server connects to the Twitter API and create stub accounts of Twitter users, to then mirror their content as accounts on Mastodon.
+Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) running on a server connecting to the Twitter API and creates stub accounts of Twitter users, to then mirror their content as accounts on Mastodon.
 
 Although the bridge might work to make Twitter content visible, it can't create real conversation; your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
 
@@ -35,9 +34,7 @@ We may re-evaluate this in the future.
 ## Bluesky
 
 Bluesky intends to be a decentralized and federated service like Mastodon, but using their own [AT Protocol](https://atproto.com) instead of ActivityPub.
-Developers have already created bridges that would create a link between instances running Mastodon and Bluesky.
-
-In addition to privacy concerns with how data would flow in and out of the Bluesky network (and the lack of control that it could provide users of Mastodon) there are also technical/architectural concerns that vmst.io administrators have with being reliant on these bridges for communication to another network.
+While federation is still under development, developers have already created bridges that would create a link between instances running Mastodon and Bluesky.
 
 At this time, we have defederated from the known Bluesky bridge that is being developed, [brid.gy](https://github.com/snarfed/bridgy-fed).
 
