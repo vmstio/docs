@@ -41,6 +41,6 @@ At this time, we have defederated from the known Bluesky bridge that is being de
 
 ## Nostr
 
-Nostr is another decentralized and federate service that uses their own protocol instead of ActivityPub.
+Nostr is another decentralized and federated service that uses their own protocol instead of ActivityPub.
 
 At this time, we have defederated from the known Nostr bridges in operation, based on [Mostr](https://gitlab.com/soapbox-pub/mostr).
