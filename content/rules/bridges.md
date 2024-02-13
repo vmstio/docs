@@ -12,7 +12,7 @@ There are a few issues here:
 
 - While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else in the instance.
 - These bridges may not respect the original author's privacy, or require them to opt-out of federation, republishing without the original author's permission or consent.
-- There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on, and their implementations don’t respond properly because they're overloaded or incorrectly implemented.
+- There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on. For example, often the bridge implementations does not respond properly because it's overloaded or incorrectly implemented.
 
 In general, vmst.io does not connect to these services or allow our user's posts to be accessed through these services.
 
