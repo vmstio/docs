@@ -39,10 +39,10 @@ Developers have already created bridges that would create a link between instanc
 
 In addition to privacy concerns with how data would flow in and out of the Bluesky network (and the lack of control that it could provide users of Mastodon) there are also technical/architectural concerns that vmst.io administrators have with being reliant on these bridges for communication to another network.
 
-At this time, we have defederated from the known Bluesky bridge that is being developed, brid.gy.
+At this time, we have defederated from the known Bluesky bridge that is being developed, [brid.gy](https://github.com/snarfed/bridgy-fed).
 
 ## Nostr
 
 Nostr is another decentralized and federate service that uses their own protocol instead of ActivityPub.
 
-At this time, we have defederated from the known Nostr bridge in operation, Mostr.
+At this time, we have defederated from the known Nostr bridges in operation, based on [Mostr](https://gitlab.com/soapbox-pub/mostr).
