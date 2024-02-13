@@ -15,7 +15,7 @@ There are a few issues here:
 - In fact, there are a variety of backend issues when these stubs are followed, unfollowed, replied to, and so on, and their implementations don’t respond properly.
 - These instances are sometimes overloaded or limited by API issues.
 
-In general, vmst.io does not connect these servers or our users to these bridge services.
+In general, vmst.io does not connect to these services or our users to be accessed through these services.
 
 ## Twitter
 
