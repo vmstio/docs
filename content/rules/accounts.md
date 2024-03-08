@@ -4,9 +4,6 @@ title: Account Approvals
 
 # Account Approvals
 
-As of July 2, 2023, we allow open registration of accounts on vmst.io.
-Previously all accounts had to be validated by a moderator.
-
 In order to keep the number of junk accounts on vmst.io as low as possible, we ask you to:
 
 ::list{type="success"}
@@ -15,7 +12,8 @@ In order to keep the number of junk accounts on vmst.io as low as possible, we a
 - Complete a [hCaptcha](https://www.hcaptcha.com) verification
 ::
 
-Depending on if our systems identify your request as a risk, we may still flag some account requests for additional review by a member of our staff.
+New accounts are subject to approval of our moderation staff.
+If our systems identify your account request as a risk, we may decline it or requests additional information before approval.
 
 ::alert{type="danger"}
 All new account requests that do not complete email and hCaptcha verification **within 72 hours** are automatically deleted.
