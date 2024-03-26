@@ -18,7 +18,6 @@ It monitors the status of our external endpoints:
 - Media CDN
 - Assets CDN
 - [Elk](/clients/elk)
-- [Semaphore](/clients/semaphore)
 - [Phanpy](/clients/phanpy)
 
 Uptime is calculated for the last 30/90 days.
