@@ -6,24 +6,17 @@ title: Threads
 
 Threads, the micro-blogging app from Meta, has announced their intent to implement ActivityPub and join their user base to the rest of the Fediverse.
 
-At this time, Threads has very limited federation abilities:
-
-- You are only able to follow accounts that Meta has enabled ActivityPub support like their engineering leader [Adam Mosseri](https://vmst.io/@mosseri@threads.net) and a few others
-- Threads users cannot follow you at this time
-- Any likes, boosts or replies you make are seen by vmst.io users but are not seen by Threads users that you follow
-
-Meta controls how much they federate and when, Mastodon instances are generally compatiable with any other ActivityPub deployment.
-
 ## Known Issues
 
-Some members have experienced issues following users on threads.net, where the requests are stuck in a state of pending approval, but the Threads users are not able to approve it.
-This is not anything specific to vmst.io and users from other instances have reported the same issue.
+At this time, Threads has limited federation abilities:
 
-We use a feature known as "authorized fetch" which is essentially a security feature that uses signed requests for ActivityPub data.
-It prevents instances or users that have been blocked from obtaining post data when they shouldn't be. It is not enabled by default in Mastodon.
-
-At this time Threads doesn't seem to have proper support for instances with authorized fetch enabled, but their engineers are aware of it we we assume this will be resolved soon.
-This is also not a problem specific to Threads and their implementation of ActivityPub, as there are other non-Meta software implementations of ActivityPub which sometimes fail to properly implement this feature.
+- You are only able to follow Threads users that opt-in to Fediverse support, which Meta labels as a "beta" feature
+- Threads users can only opt-in if they live in select counties, where Meta has enabled the feature
+- Threads users do not see Mastodon accounts that have followed them
+- Threads users cannot follow Mastodon accounts at this time
+- Likes made to Thread posts from Mastodon accounts are visible to Threads users, but only under a generic "Fediverse users" grouping
+- Replies you make to Threads user posts are seen by vmst.io and other Mastodon users, but are not seen by Threads users
+- Meta-imposes a delay to post federation of five minutes, this may be visible on your timeline where posts appear with their timestamps out-of-order
 
 ## Defederation Questions
 
