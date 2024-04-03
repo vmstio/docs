@@ -4,7 +4,7 @@ title: Staff
 
 # Staff
 
-All of the staff members of vmst·io are volunteers.
+All of the staff members of vmst.io are volunteers.
 
 ## Administrators
 

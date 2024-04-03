@@ -4,7 +4,7 @@ title: Custom Emoji
 
 # Custom Emoji
 
-We love our Custom Emoji here at vmst·io.
+We love our Custom Emoji here at vmst.io.
 
 ## Emoji List
 

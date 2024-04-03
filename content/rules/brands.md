@@ -5,14 +5,14 @@ description: Are you just here to sell something?
 
 # Brand Accounts
 
-We encourage you to be yourself on vmst·io. We understand that not every account on social media is a person, even if there are technically people behind them.
+We encourage you to be yourself on vmst.io. We understand that not every account on social media is a person, even if there are technically people behind them.
 
 Centralized platforms require all different types of accounts to be in the same place.
 Decentralized platforms like Mastodon offer an opportunity for each instance to set policies on the types of accounts that they allow.
 
 ## Corporate Accounts
 
-Corporate brand accounts are currently not permitted on vmst·io
+Corporate brand accounts are currently not permitted on vmst.io
 
 We feel that brands and companies should be setting up their own instances under domains they're identified with and control.
 This not only benefits the brands in terms of verifying that their accounts are self-verified, but helps users control their interactions with those brands.

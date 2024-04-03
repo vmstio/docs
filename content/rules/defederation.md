@@ -4,7 +4,7 @@ title: Defederation
 
 # Defederation
 
-We "defederate" vmst·io from other instances that are incompatible with our fundamental rules, in an effort to protect our users and limit our liability.
+We "defederate" vmst.io from other instances that are incompatible with our fundamental rules, in an effort to protect our users and limit our liability.
 The decision to defederate can come from reports by our users but is also based on community discussion around such bad actors, including the periodic import of community maintained blocklists.
 We would rather be proactive in blocking bad actors versus waiting for abuse to happen.
 
