@@ -9,15 +9,16 @@ One way to deliver on that is by delivering the most up-to-date Mastodon code.
 We "run off main", which means using the latest commits to the `main` branch of the Mastodon codebase found on the project's official [GitHub](https://github.com/mastodon/mastodon) repository.
 
 We take a clean copy of the latest Mastodon code and then apply a limited set of modification with a custom script.
-We then build the modified code inside a Docker container, publish it to GitHub and Docker Hub, for consumption by our Kubernetes cluster.
+We then build the modified code inside a Docker container, publish it to GitHub Container Registry, for consumption by our Kubernetes cluster.
 
 Our instance specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
-- Raising the post character count limit from 500 to 640 ([vmstan/mastodon #16](https://github.com/vmstan/mastodon/pull/16))
-- Removing the Hiredis driver ([vmstan/mastodon #2](https://github.com/vmstan/mastodon/pull/2))
-- Adding an S3 retry option ([vmstan/mastodon #3](https://github.com/vmstan/mastodon/pull/3))
+- Raising the post character count limit from 500 to 640
+- Removing the Hiredis driver in favor of the native Redis driver
 - Adding the [Elephant](/clients/elephant) and [Tangerine](/clients/tangerine) themes ([vmstan/mastodon #6](https://github.com/vmstan/mastodon/pull/6))
+
+Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [project repository](https://github.com/mastodon/mastodon) or in [other development repos](https://github.com/mastodon/vmstan).
 
 ## Container Availability
 
@@ -26,14 +27,12 @@ Our instance specific customizations include:
 Our customized container image is available from both Docker and GitHub container registries. This is suitable for the web/Puma and Sidekiq services.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/mastodon)
-- [Docker](https://hub.docker.com/r/vmstan/mastodon)
 
 ### Streaming Image
 
 Mastodon 4.3-based images and beyond use a seperate container image for the Streaming API.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/mastodon-streaming)
-- [Docker](https://hub.docker.com/r/vmstan/mastodon-streaming)
 
 ## Redis TLS Changes
 
@@ -54,3 +53,11 @@ sed -i 's/, require: \['\''redis'\'', '\''redis\/connection\/hiredis'\''\]//' ./
 ```
 
 Compared to running with hiredis through HAProxy or Stunnel, we have not seen any negative impact in performance by using redis-rb.
+
+## Character Limit Change
+
+Mastodon does not have an individual environment variable that allows this to be easily changed, but as of version 4.3 can be done by changing the hard-coded limit in `app/validators/status_length_validator.rb`
+
+```bash
+sed -i '' 's/500/640/g' app/validators/status_length_validator.rb
+```
