@@ -37,26 +37,9 @@ We have a lower threshold for importing limitation (muted) lists as these change
 
 Suspension Sources:
 
-- [Oliphant Birdsites](https://codeberg.org/oliphant/blocklists/raw/branch/main/blocklists/mastodon/birdsite.csv)
-- [Oliphant 100%](https://codeberg.org/oliphant/blocklists/raw/branch/main/blocklists/mastodon/100.percent.csv)
 - [Seridy Tier 0](https://seirdy.one/pb/tier0.csv)
 - [Gardenfence Tier 0](https://raw.githubusercontent.com/gardenfence/blocklist/main/gardenfence-mastodon.csv)
-
-Limitation Sources:
-
-- [Oliphant Tier 1](https://codeberg.org/oliphant/blocklists/raw/branch/main/blocklists/mastodon/_unified_tier1_blocklist.csv)
-
-_Limitations are processed after suspensions, so if a site appears in multiple sources the more restrictive tier is applied._
-
-Import Filtering:
-
-- As part of our import process we perform an activity check on the domain, if the domain is not currently an ActivityPub endpoint, it is ignored.
-- We run this import process on a regular basis, so if a previously failed domain in the blocklist come back online, they are incorporated back into our defederation list.
-- We do not import changes to the status of any instance that would suspend another member of the [joinmastodon.org Server Covenant](https://joinmastodon.org), because we believe in allowing portability between member instances, although they can be automatically limited.
-- We maintain an internal list of allowed instances that might be automatically limited by importing the raw source list, with rare exception this only applies to the limitation sources.
-- Exceptions to this process may made on a case by case basis.
-
-![Import Diagram](/blocksync.png)
+- [IFTAS DNI](https://github.com/iftas-org/resources/blob/main/DNI/dni.csv)
 
 ## Reporting
 
