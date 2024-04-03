@@ -49,3 +49,4 @@ At this time, Threads has limited federation abilities:
 - Likes made to Thread posts from Mastodon accounts are visible to Threads users, but only under a generic "Fediverse users" grouping
 - Replies you make to Threads user posts are seen by vmst.io and other Mastodon users, but are not seen by Threads users
 - Meta-imposes a delay to post federation of five minutes, this may be visible on your timeline where posts appear with their timestamps out-of-order
+- Threads will only federate with instances that have their local timeline accessible for viewing by non-logged in users, this this does not impact vmst.io users it may cause confusion for users of other instances where their administrators have not actively blocked it but are being prevented by Threads from federating
