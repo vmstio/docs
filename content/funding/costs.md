@@ -6,8 +6,7 @@ title: Costs
 
 ## Income
 
-The majority of our income comes from monthly subscriptions through [Ko-Fi](https://ko-fi.com/vmstio) and [Patreon](https://www.patreon.com/vmstan), while a small number of members elected to subscribe annually through [Open Collective](https://opencollective.com/vmstio).
-Annual subscriptions are represented [here](/funding/costs#expenses) in the monthly total.
+The majority of our income comes from monthly subscriptions through [Ko-Fi](https://ko-fi.com/vmstio) and [Patreon](https://www.patreon.com/vmstan).
 
 Any other funding that comes through one-time tips or shop purchases are also represented below.
 
@@ -47,7 +46,6 @@ Each of our providers have different rates, and some vary based on the size of y
 |---------------------|------------------------------------------------------------|
 | **Patreon**         | 8% per donation & 5% + $0.10 under $3 or 2.9% + $0.30      |
 | **Ko-Fi**           | $6 flat fee per month & 2.9% + $0.30 in fees               |
-| **Open Collective** | 5% per donation & 2.9% + $0.30 in fees                     |
 
 An example of how far your donation goes based on each monthly tier:
 
@@ -55,9 +53,3 @@ An example of how far your donation goes based on each monthly tier:
 |-------------|-----------|----------|-----------|----------|-----------|-----|
 | **Patreon** | $1.64     | 18%      | $3.26     | 18%      | $6.83     | 15% |
 | **Ko-Fi**   | $1.64     | 18%      | $3.58     | 10%      | $7.47     | 7%  |
-
-For the annual tier:
-
-|             | **$24.00** |          | **$48.00** |          | **$96.00** |     |
-|-------------|-----------|----------|-----------|----------|-----------|-----|
-| **Open Collective** | $21.80     | 9%      | $43.91     | 9%      | $88.12     | 8% |
