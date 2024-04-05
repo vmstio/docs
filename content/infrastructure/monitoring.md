@@ -25,13 +25,6 @@ We regularly report on these stastistics from our [@iostat](https://vmst.io/@ios
 
 In addition to providing a page for members to check when there might be issues, it actively alerts our team to any issues.
 
-## Uptime Kuma
-
-We utilize [Uptime Kuma](https://github.com/louislam/uptime-kuma) to provide more granular and internal alerting of our various services.
-Where as BetterUptime reports on the public endpoints, Kuma reports on the endpoint health as it is visible from within our Kubernetes cluster.
-
-These results are not available to the public.
-
 ## DigitalOcean
 
 We use integrated metrics monitoring available through DigitalOcean to monitor and alert on CPU, memory, disk and other performance metrics of the host virtual machine and managed database systems.
