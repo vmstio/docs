@@ -4,18 +4,6 @@ title: NSFW
 
 # NSFW
 
-No sexually explicit or graphically violent media.
-
-## Sexual Content
-
-Inspired by the [Hachyderm Community Guidelines](https://community.hachyderm.io/docs/nsfw-policy/), our views on this topic are as such:
-
-- We want vmst.io to be a home for science, technology, and collaboration while also embracing the beauty and depth of all walks of life.
-- Modern society functions with deep-rooted and historical sexual norms that are exploitative, unfair, harmful towards marginalized people, where the danger for these individuals is often overlooked.
-- Product marketing, sales tactics, and even corporate policies are often structured and allow for harmful culture to thrive, often in the name of hetero-normative traditions and expectations.
-- We deeply believe in validating, legitimizing, and confirming many sexually marginalized cultures on our platform.
-- We understand that completely silencing sexual content is typically used as a weapon to target gender minorities and sexual minorities.
-
 We require that users refrain from posting sexually explicit content using their vmst.io accounts.
 While the definition of what is considered explicit might differ from region to region, this is generally understood to be content that would be considered explicit for users in the United States and Canada where our instance is based.
 
