@@ -10,29 +10,7 @@ All posts are displayed in a traditional chronological timeline with the newest 
 
 Mastodon does offer trending hashtags, posts, and links features on the [Explore page](https://vmst.io/explore) that are based solely on observed activity within vmst.io and other federated instances.
 
-## Where's the Algorithm?
-
 Trends are calculated based on a simple combination of boosts (reposts) and favorites, with a decaying score to make sure that older content cannot trend forever based on additional interactions.
-
-For example, the exact code for trending posts is found on GitHub in the [app/models/trends/statuses.rb](https://github.com/mastodon/mastodon/blob/main/app/models/trends/statuses.rb) file.
-
-```ruby
-observed  = (status.reblogs_count + status.favourites_count).to_f
-
-score = if expected > observed || observed < options[:threshold]
-        0
-        else
-        ((observed - expected)**2) / expected
-        end
-
-decaying_score = if score.zero? || !eligible?(status)
-                    0
-                else
-                    score * (0.5**((at_time.to_f - status.created_at.to_f) / options[:score_halflife].to_f))
-                end
-```
-
-The process is similar for other types of trending content.
 
 ## Who (or what) decides the trends?
 
