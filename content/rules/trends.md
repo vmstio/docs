@@ -12,7 +12,7 @@ Mastodon does offer trending hashtags, posts, and links features on the [Explore
 
 Trends are calculated based on a simple combination of boosts (reposts) and favorites, with a decaying score to make sure that older content cannot trend forever based on additional interactions.
 
-## Who (or what) decides the trends?
+## Moderation
 
 Hashtags largely trend on their own without moderator intervention, but can be removed if they are abusive or disruptive.
 
