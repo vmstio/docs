@@ -23,7 +23,7 @@ Phanpy provides some features not available through the standard Mastodon web ap
 You can use Phanpy right in your browser.
 
 ::alert{type="info"}
-You don't have to be a vmst.io member to use our Phanpy instance.
+You don't have to be a vmst.io member to use our Phanpy web client.
 ::
 
 ## Screenshot

@@ -11,7 +11,7 @@ There are two levels of search supported by Mastodon:
 - Basic Search
 - Full Text Search
 
-The availability of the more advanced full text searching depends on if your instance has implemented additional indexing infrastructure.
+The availability of the more advanced full text searching depends on if your server has implemented additional indexing infrastructure.
 
 ## Basic Search
 
@@ -20,7 +20,7 @@ Including a hashtag in your post can that post discoverable by anyone else who m
 
 ![Debian Search](/debian-search.png)
 
-Anything that is posted with a hashtag may be found by local users, or federated other instances and discoverable by searching for that hashtag.
+Anything that is posted with a hashtag may be found by local users, or federated other servers and discoverable by searching for that hashtag.
 
 ![Debian Tags](/debian-tags.png)
 
@@ -39,7 +39,7 @@ If an administrator chooses to implement it, Mastodon can integrate with [Elasti
 While this is considered an optional component for Mastodon deployments, it is utilized on [vmst.io](https://vmst.io).
 We use a multi-node Elasticsearch 7.x implementation running on our Kubernetes cluster.
 
-_How will I know if full text searching is enabled on my instance?_
+_How will I know if full text searching is enabled on my server?_
 
 When you start searching, the dropdown will say "Posts matching ..." your term.
 If you don't see this, full text searching is not enabled.
@@ -48,7 +48,7 @@ If you don't see this, full text searching is not enabled.
 
 ### Opt-In Indexing
 
-Starting in Mastodon 4.2, full text search will also include posts for anyone who opts-in to letting their own instance, and other Mastodon instances, return any full text search results for their posts.
+Starting in Mastodon 4.2, full text search will also include posts for anyone who opts-in to letting their own server, and other Mastodon servers, return any full text search results for their posts.
 
 ![Indexable](/indexable.png)
 
@@ -58,9 +58,9 @@ This opt-in process can be done in Preferences > [Privacy & Reach](https://vmst.
 - If you choose not to opt-in, this **does not** impact your ability to perform full text searching for other people's content, or your own.
 - If you choose not to opt-in, **your own post data is available to you via search** regardless of other people's ability to search for it.
 - If you opt-in to full indexing and later decide you no longer want to participate, **you're free to change this setting**.
-- Any changes to this setting take effect instantly for local members doing searches against your account, but may take time for the change to federate out to other instances.
+- Any changes to this setting take effect instantly for local members doing searches against your account, but may take time for the change to federate out to other servers.
 
-Like any other profile update, the changes are queued to immediately be sent to other servers but for any number of reasons may fail to be received by all instances.
+Like any other profile update, the changes are queued to immediately be sent to other servers but for any number of reasons may fail to be received by all servers.
 Mastodon does additional polling of remote user profiles to make sure the `indexable` flag and other profile data is up-to-date.
 
 #### Per Post Opt-Out
@@ -79,10 +79,10 @@ Changing this setting is not recommended.
 
 ### Unauthorized Indexing
 
-The `discoverable` and `indexable` settings are federated to other Mastodon instances running version 4.2 beta 2 or higher, as well as other Fediverse software platforms that are programmed to recognize this setting.
+The `discoverable` and `indexable` settings are federated to other Mastodon servers running version 4.2 beta 2 or higher, as well as other Fediverse software platforms that are programmed to recognize this setting.
 The Mastodon project carefully considers and debates the implementation of features like search with a goal of providing for user consent while avoiding misuse.
 
-However, some Mastodon instances have side-stepped some of the privacy concerns and previously implemented an enhanced full text search which does not currently respect this `indexable` flag, while other Fediverse projects and forks have done so in their own ways.
+However, some Mastodon servers have side-stepped some of the privacy concerns and previously implemented an enhanced full text search which does not currently respect this `indexable` flag, while other Fediverse projects and forks have done so in their own ways.
 
 vmst.io has limited controls over how other federated platforms index your posts.
 

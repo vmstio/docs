@@ -32,12 +32,12 @@ You can post about life, work, hobbies, ups and downs, memes, whatever you'd lik
 As outlined above, life and work may cross over into revenue generating activity and that's fine.
 Until we reach the 23rd century Star Trek utopia where we can live our dreams without worry about how are basic needs are fulfilled, we live in societies where we have to have money to survive.
 
-When the bulk of your activity on the site becomes in service of that promotion, or borders on being considered a [corporate or brand account](/rules/brands), we would ask that you migrate to another instance that better fits your needs.
+When the bulk of your activity on the site becomes in service of that promotion, or borders on being considered a [corporate or brand account](/rules/brands), we would ask that you migrate to another server that better fits your needs.
 
 ## Hashtags Overuse
 
 Due to the federated nature of Mastodon, and current limitations in searching, hashtags are used to help with content delivery and discovery.
 However, their overuse can be disruptive and degrade their value.
 
-Users who misuse or overuse hashtags may be asked by instance staff to stop, or have limitations placed on their account which would prevent their non-followers from discovering their content.
+Users who misuse or overuse hashtags may be asked by server staff to stop, or have limitations placed on their account which would prevent their non-followers from discovering their content.
 Continued misuse may result in temporary or permanent account suspension.

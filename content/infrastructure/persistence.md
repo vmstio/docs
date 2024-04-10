@@ -16,16 +16,16 @@ Here are some ways PostgreSQL is used in Mastodon:
 
 - User data storage: PostgreSQL stores user account information, such as usernames, email addresses, profile details, and encrypted passwords. This data is essential for user authentication, authorization, and managing user profiles.
 - Content storage: Mastodon stores user-generated content, such as statuses (toots), replies, favorites, and media attachments, in PostgreSQL. It also keeps track of relationships between these entities, such as which user authored a particular toot or which toots are part of a conversation thread.
-- Metadata storage: Mastodon stores metadata related to the platform's functioning, including instance information, blocked instances, and domain-level configurations, in PostgreSQL. This information is used for managing the federated nature of the network.
+- Metadata storage: Mastodon stores metadata related to the platform's functioning, including server information, blocked servers, and domain-level configurations, in PostgreSQL. This information is used for managing the federated nature of the network.
 - Social graph management: PostgreSQL is used to store and manage the social graph, which consists of relationships between users, such as followers and followings, mute and block lists, and group memberships.
 
 We use the DigitalOcean managed PostgresSQL database service, this delivers a highly available database backend.
 Updates and maintenance are performed by DigitalOcean, independent of our administration efforts.
 
-There is one active PostgreSQL database instance ([Majel](https://memory-alpha.fandom.com/wiki/Majel_Barrett_Roddenberry)) with 4 vCPU and 8GB of memory, with a standby instance ready to take over automatically in the event of system failure.
+There is one active PostgreSQL service, ([Majel](https://memory-alpha.fandom.com/wiki/Majel_Barrett_Roddenberry)), with 4 vCPU and 16GB of memory, with dedicated vCPU cores allocated.
 We use PostgreSQL 15.x.
 
-DigitalOcean instance "T-Shirt" sizes for databases are done by vCPU, memory, disk size, and connections to the database.
+DigitalOcean Droplet "T-Shirt" sizes for databases are done by vCPU, memory, disk size, and connections to the database.
 The connection count limits are based on sizing best practices for PostgreSQL, with a few held in reserve for their use to manage the service.
 
 DigitalOcean has an integrated "Connection Pool" feature of their platform which, in practice, puts the [PgBouncer](https://www.pgbouncer.org) utility in front of the database.
@@ -61,7 +61,7 @@ Here's how object storage is used in Mastodon:
 - Content delivery: Mastodon serves the media content stored in object storage directly to users. Object storage systems typically support content delivery through URLs, which can be used by Mastodon to embed media files in toots or serve them through media previews. This ensures that the media content is efficiently served to users without overloading the Mastodon application server.
 - Cache and CDN integration: Object storage systems often support integration with content delivery networks (CDNs) to improve the performance of media delivery. Mastodon can leverage this integration to cache and distribute media content to users from a CDN, reducing the load on the object storage system and improving the user experience.
 
-We use the DigitalOcean Spaces service, which is an S3-compatible object storage provider and includes a content delivery network (CDN) to distribute attached media to multiple points, reducing access latency for users and federated instances.
+We use the DigitalOcean Spaces service, which is an S3-compatible object storage provider and includes a content delivery network (CDN) to distribute attached media to multiple points, reducing access latency for users and federated servers.
 
 Example of `.env.production` configuration settings relevant to DigitalOcean Spaces:
 
@@ -86,7 +86,7 @@ By default, the items in the Space are accessible through a non-CDN accessible e
 
 [Redis](https://redis.io) is an open-source, in-memory data structure store that is used as a database, cache, and message broker. In Mastodon, Redis is used for various purposes to improve the performance, scalability, and reliability of the platform.
 
-We use the DigitalOcean managed Redis database service, this delivers a highly available database backend. Our primary Redis instances has 1 vCPU and 2GB of memory running Redis 7.x.
+We use the DigitalOcean managed Redis database service, this delivers a highly available database backend. Our primary Redis service has 1 vCPU and 2GB of memory running Redis 7.x. Another Redis service has 1 vCPU and 1GB of memory is used exclusively for cache.
 
 Our connection to Redis is configured as a `REDIS_URL` variable using a connection string.
 

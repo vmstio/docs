@@ -66,7 +66,7 @@ LibreTranslate is a free and open source machine translation API.
 Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations.
 Instead, its translation engine is powered by the open source Argos Translate library.
 
-We use an instance of LibreTranslate hosted at [translate.mstdn.social](https://translate.mstdn.social).
+We use a LibreTranslate service hosted at [translate.mstdn.social](https://translate.mstdn.social).
 
 ### Available Languages
 

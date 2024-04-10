@@ -20,7 +20,7 @@ If our systems identify your account request as a risk, we may decline it or req
 
 ## Preserving Your Account
 
-Some instances are happy to juice their registration numbers with drive-by registrations.
+Some servers are happy to juice their registration numbers with drive-by registrations.
 We want to set a higher bar and advertise folks who are part of our community.
 As such expect that all accounts on vmst.io will be active, at some point.
 You can be a lurker, but if you sign up and never come back we reserve the right to delete your account.

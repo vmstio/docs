@@ -9,7 +9,7 @@ In the spirit of full disclosure we have decided to make it open to public viewi
 The purpose is to guide our staff in their decisions to take action on a member.
 
 There may be times where moderators and administrators deviate from this document as needed, specifically when new issues arise that have not been covered by existing processes.
-Ultimately our staff may take action on any account they deem necessary to protect the health and safety of the instance and other users.
+Ultimately our staff may take action on any account they deem necessary to protect the health and safety of the server and other users.
 
 If you feel you have been treated unfairly by our staff, you may file an appeal or contact an administrator.
 
@@ -33,7 +33,7 @@ Our moderators are volunteers who contribute their time, energy and knowledge.
 
 ### Administrators
 
-Administrators have the ability to de-federate entire instances for continued violation or bad actions against our members, or our infrastructure. They also act as senior moderators and community leaders.
+Administrators have the ability to de-federate entire servers for continued violation or bad actions against our members, or our infrastructure. They also act as senior moderators and community leaders.
 
 The Administrators are **the final authority** on any appeals, moderation issues or rule interpretations.
 
@@ -88,7 +88,7 @@ If this is insufficient, and a report is still generated, it must be classified 
 
 Clear and obvious SPAM, should be actioned by suspending the offending account.
 
-Examples of clear and obvious might be new accounts, or accounts from other instances that:
+Examples of clear and obvious might be new accounts, or accounts from other servers that:
 
 * Post links to external sites for pornography, cryptocurrency, gambling, or illegal content.
 * Post in excess, particularly if they appear automated.
@@ -101,7 +101,7 @@ Please refer to our rules on [Advertising & Excessive Promotion](/rules/spam) fo
 We have a zero tolerance policy for violations of our bigotry or extremism policies.
 If you find users posting openly hateful content you are authorized to immediately suspend the user’s account.
 
-If the account has just signed up or their time on the instance has only been used for such content, reach out to an Administrator for immediate deletion of the account profile.
+If the account has just signed up or their time on the server has only been used for such content, reach out to an Administrator for immediate deletion of the account profile.
 
 ### NSFW/Sexual Content
 
@@ -119,46 +119,46 @@ Illegal content, such as CSAM or content that violates the consent of others wil
 
 ### Brand Accounts
 
-Brands who create accounts [in violation of our policies](/rules/brands) will generally be asked to  migrate their account to a different instance. These types of violations should be handled by Administrators.
+Brands who create accounts [in violation of our policies](/rules/brands) will generally be asked to migrate their account to a different server. These types of violations should be handled by Administrators.
 
 ## Report Types
 
 There are three main types of reports on Mastodon
 
-* vmst.io user vs vmst.io user (intra-instance)
-* vmst.io user vs federated instance user (inter-instance)
-* federated instance user vs vmst.io user (inter-instance)
+* vmst.io user vs vmst.io user (intra-server)
+* vmst.io user vs federated server user (inter-server)
+* federated server user vs vmst.io user (inter-server)
 
-### Intra-Instance Reports
+### Intra-Server Reports
 
 When our users report our users, we are only accountable to ourselves.
 In this case it’s likely that someone will be unhappy with the results of the reporting and subsequent action.
 We must do what is right and in the best interest of the community.
 
-While members can appeal, they also have the ability to migrate their account to another instance if the resulting moderation actions do not satisfy them.
+While members can appeal, they also have the ability to migrate their account to another server if the resulting moderation actions do not satisfy them.
 
-### Inter-Instance Reports
+### Inter-Server Reports
 
-When reports involve other instances, we must always be mindful that there is a moderation team involved in both places.
-Our team is responsible for the enforcement of our rules on our instance, and other instances may have rules and interests that are different from our own.
+When reports involve other servers, we must always be mindful that there is a moderation team involved in both places.
+Our team is responsible for the enforcement of our rules on our server, and other servers may have rules and interests that are different from our own.
 
 #### vmst.io vs The Federation
 
-When our members report another instance user, we have the ability to prohibit the remote user from interacting with our members, but we cannot control what the moderation team of the other instance does with their report.
+When our members report another server user, we have the ability to prohibit the remote user from interacting with our members, but we cannot control what the moderation team of the other server does with their report.
 If we take action to limit their account and it’s abilities, those only impact it’s interaction with OUR users.
 
-If there are entire instances that are engaging in behaviors that are putting our users at risk, or where the user-base is consistently in violation of our rules, then we may take action to defederate the entire instance.
+If there are entire servers that are engaging in behaviors that are putting our users at risk, or where the user-base is consistently in violation of our rules, then we may take action to defederate the entire server.
 
 #### The Federation vs vmst.io
 
-When users of another instance report our users, we must be mindful of two things:
+When users of another server report our users, we must be mindful of two things:
 
-* Are they violating OUR instance rules?
+* Are they violating OUR server rules?
 * Are they making us look like a bunch of jerks?
 
-If we have members who are continually getting reported by other instances, those administrators and moderators may eventually take action to defederate our instance.
+If we have members who are continually getting reported by other servers, those administrators and moderators may eventually take action to defederate our server.
 
-If what our members are doing are not in violation of our rules, but are deemed inappropriate for the community of another instance, then that’s their prerogative to take action to limit that user from interacting with their users, just as we can do the same.
+If what our members are doing are not in violation of our rules, but are deemed inappropriate for the community of another server, then that’s their prerogative to take action to limit that user from interacting with their users, just as we can do the same.
 
 If you see reports that may rise to this level, please raise the issue in Slack so we can discuss.
 
@@ -202,7 +202,7 @@ Marking as resolved generally means you’re dismissing the report, because it�
 Many times this is the appropriate action where an [individual can take action](https://docs.joinmastodon.org/admin/moderation/#individual-moderation) to mute or block another account if it's content that they don't personally like.
 
 For vmst.io users, no mark is left against the user's profile.
-The reporter, the account being reported, or the federated instance (if applicable) are not notified of the decision to dismiss the report.
+The reporter, the account being reported, or the federated server (if applicable) are not notified of the decision to dismiss the report.
 
 ### Send a Warning
 
@@ -220,7 +220,7 @@ Warnings can be sent in addition to taking this action.
 
 Freezing a local user prevents a user from posting with their account but does not hide or delete any previous posts. Useful for folks who need a time out, although there’s currently not a time based mechanism for enforcement.
 
-Freezing a user does not prevent them from exporting their data and moving to another instance.
+Freezing a user does not prevent them from exporting their data and moving to another server.
 This is preferable for long term user removal, where the content does not need to be removed but the user is no longer compatible with the vmst.io community.
 
 ### Limit User

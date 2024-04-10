@@ -22,7 +22,7 @@ Elk provides some features not available through the standard Mastodon web app i
 You can use Elk right in your browser.
 
 ::alert{type="info"}
-You don't have to be a vmst.io member to use our Elk instance.
+You don't have to be a vmst.io member to use our Elk web client.
 ::
 
 ## Screenshot

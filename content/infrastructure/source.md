@@ -11,7 +11,7 @@ We "run off main", which means using the latest commits to the `main` branch of 
 We take a clean copy of the latest Mastodon code and then apply a limited set of modification with a custom script.
 We then build the modified code inside a Docker container, publish it to GitHub Container Registry, for consumption by our Kubernetes cluster.
 
-Our instance specific customizations include:
+Our server specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
 - Raising the post character count limit from 500 to 640
@@ -36,7 +36,7 @@ Mastodon 4.3-based images and beyond use a seperate container image for the Stre
 
 ## Redis TLS Changes
 
-DigitalOcean requires encrypted/TLS connections to their managed Redis instances, however the Mastodon codebase uses a Redis driver ([hiredis](https://github.com/redis/hiredis-rb)) which does not have a native TLS capability.
+DigitalOcean requires encrypted/TLS connections to their managed Redis services, however the Mastodon codebase uses a Redis driver ([hiredis](https://github.com/redis/hiredis-rb)) which does not have a native TLS capability.
 To accommodate this, we have in the past used [HAProxy](https://www.haproxy.org) or [Stunnel](https://www.stunnel.org) to take the un-encrypted connection requests and encrypt those connections between the Mastodon components and Redis.
 
 We have chosen to remove the hiredis driver from our installation and use redis-rb instead.

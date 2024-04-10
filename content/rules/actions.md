@@ -5,14 +5,14 @@ title: Actions Report
 # Actions Report
 
 We periodically publish a high level summary of moderator actions on vmst.io.
-These statistics are cumulative starting from when the instance opened on October 6, 2022.
+These statistics are cumulative starting from when the server opened on October 6, 2022.
 
 As of the date of this report, we have not removed content or taken action against users at the request of any government or law enforcement agency.
 
 _These numbers were last updated on August 4, 2023._
 
 ## Summary
-Remote users are members of federated instances.
+Remote users are members of federated servers.
 
 | | |
 |---|---|
@@ -21,11 +21,11 @@ Remote users are members of federated instances.
 | vmst.io vs Remote | 50 |
 | Remote vs vmst.io | 31 |
 
-Reports made by vmst.io users can be forwarded to remote instances for additional action by their moderation staff.
+Reports made by vmst.io users can be forwarded to remote servers for additional action by their moderation staff.
 
 | | |
 |---|---|
-| **Forwarded to Remote Instances** | 35 |
+| **Forwarded to Remote Servers** | 35 |
 
 ### Reports per Month
 ![Bar Chart](/reports-per-month.png)

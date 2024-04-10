@@ -8,18 +8,18 @@ description: Are you just here to sell something?
 We encourage you to be yourself on vmst.io. We understand that not every account on social media is a person, even if there are technically people behind them.
 
 Centralized platforms require all different types of accounts to be in the same place.
-Decentralized platforms like Mastodon offer an opportunity for each instance to set policies on the types of accounts that they allow.
+Decentralized platforms like Mastodon offer an opportunity for each server to set policies on the types of accounts that they allow.
 
 ## Corporate Accounts
 
 Corporate brand accounts are not permitted on vmst.io
 
-We feel that brands and companies should be setting up their own instances under domains they're identified with and control.
+We feel that brands and companies should be setting up their own servers under domains they're identified with and control.
 This not only benefits the brands by aiding fediverse users in verifying their accounts are legitimate, but helps users control their interactions with those brands.
 
 Examples of the types of accounts prohibited under this policy would be accounts identifying as the official account for Fastmail or Proton. Unofficial accounts for brands are prohibited by our [account impersonation policy](/rules).
 
-This policy in no way prohibits members of vmst.io from interacting or boosting content from brands, nor prohibits brand accounts from interacting or federating with our instance.
+This policy in no way prohibits members of vmst.io from interacting or boosting content from brands, nor prohibits brand accounts from interacting or federating with our server.
 It only prohibits such accounts from being hosted by vmst.io.
 
 ## Groups & Associations

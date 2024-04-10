@@ -10,7 +10,7 @@ One option is to follow such accounts on other networks using a bridge.
 
 There are a few issues here:
 
-- While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else in the instance.
+- While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else in the server.
 - These bridges may not respect the original author's privacy, or require them to opt-out of federation, republishing without the original author's permission or consent.
 - There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on. For example, often the bridge implementations does not respond properly because it's overloaded or incorrectly implemented.
 
@@ -27,7 +27,7 @@ We have, since late 2022, actively been defederated from known and active Twitte
 
 ### Exceptions
 
-We have not typically defederated from instances and applications where the bridged content is curated, maintained and clearly identified as a Twitter bot, or where the content is being collected from many sources to create a unique product.
+We have not typically defederated from servers and applications where the bridged content is curated, maintained and clearly identified as a Twitter bot, or where the content is being collected from many sources to create a unique product.
 An example is content from [sportsbots.xyz](https://www.sportsbots.xyz).
 
 We may re-evaluate this in the future.
@@ -35,7 +35,7 @@ We may re-evaluate this in the future.
 ## Bluesky
 
 Bluesky intends to be a decentralized and federated service like Mastodon, but using their own [AT Protocol](https://atproto.com) instead of ActivityPub.
-While federation is still under development, developers have already created bridges that would create a link between instances running Mastodon and Bluesky.
+While federation is still under development, developers have already created bridges that would create a link between servers running Mastodon and Bluesky.
 
 At this time, we have defederated from the known Bluesky bridge that is being developed, [brid.gy](https://github.com/snarfed/bridgy-fed).
 
