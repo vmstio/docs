@@ -24,7 +24,7 @@ Definitions of various terms used throughout this document:
 | Term        | Definition                                                                                                                                   |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Server      | Mastodon or other ActivityPub-protocol compatible software installed under a single domain which is configured to accept and relay posts between other systems. |
-| ActivtyPub  | Decentralized social networking protocol that enables different servers to communicate and share content with each other. |
+| ActivityPub | Decentralized social networking protocol that enables different servers to communicate and share content with each other. |
 | API         | Application programming interface, a way for two or more computer programs to communicate with each other. |
 | Federation  | Server to server communication, passing posts and other user data back and forth via an API. |
 | Database    | The system/location dedicated to storage of user data submitted through our website, via an API or from another client application. |
