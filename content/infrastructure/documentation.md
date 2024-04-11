@@ -1,5 +1,5 @@
 ---
-title: Redis 
+title: Documentation
 ---
 
 # Documentation
@@ -32,7 +32,6 @@ We welcome outside contributions to our documentation site.
 
 * You should Fork this repo based on the `main` branch to your own repository, and commit work for a specific change there.
 * Once work on that task has completed, the changes should be submitted to vmstio/docs `main` via a PR.
-* Netlify will automatically generate a preview version of the changes under the `vmstio-docs.netlify.app` domain.
-* The preview link is accessible in the PR on GitHub.
+* Netlify may generate a preview version of the changes under the `vmstio-docs.netlify.app` domain if initated by a maintainer.
 
 vmst.io staff members will review the request and either accept or deny the submission, or ask for additional changes.
