@@ -48,7 +48,6 @@ Lingva is an alternative front-end for Google Translate API, serving as a free a
 ## Available Languages
 
 Support for translation by each engine may vary between engines and languages.
-Each engine has languages that it is more accurate at translating, so even when translating the same post between each engine you may see different results.
 
 | Language | [DeepL](https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro) | [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | [Lingva](https://en.wikipedia.org/wiki/Google_Translate#Supported_languages) |
 |-----------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|
@@ -91,3 +90,34 @@ Each engine has languages that it is more accurate at translating, so even when 
 | Ukrainian             | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 
 _Lingva Translate may support additional languages not listed here._
+
+### Examples
+
+Each engine has languages that it is more accurate at translating, so even when translating the same post between each engine you may see different results.
+
+From German to English
+> Das haben wir jetzt davon, daß @FrauHolle ein paar Blumen und Pralinen zum Eid al-Fitr aka #Bayram bei Nachbars vorbei gebracht hat: Ich passe bald nicht mehr durch die Türe. [https://mastodon.trueten.de/@thomas/112253624254825586](https://mastodon.trueten.de/@thomas/112253624254825586)
+
+| | Translation |
+|-|-------------|
+| DeepL | This is what we get for @FrauHolle dropping off some flowers and chocolates for Eid al-Fitr aka #Bayram at neighbor's: I won't fit through the door soon. |
+| LibreTranslate | We have now that @FrauHolle has a few flowers and chocolates to the Eid al-Fitr aka #Bayram brought by neighbors: I'm not gonna pass through the door soon. |
+| Lingva | This is what we now have from @FrauHolle dropping off a few flowers and chocolates at a neighbor's house for Eid al-Fitr aka #Bayram: Soon I won't be able to fit through the door anymore. |
+
+From Spanish to English
+> Interesante esto, no conocía las pruebas que se están haciendo con el hormigón permeable, aunque sí vi alguno de los jardines de lluvia que está instalando la Intendencia. [https://mastodon.uy/@j3j5/112253694713024979](https://mastodon.uy/@j3j5/112253694713024979)
+
+| | Translation |
+|-|-------------|
+| DeepL | Interesting this, I was not aware of the tests being done with permeable concrete, although I did see some of the rain gardens being installed by the Intendencia. |
+| LibreTranslate | Interesting this, I did not know the tests being done with the permeable concrete, although I did see some of the rainy gardens that the Intendence is installing. |
+| Lingva | This is interesting, I was not aware of the tests that are being done with permeable concrete, although I did see some of the rain gardens that the Municipality is installing. |
+
+From Finnish to English
+> Onko kellään kokemuksia sähköskoottereista talvikäytössä? Niistä joita alle 15 v voi ajaa Max 25 km/h. Miten akku kestää pakkaset ja onko hyviä renkaita? [https://mastodon.social/@artomelaranta/112253491123890060](https://mastodon.social/@artomelaranta/112253491123890060)
+
+| | Translation |
+|-|-------------|
+| DeepL | Does anyone have any experience with electric scooters in winter use? The ones that under 15 years old can drive up to 25 km/h. How does the battery stand up to frosts and are there good tyres? |
+| LibreTranslate | Does anyone have experience with electric scooters in winter? The ones below 15 can drive Max 25 km/h. How does the attery last and are there good tires? |
+| Lingva | Does anyone have experience with electric scooters in winter use? Of those under 15 years of age, Max 25 km/h can be driven. How does the battery withstand frost and are there any good tires? |
