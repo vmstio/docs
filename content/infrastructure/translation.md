@@ -13,9 +13,19 @@ Translation is only done on-request by the user, as it would be computationally 
 ## Client Engines
 
 All of our hosted clients including the main Mastodon web interface, [Elk](/clients/elk) and [Phanpy](/clients/phanpy), support translation of user posts.
-The main web interface API is also available to other client applications you may download to your devices, like Ivory, Mona, Tusky, etc.
 
-### DeepL Pro
+| Client | DeepL | LibreTranslate | Lingva |
+|--------|-------|----------------|--------|
+| Mastodon (API)    | :icon{name="twemoji:check-mark-button"}   | :icon{name="twemoji:white-circle"}        | :icon{name="twemoji:cross-mark"}          |
+| Elk               | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   | :icon{name="twemoji:cross-mark"}          |
+| Phanpy            | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   |
+
+:icon{name="twemoji:white-circle"} indicates an option that is not enabled.
+
+The main web interface API is also available to other client applications you may download to your devices, like Ivory, Mona, Tusky, etc.
+These clients may also offer additional translation services which are outside of our control, for example Ivory will fallback to Google Translate directly if our API is unavailable or an unsupported language is detected.
+
+### DeepL
 
 [DeepL](https://www.deepl.com/whydeepl) is used as the translation API for our main web interface and client API.
 
@@ -44,7 +54,7 @@ Each engine has languages that it is more accurate at translating, so even when 
 
 | Language | [DeepL](https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro) | [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | [Lingva](https://en.wikipedia.org/wiki/Google_Translate#Supported_languages) |
 |-----------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|
-| Arabic                | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Arabic                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Azerbaijani           | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Bulgarian             | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
 | Catalan               | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
@@ -58,18 +68,18 @@ Each engine has languages that it is more accurate at translating, so even when 
 | Finnish               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | French                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | German                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
-| Greek                 | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Greek                 | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Hebrew                | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Hindi                 | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Hungarian             | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
-| Indonesian            | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Indonesian            | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Irish                 | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Italian               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Japanese              | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
-| Korean                | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:cross-mark-button"}   |
+| Korean                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Latvian               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
 | Lithuanian            | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
-| Norwegian             | :icon{name="twemoji:cross-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
+| Norwegian             | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
 | Persian               | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Polish                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Portuguese            | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
