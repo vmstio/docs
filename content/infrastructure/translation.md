@@ -20,8 +20,6 @@ All of our hosted clients including the main Mastodon web interface, [Elk](/clie
 | Elk               | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   | :icon{name="twemoji:cross-mark"}          |
 | Phanpy            | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   |
 
-:icon{name="twemoji:white-circle"} indicates an option that is not enabled.
-
 The main web interface API is also available to other client applications you may download to your devices, like Ivory, Mona, Tusky, etc.
 These clients may also offer additional translation services which are outside of our control, for example Ivory will fallback to Google Translate directly if our API is unavailable or an unsupported language is detected.
 
@@ -41,9 +39,9 @@ Instead, its translation engine is powered by the open source Argos Translate li
 
 We use a LibreTranslate service hosted at [translate.mstdn.social](https://translate.mstdn.social).
 
-### Lingva Translate
+### Lingva
 
-[Lingva Translate](https://github.com/thedaviddelta/lingva-translate) is used by our Phanpy client offering.
+[Lingva](https://github.com/thedaviddelta/lingva-translate) is used by our Phanpy client offering.
 
 Lingva is an alternative front-end for Google Translate API, serving as a free and open source translator with over a hundred languages available.
 
