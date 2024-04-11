@@ -21,43 +21,6 @@ Translation is only done on-request by the user, as it would be computationally 
 
 DeepL is free for limited use, but we pay for the professional plan which has additional data security standards that delete requests from their servers after they are translated.
 
-### Available Languages
-
-The following languages should be available:
-
-- Arabic
-- Bulgarian
-- Chinese
-- Czech
-- Danish
-- Dutch
-- English
-- Estonian
-- Finnish
-- French
-- German
-- Greek
-- Hungarian
-- Indonesian
-- Italian
-- Japanese
-- Korean
-- Latvian
-- Lithuanian
-- Norwegian
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Slovak
-- Slovenian
-- Spanish
-- Swedish
-- Turkish
-- Ukrainian
-
-Please see [https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro](https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro) for more information.
-
 ## LibreTranslate
 
 [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as translation API for our Elk web client interfaces.
@@ -68,49 +31,42 @@ Instead, its translation engine is powered by the open source Argos Translate li
 
 We use a LibreTranslate service hosted at [translate.mstdn.social](https://translate.mstdn.social).
 
-### Available Languages
-
-The following languages should be available:
-
-* Arabic
-* Azerbaijani
-* Catalan
-* Chinese
-* Czech
-* Danish
-* Dutch
-* English
-* Esperanto
-* Finnish
-* French
-* German
-* Greek
-* Hebrew
-* Hindi
-* Hungarian
-* Indonesian
-* Irish
-* Italian
-* Japanese
-* Korean
-* Persian
-* Polish
-* Portuguese
-* Russian
-* Slovak
-* Spanish
-* Swedish
-* Turkish
-* Ukrainian
-
 ## Lingva Translate
 
 [Lingva Translate](https://github.com/thedaviddelta/lingva-translate) is used by our Phanpy client offering.
 
 Lingva is an alternative front-end for Google Translate API, serving as a free and open source translator with over a hundred languages available.
 
-### Available Languages
+## Available Languages
 
-As of April 2024, the following 133 languages are supported by Google Translate:
+| Language | [DeepL Support]((https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro)) | [LibreTranslate Support](https://github.com/LibreTranslate/LibreTranslate) | [Lingva Translate Support]((https://en.wikipedia.org/wiki/Google_Translate#Supported_languages)) |
+|-----------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|
+| Bulgarian             | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Catalan               | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Chinese (Simplified)  | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Czech                 | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Danish                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
+| Dutch                 | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| English               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Estonian              | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Finnish               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
+| French                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| German                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Greek                 | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Hungarian             | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Italian               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Japanese              | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Latvian               | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Lithuanian            | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Polish                | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Portuguese            | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Romanian              | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Russian               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Slovak                | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Slovenian             | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Spanish               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Swedish               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"}   |
+| Turkish               | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
+| Ukrainian             | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 
-For a list of available languages please reference [https://en.wikipedia.org/wiki/Google_Translate#Supported_languages](https://en.wikipedia.org/wiki/Google_Translate#Supported_languages)
+_Lingva Translate may support additional languages not listed here._
