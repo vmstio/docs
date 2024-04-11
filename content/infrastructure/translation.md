@@ -10,6 +10,8 @@ _ex: If a user posts content in Dutch, but the post is marked as being in Englis
 
 Translation is only done on-request by the user, as it would be computationally expensive to translate all posts that the server sees, as they are received or displayed.
 
+![Screenshot of Translate Button in Mastodon Interface](/translate.png)
+
 ## Client Engines
 
 All of our hosted clients including the main Mastodon web interface, [Elk](/clients/elk) and [Phanpy](/clients/phanpy), support translation of user posts.
