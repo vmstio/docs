@@ -28,6 +28,7 @@ These clients may also offer additional translation services which are outside o
 ### DeepL
 
 [DeepL](https://www.deepl.com/whydeepl) is used as the translation API for our main web interface and client API.
+It is known for its accuracy and ability to grasp nuances in language better than many other translation services.
 
 DeepL is free for limited use, but we pay for the professional plan which has additional data security standards that delete requests from their servers after they are translated.
 
@@ -36,8 +37,8 @@ DeepL is free for limited use, but we pay for the professional plan which has ad
 [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as translation API for our Elk web client interfaces.
 
 LibreTranslate is a free and open source machine translation API.
-Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations.
-Instead, its translation engine is powered by the open source Argos Translate library.
+Unlike other APIs, it doesn't rely on proprietary providers.
+The translation engine is powered by the open source Argos Translate library.
 
 We use a LibreTranslate service hosted at [translate.mstdn.social](https://translate.mstdn.social).
 
@@ -46,6 +47,7 @@ We use a LibreTranslate service hosted at [translate.mstdn.social](https://trans
 [Lingva](https://github.com/thedaviddelta/lingva-translate) is used by our Phanpy client offering.
 
 Lingva is an alternative front-end for Google Translate API, serving as a free and open source translator with over a hundred languages available.
+While it has the widest set of available languages it can process, it is reliant on a third-party service which then sends data to Google.
 
 ## Available Languages
 
