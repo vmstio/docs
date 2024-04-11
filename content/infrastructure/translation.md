@@ -39,7 +39,7 @@ Lingva is an alternative front-end for Google Translate API, serving as a free a
 
 ## Available Languages
 
-| Language | [DeepL Support]((https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro)) | [LibreTranslate Support](https://github.com/LibreTranslate/LibreTranslate) | [Lingva Translate Support]((https://en.wikipedia.org/wiki/Google_Translate#Supported_languages)) |
+| Language | [DeepL](https://support.deepl.com/hc/en-us/articles/360019925219-Languages-included-in-DeepL-Pro) | [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | [Lingva](https://en.wikipedia.org/wiki/Google_Translate#Supported_languages) |
 |-----------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|
 | Bulgarian             | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
 | Catalan               | :icon{name="twemoji:cross-mark"}        | :icon{name="twemoji:check-mark-button"} | :icon{name="twemoji:check-mark-button"}   |
