@@ -34,7 +34,7 @@ Complete any of the following actions to confirm the account is not abandoned:
 - Add [multi-factor authentication](https://fedi.tips/using-two-factor-authentication-2fa-on-mastodon/) to an account.
 - Add a post, boost a post, or reply to any post.
 
-If you join vmst.io and decide it isn't the best home for your Mastodon experiance, you also have the ability to [move](https://docs.joinmastodon.org/user/moving/#migration) or [delete](https://docs.joinmastodon.org/user/moving/#delete) your own account at any time.
+If you join vmst.io and decide it isn't the best home for your Mastodon experience, you also have the ability to [move](https://docs.joinmastodon.org/user/moving/#migration) or [delete](https://docs.joinmastodon.org/user/moving/#delete) your own account at any time.
 
 ::alert{type="info"}
 Accounts that are created but show no activity within the first 30 days are subject to suspension, pending deletion.
