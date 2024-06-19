@@ -26,7 +26,7 @@ At the moment all of our staff are volunteers, and our only expenses are monthly
 | **Vendor**    | **Monthly** |
 |---------------|-------------|
 | DigitalOcean  | $540        |
-| Elastic       | $44         |
+
 | AWS           | $1          |
 
 Money is set aside to cover any tax expenses, or unforeseen costs.
