@@ -10,16 +10,17 @@ It performs perodic polling of known Mastodon instances.
 
 ## Crawled Endpoints
 
-vmcrawl will attempt to access the following endpoints of your Fediverse server:
+vmcrawl may attempt to access the following endpoints of your Fediverse server:
 
 - `/.well-known/host-meta`
 - `/.well-known/webfinger`
 - `/.well-known/nodeinfo`
 
-Based on those results, if it's determined that your server is running Mastodon, it will contact:
+Based on those results, if it's determined that your server is running Mastodon, it may contact:
 
 - `/api/v2/instance` for Mastodon 4.x
 - `/api/v1/instance` for Mastodon 3.x
+- `/api/v1/instance/peers`
 
 ## User Agent
 
