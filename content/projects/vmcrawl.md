@@ -36,3 +36,17 @@ If you would like to stop vmcrawl from checking your instance, you can add the f
 User-agent: vmcrawl
 Disallow: /
 ```
+
+## Collected Data
+
+vmcrawl collects the following data only from instances that it identifies as Mastodon, or a related fork.
+
+- Domain Name
+- Software Version
+- Total Users Count
+- Active Users Count
+- Administrator Email Address
+- Source Code Repository
+
+vmcrawl may perodically request a list of peer instances from a server, but only to discover new servers to request the data outlined above.
+It does not store peer information for any server.
