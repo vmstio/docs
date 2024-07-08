@@ -24,9 +24,7 @@ Based on those results, if it's determined that your server is running Mastodon,
 
 ## User Agent
 
-The vmcrawl user agent can be identified as: `python-requests/2.31.0 (vmcrawl/0.1; +https://docs.vmst.io/projects/crawler)`
-
-The specific version of python-request may be different depending on the system vmcrawl runs on.
+The vmcrawl user agent can be identified as: `vmcrawl/0.1 (https://docs.vmst.io/projects/crawler)`
 
 ### robots.txt
 
