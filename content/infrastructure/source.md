@@ -14,11 +14,10 @@ We then build the modified code inside a Docker container, publish it to GitHub 
 Our server specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
-- Raising the post character count limit from 500 to 640
-- Removing the Hiredis driver in favor of the native Redis driver
+- Raising the post character count limit from 500 to 640 ([vmstan/mastodon #36](https://github.com/vmstan/mastodon/pull/36))
 - Adding the [Elephant](/clients/elephant) and [Tangerine](/clients/tangerine) themes ([vmstan/mastodon #6](https://github.com/vmstan/mastodon/pull/6))
 
-Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [project repository](https://github.com/mastodon/mastodon) or in [other development repos](https://github.com/mastodon/vmstan).
+Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [official project repository](https://github.com/mastodon/mastodon) or in the [vmst.io development fork](https://github.com/vmstan/mastodon/pulls?q=is%3Apr+is%3Aopen+label%3Avmst.io%2Fdeployed).
 
 ## Container Availability
 
@@ -33,31 +32,3 @@ Our customized container image is available from both Docker and GitHub containe
 Mastodon 4.3-based images and beyond use a seperate container image for the Streaming API.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/mastodon-streaming)
-
-## Redis TLS Changes
-
-DigitalOcean requires encrypted/TLS connections to their managed Redis services, however the Mastodon codebase uses a Redis driver ([hiredis](https://github.com/redis/hiredis-rb)) which does not have a native TLS capability.
-To accommodate this, we have in the past used [HAProxy](https://www.haproxy.org) or [Stunnel](https://www.stunnel.org) to take the un-encrypted connection requests and encrypt those connections between the Mastodon components and Redis.
-
-We have chosen to remove the hiredis driver from our installation and use redis-rb instead.
-Using the native redis-rb driver provides support for TLS connections.
-This is done by patching a stock Mastodon installation with the following commands, downloading updated bundles and node components, and recompiling:
-
-```bash
-sed -i '/gem '\''hiredis'\'', '\''~> 0.6'\''/d' ./Gemfile
-sed -i '/hiredis/d' ./Gemfile.lock
-sed -i '/hiredis/d' ./lib/mastodon/redis_config.rb
-sed -i '/hiredis/d' ./lib/tasks/mastodon.rake
-sed -i 's/, driver: :hiredis//g' ./app/lib/redis_configuration.rb
-sed -i 's/, require: \['\''redis'\'', '\''redis\/connection\/hiredis'\''\]//' ./Gemfile
-```
-
-Compared to running with hiredis through HAProxy or Stunnel, we have not seen any negative impact in performance by using redis-rb.
-
-## Character Limit Change
-
-Mastodon does not have an individual environment variable that allows this to be easily changed, but as of version 4.3 can be done by changing the hard-coded limit in `app/validators/status_length_validator.rb`
-
-```bash
-sed -i '' 's/500/640/g' app/validators/status_length_validator.rb
-```
