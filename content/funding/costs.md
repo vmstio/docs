@@ -8,25 +8,13 @@ title: Costs
 
 The majority of our income comes from monthly subscriptions through [Ko-Fi](https://ko-fi.com/vmstio) and [Patreon](https://www.patreon.com/vmstan).
 
-Any other funding that comes through one-time tips or shop purchases are also represented below.
-
-|               |                |
-|---------------|----------------|
-| Subscriptions | $426 per month |
-| Tips & Merch  | $1298 total    |
-
-Numbers reflect raw donation numbers in USD, not reflective of Patreon or Stripe fees and/or exchange rates.
-
-Last Updated: October 5, 2023.
-
 ## Expenses
 
 At the moment all of our staff are volunteers, and our only expenses are monthly bills to our various server providers.
 
 | **Vendor**    | **Monthly** |
 |---------------|-------------|
-| DigitalOcean  | $540        |
-
+| DigitalOcean  | $590        |
 | AWS           | $1          |
 
 Money is set aside to cover any tax expenses, or unforeseen costs.
@@ -35,7 +23,7 @@ Additional funds have also been used to make donations to open source software p
 We also periodically test different service offerings to decide if their long term use would be a good fit.
 After a period of review and testing, we may discontinue such offerings if they do not contribute to the community as shown by use.
 
-Last Updated: April 1, 2024.
+Last Updated: August 1, 2025.
 
 ## Processing Fees
 
