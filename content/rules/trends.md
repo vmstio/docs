@@ -14,12 +14,8 @@ Trends are calculated based on a simple combination of boosts (reposts) and favo
 
 ## Moderation
 
-Hashtags largely trend on their own without moderator intervention, but can be removed if they are abusive or disruptive.
+Generally speaking, trending topics are only moderated if they are deemed inappropriate for the context of our server.
 
-Links and user posts will largely trend automatically if they're from reputable or mainstream news sources, or by users that are not disruptive with a history of appropriate content.
-
-Some posts will trend automatically if they're from known figures with a history of appropriate content.
-Generally speaking, trends are only removed if they are deemed inappropriate for the context of our server.
-
-Some publishers are specifically prohibited from trending.
-A list of prohibited publishers is available upon request.
+- Hashtags largely trend on their own without moderator intervention.
+- Links and will largely trend automatically if they're from reputable news sources however some publishers are specifically prohibited from trending.
+- Some posts will trend automatically if they're from known figures with a history of appropriate content.

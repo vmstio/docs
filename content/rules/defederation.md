@@ -8,25 +8,7 @@ We "defederate" vmst.io from other servers that are incompatible with our fundam
 The decision to defederate can come from reports by our users but is also based on community discussion around such bad actors, including the periodic import of community maintained blocklists.
 We would rather be proactive in blocking bad actors versus waiting for abuse to happen.
 
-## Export
-
-We list all defederated servers at [vmst.io/about](https://vmst.io/about), but also periodically post the full listing in CSV format on our GitHub.
-
-:button-link[Download Blocklist]{icon="mdi:file-download-outline" href="https://github.com/vmstan/vmstio/blob/main/domain_blocks.csv" blank}
-
-Posting the list as a CSV file allows other server administrators to easily import our blocklist or compare it against their own.
-
-### Sensitivity
-
-Our defederated server list includes domains where the name itself may contain offensive language, or the resulting site contains harmful or illegal materials. As a result the domains are partially redacted when viewing on the [vmst.io/about](https://vmst.io/about) listing.
-
-However, in order to import our list into your own, these domain names are listed on GitHub.
-
-::alert{type="warning"}
-When you view this list or visit these sites you do so at your own discretion and/or liability.
-::
-
-## Imports
+## Blocklists
 
 We believe community maintained blocklists serve an important purpose to help jump start servers in providing protection to users from abusive or disruptive individuals.
 
@@ -40,6 +22,14 @@ Suspension Sources:
 - [Seridy Tier 0](https://seirdy.one/pb/tier0.csv)
 - [Gardenfence Tier 0](https://raw.githubusercontent.com/gardenfence/blocklist/main/gardenfence-mastodon.csv)
 - [IFTAS DNI](https://github.com/iftas-org/resources/blob/main/DNI/dni.csv)
+
+### Sensitivity
+
+Our defederated server list includes domains where the name itself may contain offensive language, or the resulting site contains harmful or illegal materials. As a result the domains are partially redacted when viewing on the [vmst.io/about](https://vmst.io/about) listing.
+
+::alert{type="warning"}
+When you view this list or visit these sites you do so at your own discretion and/or liability.
+::
 
 ## Reporting
 

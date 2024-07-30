@@ -1,5 +1,5 @@
 ---
-title: Account Sign-Up
+title: Accounts
 ---
 
 # Account Sign-Up
