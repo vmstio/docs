@@ -14,7 +14,7 @@ Translation is only done on-request by the user, as it would be computationally 
 
 ## Client Engines
 
-All of our hosted clients including the main Mastodon web interface, [Elk](/clients/elk) and [Phanpy](/clients/phanpy), support translation of user posts.
+The main Mastodon web interface, as well as hosted solutions like [Elk](https://elk.zone) and [Phanpy](https://phanpy.social), support translation of user posts.
 
 | Client | DeepL | LibreTranslate | Lingva |
 |--------|-------|----------------|--------|
@@ -23,7 +23,7 @@ All of our hosted clients including the main Mastodon web interface, [Elk](/clie
 | Phanpy            | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   |
 
 The main web interface API is also available to other client applications you may download to your devices, like Ivory, Mona, Tusky, etc.
-These clients may also offer additional translation services which are outside of our control, for example Ivory will fallback to Google Translate directly if our API is unavailable or an unsupported language is detected.
+These clients may also offer additional translation services which are outside of our control, for example Ivory will use Apple's translation API first, but then use our API is unavailable or an unsupported language is detected.
 
 ### DeepL
 
@@ -34,17 +34,15 @@ DeepL is free for limited use, but we pay for the professional plan which has ad
 
 ### LibreTranslate
 
-[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as translation API for our Elk web client interfaces.
+[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as translation API for the Elk web client interfaces.
 
 LibreTranslate is a free and open source machine translation API.
 Unlike other APIs, it doesn't rely on proprietary providers.
 The translation engine is powered by the open source Argos Translate library.
 
-We use a LibreTranslate service hosted at [translate.mstdn.social](https://translate.mstdn.social).
-
 ### Lingva
 
-[Lingva](https://github.com/thedaviddelta/lingva-translate) is used by our Phanpy client offering.
+[Lingva](https://github.com/thedaviddelta/lingva-translate) is used by the Phanpy client offering.
 
 Lingva is an alternative front-end for Google Translate API, serving as a free and open source translator with over a hundred languages available.
 While it has the widest set of available languages it can process, it is reliant on a third-party service which then sends data to Google.

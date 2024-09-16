@@ -13,12 +13,10 @@ It monitors the status of our external endpoints:
 
 - Mastodon API
 - Streaming API
-- Translation API
+- Automation API
 - Search API
 - Media CDN
-- Assets CDN
-- [Elk](/clients/elk)
-- [Phanpy](/clients/phanpy)
+- Documentation (this site)
 
 Uptime is calculated for the last 30/90 days.
 We regularly report on these stastistics from our [@iostat](https://vmst.io/@iostat) bot.
