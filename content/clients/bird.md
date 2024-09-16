@@ -5,9 +5,8 @@ description: Alternative web frontend
 
 # Bird UI
 
-Bird UI is an alternative theme for the main Mastodon web interface.
+Bird UI is an alternative theme for the main Mastodon web interface and provides an interface similar to what you might find from legacy Birdsites.
 
-Unlike [Elk](/clients/elk), Bird UI is done all with CSS theming, and provides an interface similar to what you might find from legacy Birdsites.
 The code for Bird UI and is maintained by [Roni Laukkarinen](https://vmst.io/@rolle@mementomori.social).
 It is [available on GitHub](https://github.com/ronilaukkarinen/mastodon-bird-ui).
 
@@ -17,6 +16,7 @@ To enable Bird UI on your vmst.io account, visit Preferences > [Appearance](http
 
 This will work with the default single-column or Advanced multi-column layout options.
 There are also High Contrast and Light color theme options available.
+Unlike the default Mastodon theme there is currently no automatic color switching for the Bird UI with your system light/dark settings.
 
 To disable Bird UI, simply select one of the default Mastodon themes from the same control panel option.
 
