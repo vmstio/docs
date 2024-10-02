@@ -43,10 +43,9 @@ If someone you follow makes a sponsored post and you do not want to see it, you 
 At this time, Threads has limited federation abilities:
 
 - You are only able to follow Threads users that opt-in to Fediverse support, which Meta labels as a "beta" feature
-- Threads users can only opt-in if they live in counties where Meta has enabled the feature (basically, everywhere except the EU)
-- Threads users do not see Mastodon accounts that have followed them
+- Threads users can only opt-in if they live in counties where Meta has enabled the feature (basically, everywhere except the the European Union)
 - Threads users cannot follow Mastodon accounts at this time
-- Likes made to Thread posts from Mastodon accounts are visible to Threads users, but only under a generic "Fediverse users" grouping
-- Replies you make to Threads user posts look like any other Fediverse reply to vmst.io and other Mastodon users, but have limited interaction ability by Threads users. They cannot be replied to in Threads, are only seen by the original poster, and can only be liked by the poster.
-- Meta-imposes a delay to post federation of five minutes, this may be visible on your timeline where posts appear with their timestamps out-of-order
+- Replies you make to Threads user posts look like any other Fediverse reply to vmst.io and other Mastodon users, but on the Threads side can only be see by the post author
+- Replies you make can only be liked by the post author
+- Meta-imposes a delay to post federation of **fifteen minutes**, this is visible on your timeline where posts may appear out-of-order as they displayed when are received by our server with the original timestamp
 - Threads will only federate with servers where their Trust & Saftey teams have the ability to review a public local timeline (see: [https://help.instagram.com/914046486923176/](https://help.instagram.com/914046486923176/))
