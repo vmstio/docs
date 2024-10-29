@@ -21,6 +21,7 @@ Based on those results, if it's determined that your server is running Mastodon,
 
 - `/api/v2/instance` for Mastodon 4.x
 - `/api/v1/instance` for Mastodon 3.x
+- `/about` for Mastodon 3.x
 
 vmcrawl may perodically attempt to access the following endpoint from known deployments:
 
