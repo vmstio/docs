@@ -12,8 +12,10 @@ It performs perodic polling of known Mastodon instances.
 
 vmcrawl may attempt to access the following endpoints of your Fediverse server:
 
+- `/robots.txt`
 - `/.well-known/webfinger`
-- `/.well-known/nodeinfo`
+- `/.well-known/host-meta`
+- `/.well-known/nodeinfo` (and alternative locations referenced in this document)
 
 Based on those results, if it's determined that your server is running Mastodon, it may contact:
 
