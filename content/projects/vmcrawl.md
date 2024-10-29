@@ -40,6 +40,8 @@ User-agent: vmcrawl
 Disallow: /
 ```
 
+It will also respect a disallow of all bots/crawlers in this file, or an HTTP 410 reply to this file.
+
 ## Collected Data
 
 vmcrawl collects the following data only from instances that it identifies as Mastodon, or a related fork.
