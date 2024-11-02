@@ -11,9 +11,6 @@ Federation and content discovery still happen without relays, but relays create 
 
 ## Relays Participation
 
-vmst.io participate in the following relay systems:
-
-- [relay.infosec.exchange](https://relay.infosec.exchange)
-- [relay.intahnet.co.uk](https://relay.intahnet.co.uk)
-- [relay.toot.io](https://relay.toot.io)
-- [relay.universeodon.com](https://relay.universeodon.com)
+::alert{type="info"}
+Effective November 1, 2024, we are no longer participating in any relay systems.
+::
