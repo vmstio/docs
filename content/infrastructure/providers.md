@@ -14,7 +14,6 @@ Some of these services are paid for while others are free to use.
 | AWS | Simple Email Service |
 | BetterUptime | Status Monitoring |
 | DNSimple | Domain Registrar |
-| Netlify | Static Site Generator & CDN |
 | Let's Encrypt | SSL Certificates |
 | GitHub | Configuration/Settings, Public Container Registry |
 | Docker Hub | Public Container Registry |

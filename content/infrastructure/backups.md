@@ -10,14 +10,14 @@ We backup the persistent data storage of vmst.io multiple times per day/week and
 
 Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databases with Redis used as a key value store and timeline cache.
 
-- For the backup of PostgreSQL we use `pg_dump` with some custom scripts that process each task and then fire off notifications to our backend Slack channels.
-- Database backups are currently made every day, and replicated twice, across geographies.
-- In addition, DigitalOcean provides transaction level rollback functionality as part of their managed database service.
+- For the backup of PostgreSQL we use `pg_dump` with some custom scripts that process each task and then fire off notifications to our backend channels.
+- Full database backups are currently made every week, and replicated twice, across geographies.
+- In addition to full backups, DigitalOcean provides transaction level rollback functionality as part of their managed database service.
 
 ## Media/CDN Store Backups
 
 - The CDN/media data is sync'd directly to another DigitalOcean object store via the `rclone` [utility](https://rclone.org).
-- This is done using some custom scripts that process each task and then fire off notifications to our backend Slack channels.
+- This is done using some custom scripts that process each task and then fire off notifications to our backend channels.
 - CDN backups currently run every day.
 - Only the latest copy of CDN data is retained.
 
@@ -32,8 +32,8 @@ This image is designed for backup, replication and maintenance of container base
 It includes rclone, PostgreSQL and Redis utilities.
 
 - The version tags for the image represent the version of rclone used.
-- The image is based on Debian 11.
-- PostgreSQL utilities are based on version 15.
+- The image is based on Debian 12.
+- PostgreSQL utilities are based on version 16.
 - Redis utilities are based on version 7.
 
 There are `/root/backups` and `/root/scripts` directories suitable for mounting and processing relevant files.
