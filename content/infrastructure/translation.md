@@ -4,7 +4,7 @@ title: Translation
 
 # Translation
 
-In order for Mastodon to offer to translate a post into a different language, **the post must be marked in that language** and it must be in a language that is possible for the translation engine to process.
+In order for Mastodon to offer to translate a post into a different language, the post must be marked in that language and it must be in a language that is possible for the translation engine to process.
 
 _ex: If a user posts content in Dutch, but the post is marked as being in English and your user interface is set to English, the Mastodon interface will not offer to translate the post._
 
@@ -23,7 +23,7 @@ The main Mastodon web interface, as well as hosted solutions like [Elk](https://
 | Phanpy            | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:cross-mark"}          | :icon{name="twemoji:check-mark-button"}   |
 
 The main web interface API is also available to other client applications you may download to your devices, like Ivory, Mona, Tusky, etc.
-These clients may also offer additional translation services which are outside of our control, for example Ivory will use Apple's translation API first, but then use our API is unavailable or an unsupported language is detected.
+These clients may also offer additional translation services which are outside of our control; for example, Ivory will use Apple's translation API first, but then use our API if it is unavailable or an unsupported language is detected.
 
 ### DeepL
 
@@ -34,18 +34,18 @@ DeepL is free for limited use, but we pay for the professional plan which has ad
 
 ### LibreTranslate
 
-[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as translation API for the Elk web client interfaces.
+[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) is used as the translation API for the Elk web client interfaces.
 
-LibreTranslate is a free and open source machine translation API.
+LibreTranslate is a free and open-source machine translation API.
 Unlike other APIs, it doesn't rely on proprietary providers.
-The translation engine is powered by the open source Argos Translate library.
+The translation engine is powered by the open-source Argos Translate library.
 
 ### Lingva
 
 [Lingva](https://github.com/thedaviddelta/lingva-translate) is used by the Phanpy client offering.
 
-Lingva is an alternative front-end for Google Translate API, serving as a free and open source translator with over a hundred languages available.
-While it has the widest set of available languages it can process, it is reliant on a third-party service which then sends data to Google.
+Lingva is an alternative front-end for Google Translate API, serving as a free and open-source translator with over a hundred languages available.
+While it has the widest set of available languages it can process, it is reliant on a third-party service, which then sends data to Google.
 
 ## Available Languages
 
@@ -95,15 +95,15 @@ _Lingva Translate may support additional languages not listed here._
 
 ### Examples
 
-Each engine has languages that it is more accurate at translating, so even when translating the same post between each engine you may see different results.
+Each engine has languages that it is more accurate at translating, so even when translating the same post between each engine, you may see different results.
 
 #### German to English
 > Das haben wir jetzt davon, daß @FrauHolle ein paar Blumen und Pralinen zum Eid al-Fitr aka #Bayram bei Nachbars vorbei gebracht hat: Ich passe bald nicht mehr durch die Türe. [https://mastodon.trueten.de/@thomas/112253624254825586](https://mastodon.trueten.de/@thomas/112253624254825586)
 
 | | Translation |
 |-|-------------|
-| DeepL | This is what we get for @FrauHolle dropping off some flowers and chocolates for Eid al-Fitr aka #Bayram at neighbor's: I won't fit through the door soon. |
-| LibreTranslate | We have now that @FrauHolle has a few flowers and chocolates to the Eid al-Fitr aka #Bayram brought by neighbors: I'm not gonna pass through the door soon. |
+| DeepL | This is what we get for @FrauHolle dropping off some flowers and chocolates for Eid al-Fitr aka #Bayram at neighbors’: I won't fit through the door soon. |
+| LibreTranslate | We have now that @FrauHolle has a few flowers and chocolates to the Eid al-Fitr aka #Bayram brought by neighbors: I'm not going to pass through the door soon. |
 | Lingva | This is what we now have from @FrauHolle dropping off a few flowers and chocolates at a neighbor's house for Eid al-Fitr aka #Bayram: Soon I won't be able to fit through the door anymore. |
 
 #### Spanish to English
@@ -111,15 +111,15 @@ Each engine has languages that it is more accurate at translating, so even when 
 
 | | Translation |
 |-|-------------|
-| DeepL | Interesting this, I was not aware of the tests being done with permeable concrete, although I did see some of the rain gardens being installed by the Intendencia. |
-| LibreTranslate | Interesting this, I did not know the tests being done with the permeable concrete, although I did see some of the rainy gardens that the Intendence is installing. |
-| Lingva | This is interesting, I was not aware of the tests that are being done with permeable concrete, although I did see some of the rain gardens that the Municipality is installing. |
+| DeepL | Interesting, this. I was not aware of the tests being done with permeable concrete, although I did see some of the rain gardens being installed by the Intendencia. |
+| LibreTranslate | Interesting, this. I did not know the tests being done with the permeable concrete, although I did see some of the rain gardens that the Intendencia is installing. |
+| Lingva | This is interesting. I was not aware of the tests that are being done with permeable concrete, although I did see some of the rain gardens that the Municipality is installing. |
 
 #### Finnish to English
-> Onko kellään kokemuksia sähköskoottereista talvikäytössä? Niistä joita alle 15 v voi ajaa Max 25 km/h. Miten akku kestää pakkaset ja onko hyviä renkaita? [https://mastodon.social/@artomelaranta/112253491123890060](https://mastodon.social/@artomelaranta/112253491123890060)
+> Onko kellään kokemuksia sähköskoottereista talvikäytössä? Niistä joita alle 15 vuotia voi ajaa Max 25 km/h. Miten akku kestää pakkaset ja onko hyviä renkaita? [https://mastodon.social/@artomelaranta/112253491123890060](https://mastodon.social/@artomelaranta/112253491123890060)
 
 | | Translation |
 |-|-------------|
-| DeepL | Does anyone have any experience with electric scooters in winter use? The ones that under 15 years old can drive up to 25 km/h. How does the battery stand up to frosts and are there good tyres? |
-| LibreTranslate | Does anyone have experience with electric scooters in winter? The ones below 15 can drive Max 25 km/h. How does the attery last and are there good tires? |
+| DeepL | Does anyone have any experience with electric scooters in winter use? The ones under 15 years old can drive up to 25 km/h. How does the battery stand up to frosts and are there good tyres? |
+| LibreTranslate | Does anyone have experience with electric scooters in winter? The ones below 15 can drive Max 25 km/h. How does the battery last and are there good tires? |
 | Lingva | Does anyone have experience with electric scooters in winter use? Of those under 15 years of age, Max 25 km/h can be driven. How does the battery withstand frost and are there any good tires? |

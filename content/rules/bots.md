@@ -13,7 +13,7 @@ We have several internal Bots:
 - <a rel="me" href="https://vmst.io/@iostat">@iostat</a>
 - <a rel="me" href="https://vmst.io/@mergebot">@mergebot</a>
 
-If you're interested in starting a Bot account, we encourage you to reach out to a member of our staff ahead of time to make sure that it's an approprate fit for our site. Once created, it must be clearly designated as a Bot in the account bio and have an identification of who maintains it and how they can be contacted.
+If you're interested in starting a Bot account, we encourage you to reach out to a member of our staff ahead of time to make sure that it's an appropriate fit for our site. Once created, it must be clearly designated as a Bot in the account bio and have an identification of who maintains it and how they can be contacted.
 
 Bot accounts that boost or crosspost content from other social networks, without the consent of the content owners, are prohibited.
 
@@ -21,6 +21,6 @@ Bot accounts that boost or crosspost content from other social networks, without
 
 If you are the developer of a Mastodon client or another ActivityPub/Fediverse project and would like to use an account on vmst.io to test the functionality of your application, please contact [@vmstan](https://vmst.io/@vmstan) before doing so.
 
-While we are generally supportive of such things we like to know ahead of time should it cause disruptions in service to other members.
+While we are generally supportive of such things, we like to know ahead of time should it cause disruptions in service to other members.
 
-Development accounts designed to scrape and/or index user data via our API or other means, **are prohibited.**
+Development accounts designed to scrape and/or index user data via our API or other meansare prohibited.

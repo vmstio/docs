@@ -4,21 +4,21 @@ title: Bridges
 
 # Bridges
 
-Problem: Not all the people or organizations you follow may have migrated from Twitter to open social systems like Mastodon, or they moved to a different decentralized network like Bluesky or Nostr which do not use ActivityPub as their federation protocol.
+Problem: Not all the people or organizations you follow may have migrated from Twitter to open social systems like Mastodon, or they moved to a different decentralized network like Bluesky or Nostr, which do not use ActivityPub as their federation protocol.
 
 One option is to follow such accounts on other networks using a bridge.
 
 There are a few issues here:
 
-- While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else in the server.
-- These bridges may not respect the original author's privacy, or require them to opt-out of federation, republishing without the original author's permission or consent.
-- There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on. For example, often the bridge implementations does not respond properly because it's overloaded or incorrectly implemented.
+- While some people may intend to follow accounts from another network through a bridge and understand the limitations, these accounts end up federated and searchable by anyone else on the server.
+- These bridges may not respect the original author's privacy or require them to opt-out of federation, republishing without the original author's permission or consent.
+- There are a variety of backend issues when these bridged accounts are followed, unfollowed, replied to, and so on. For example, often the bridge implementations do not respond properly because they are overloaded or incorrectly implemented.
 
 In general, vmst.io does not connect to these services or allow our users' posts to be accessed through these services.
 
 ## Twitter
 
-Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) runs on a server connecting to the Twitter API. The software then creates stub accounts of Twitter users and uses the stub accounts to then mirror their content as accounts on Mastodon.
+Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) runs on a server connecting to the Twitter API. The software then creates stub accounts of Twitter users and uses the stub accounts to mirror their content as accounts on Mastodon.
 
 Although the bridge might work to make Twitter content visible, it can't create real conversation.
 Your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
@@ -27,7 +27,7 @@ We have, since late 2022, actively been defederated from known and active Twitte
 
 ### Exceptions
 
-We have not typically defederated from servers and applications where the bridged content is curated, maintained and clearly identified as a Twitter bot, or where the content is being collected from many sources to create a unique product.
+We have not typically defederated from servers and applications where the bridged content is curated, maintained, and clearly identified as a Twitter bot, or where the content is being collected from many sources to create a unique product.
 An example is content from [sportsbots.xyz](https://www.sportsbots.xyz).
 
 We may re-evaluate this in the future.

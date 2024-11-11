@@ -8,10 +8,10 @@ Our goal is to provide the best possible Mastodon experience for our members.
 One way to deliver on that is by delivering the most up-to-date Mastodon code.
 We "run off main", which means using the latest commits to the `main` branch of the Mastodon codebase found on the project's official [GitHub](https://github.com/mastodon/mastodon) repository.
 
-We take a clean copy of the latest Mastodon code and then apply a limited set of modification with a custom script.
+We take a clean copy of the latest Mastodon code and then apply a limited set of modifications with a custom script.
 We then build the modified code inside a Docker container, publish it to GitHub Container Registry, for consumption by our Kubernetes cluster.
 
-Our server specific customizations include:
+Our server-specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
 - Raising the post character count limit from 500 to 640 ([vmstan/mastodon #36](https://github.com/vmstan/mastodon/pull/36))

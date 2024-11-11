@@ -5,11 +5,11 @@ title: Due Process
 # Due Process
 
 This is the vmst.io Moderation Process.
-In the spirit of full disclosure we have decided to make it open to public viewing.
+In the spirit of full disclosure, we have decided to make it open to public viewing.
 The purpose is to guide our staff in their decisions to take action on a member.
 
 There may be times where moderators and administrators deviate from this document as needed, specifically when new issues arise that have not been covered by existing processes.
-Ultimately our staff may take action on any account they deem necessary to protect the health and safety of the server and other users.
+Ultimately, our staff may take action on any account they deem necessary to protect the health and safety of the server and other users.
 
 If you feel you have been treated unfairly by our staff, you may file an appeal or contact an administrator.
 
@@ -29,17 +29,17 @@ All staff should be intimately familiar with the [Rules](/rules)
 Moderators are vmst.io community members with additional permissions to take action on any reported or observed user account in violation of our rules.
 They also have the ability to help maintain the trending functions of the Explore page.
 
-Our moderators are volunteers who contribute their time, energy and knowledge.
+Our moderators are volunteers who contribute their time, energy, and knowledge.
 
 ### Administrators
 
-Administrators have the ability to de-federate entire servers for continued violation or bad actions against our members, or our infrastructure. They also act as senior moderators and community leaders.
+Administrators have the ability to de-federate entire servers for continued violation or bad actions against our members or our infrastructure. They also act as senior moderators and community leaders.
 
-The Administrators are **the final authority** on any appeals, moderation issues or rule interpretations.
+The Administrators are **the final authority** on any appeals, moderation issues, or rule interpretations.
 
 ## Reports
 
-When a post is reported, all members of the staff receive an email alert and an alert message and an alert in the Mastodon user interface.
+When a post is reported, all members of the staff receive an email alert, an alert message, and an alert in the Mastodon user interface.
 
 Reports about members of the staff cannot be seen by that staff member in the Mastodon UI.
 
@@ -49,11 +49,11 @@ All internal discussion of reports should be considered confidential.
 
 The exact source of a report should never be revealed to a user, unless there are extenuating legal circumstances, and then only at the discretion of an administrator.
 
-Communication of disciplinary actions against user accounts should be done outside of the public view, such as through Mastodon's built-in warning/appeals system, email, private mention or other secure means.
+Communication of disciplinary actions against user accounts should be done outside of the public view, such as through Mastodon's built-in warning/appeals system, email, private mention, or other secure means.
 All private communication regarding actions should be documented in appropriate internal channels.
 
 Our staff will use discretion in moderating our users, and we expect the same from our members who have been subject to moderator actions.
-Users who push back, or question in public, moderation decisions made against an account should be directed to an administrator for a public response, if it is warranted.
+Users who push back or question in public moderation decisions made against an account should be directed to an administrator for a public response if it is warranted.
 
 Should the situation escalate towards harassment of staff, the member will be asked to leave vmst.io.
 
@@ -61,7 +61,7 @@ Should the situation escalate towards harassment of staff, the member will be as
 
 All [Rules](/rules) are not created equal.
 
-At a high level, reports will generally fall into a few different catagories.
+At a high level, reports will generally fall into a few different categories.
 
 * "I don't like it"
 * SPAM
@@ -69,7 +69,7 @@ At a high level, reports will generally fall into a few different catagories.
 * Rule Violation
 * Something Else
 
-These are based on the default options for the Mastodon UI, and are set by the user who files the report.
+These are based on the default options for the Mastodon UI and are set by the user who files the report.
 Keep in mind that third-party clients may have fewer options based on their usage of the API.
 
 Moderators can determine if a report is classified incorrectly and then reclassify it, but failure to properly classify a report is not grounds to dismiss the report.
@@ -82,9 +82,9 @@ If this is insufficient, and a report is still generated, it must be classified 
 
 ### SPAM
 
-Clear and obvious SPAM, should be actioned by suspending the offending account.
+Clear and obvious SPAM should be actioned by suspending the offending account.
 
-Examples of clear and obvious might be new accounts, or accounts from other servers that:
+Examples of clear and obvious might be new accounts or accounts from other servers that:
 
 * Post links to external sites for pornography, cryptocurrency, gambling, or illegal content.
 * Post in excess, particularly if they appear automated.
@@ -95,7 +95,7 @@ Please refer to our rules on [Advertising & Excessive Promotion](/rules/spam) fo
 ### Extremism
 
 We have a zero tolerance policy for violations of our bigotry or extremism policies.
-If you find users posting openly hateful content you are authorized to immediately suspend the user’s account.
+If you find users posting openly hateful content, you are authorized to immediately suspend the user’s account.
 
 If the account has just signed up or their time on the server has only been used for such content, reach out to an Administrator for immediate deletion of the account profile.
 
@@ -103,23 +103,23 @@ If the account has just signed up or their time on the server has only been used
 
 Please refer to our rules on [NSFW](/rules/spam) content for items which might run afoul of this rule.
 
-Sexual content might generally fall into one of three catagories:
+Sexual content might generally fall into one of three categories:
 
 * 18+
 * Explicit
 * Illegal
 
-Absolutely under no circumstance is 18+ content allowed without a content warning.
+Absolutely under no circumstances is 18+ content allowed without a content warning.
 Users should not use their vmst.io accounts for posting sexually explicit or pornographic content.
-Illegal content, such as CSAM or content that violates the consent of others will be actioned by account deletion and referral to the appropriate law enforcement agency.
+Illegal content, such as CSAM or content that violates the consent of others, will be actioned by account deletion and referral to the appropriate law enforcement agency.
 
 ### Brand Accounts
 
-Brands who create accounts [in violation of our policies](/rules/brands) will generally be asked to migrate their account to a different server. These types of violations should be handled by Administrators.
+Brands who create accountsin violation of our policies(/rules/brands) will generally be asked to migrate their account to a different server. These types of violations should be handled by Administrators.
 
 ## Report Types
 
-There are three main types of reports on Mastodon
+There are three main types of reports on Mastodon:
 
 * vmst.io user vs vmst.io user (intra-server)
 * vmst.io user vs federated server user (inter-server)
@@ -128,7 +128,7 @@ There are three main types of reports on Mastodon
 ### Intra-Server Reports
 
 When our users report our users, we are only accountable to ourselves.
-In this case it’s likely that someone will be unhappy with the results of the reporting and subsequent action.
+In this case, it’s likely that someone will be unhappy with the results of the reporting and subsequent action.
 We must do what is right and in the best interest of the community.
 
 While members can appeal, they also have the ability to migrate their account to another server if the resulting moderation actions do not satisfy them.
@@ -141,7 +141,7 @@ Our team is responsible for the enforcement of our rules on our server, and othe
 #### vmst.io vs The Federation
 
 When our members report another server user, we have the ability to prohibit the remote user from interacting with our members, but we cannot control what the moderation team of the other server does with their report.
-If we take action to limit their account and it’s abilities, those only impact it’s interaction with OUR users.
+If we take action to limit their account and its abilities, those only impact its interaction with OUR users.
 
 If there are entire servers that are engaging in behaviors that are putting our users at risk, or where the user-base is consistently in violation of our rules, then we may take action to defederate the entire server.
 
@@ -186,7 +186,7 @@ Please refer to the following chart as a quick reference for appropriate actions
 
 ### Warning Presets
 
-All major rule catagories have warning presets available for Moderators to leverage when actioning on an account.
+All major rule categories have warning presets available for Moderators to leverage when actioning on an account.
 Moderators are expected to use these presets and only send a custom message to a user through the admin portal if discussed with an administrator.
 
 ### Mark as Resolved (Dismiss)
@@ -206,23 +206,23 @@ If a user has had multiple warnings issued, especially for the same type of beha
 
 ### Set Content Sensitive
 
-Set content Sensitive could be useful for posts that should probably have a content warning but were not initially set (NSFW type materials, or other things that may be offensive to other members.)
+Set content Sensitive could be useful for posts that should probably have a content warning but were not initially set (NSFW type materials, or other things that may be offensive to other members).
 
 Warnings can be sent in addition to taking this action.
 
 ### Freeze User
 
-Freezing a local user prevents a user from posting with their account but does not hide or delete any previous posts. Useful for folks who need a time out, although there’s currently not a time based mechanism for enforcement.
+Freezing a local user prevents a user from posting with their account but does not hide or delete any previous posts. Useful for folks who need a time out, although there’s currently not a time-based mechanism for enforcement.
 
 Freezing a user does not prevent them from exporting their data and moving to another server.
-This is preferable for long term user removal, where the content does not need to be removed but the user is no longer compatible with the vmst.io community.
+This is preferable for long-term user removal, where the content does not need to be removed but the user is no longer compatible with the vmst.io community.
 
 ### Limit User
 
 Limit user prevents the user from being able to post with public visibility, meaning anything they do in the future is hidden from anyone who’s not already following.
 
 This is useful for federated users, to limit their access to vmst.io members through direct interaction or the federated timeline.
-It's use against vmst.io members directly is not generally effective.
+Its use against vmst.io members directly is not generally effective.
 
 ### Suspend User
 
@@ -231,16 +231,16 @@ Suspending a user is equivalent to a ban, as this prevents any interaction with 
 ## Call for Backup
 
 If you’re unsure of what to do, ask for a second set of eyes.
-If no one else is available then you’re empowered to take action against the account to freeze it if you feel that it will stop a further escalation of the issue, until we can further assess the issue and make a determination as to what action is appropriate long term.
+If no one else is available, then you’re empowered to take action against the account to freeze it if you feel that it will stop a further escalation of the issue, until we can further assess the issue and make a determination as to what action is appropriate long-term.
 
 ## Appeals
 
 Users can appeal actions of moderators.
-In such cases actions of moderators will be reviewed by an administrator, and after additional discussion or deliberation the appeal may be accepted or denied.
+In such cases, actions of moderators will be reviewed by an administrator, and after additional discussion or deliberation, the appeal may be accepted or denied.
 
 ## Contributors
 
-While we greatly appreciate folks who have paid subscriptions to vmst.io, or made one-time contributors, their financial contributions do not bring special favor to the moderator staff.
+While we greatly appreciate folks who have paid subscriptions to vmst.io, or made one-time contributions, their financial contributions do not bring special favor to the moderator staff.
 At no time should this factor into the decision to take action against a member.
 
 Subscribers are free to cancel their contribution to vmst.io at any time.

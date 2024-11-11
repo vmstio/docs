@@ -13,7 +13,7 @@ Sexual content which violates consent is expressly prohibited.
 ## Federated Content
 
 Users are **not** generally prohibited from following accounts from other servers that post explicit content, even if we do not permit posting it locally.
-As a result explicit content may show up on the Federated timeline where it’s viewable by all members.
+As a result, explicit content may show up on the Federated timeline where it’s viewable by all members.
 
 Moderators will make an effort to issue limitations to remote accounts who regularly post explicit content.
 Limiting the account will enable those who directly follow the account to continue accessing it, while preventing its visibility on the Federated timeline.
@@ -22,6 +22,6 @@ If local accounts are deemed to be following such content in an attempt to “po
 
 ## CSAM
 
-The use of your account to view CSAM (child sexual abuse materials) including CG-CSAM (computer generated) or other fictionalized sexualized media (lolicon) is expressly prohibited and will result in an immediate account suspension, removal of content, and reporting to the appropriate law enforcement officials.
+The use of your account to view CSAM (child sexual abuse materials) including CG-CSAM (computer-generated) or other fictionalized sexualized media (lolicon) is expressly prohibited and will result in an immediate account suspension, removal of content, and reporting to the appropriate law enforcement officials.
 
 This includes content posted locally or viewed through a federated server. In the event you inadvertently observe content through our system of this nature, we expect it to be reported to our staff immediately.

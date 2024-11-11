@@ -16,7 +16,7 @@ This is crucial for providing a good user experience, especially considering the
 
 In the vmst.io environment, Sidekiq processes nearly two million tasks per day.
 
-Sidekiq runs on the DigitalOcean managed [Kubernetes](https://kubernetes.io) platform which automatically scales the number of required resources.
+Sidekiq runs on the DigitalOcean managed [Kubernetes](https://kubernetes.io) platform, which automatically scales the number of required resources.
 
 ## Tuning
 
@@ -34,7 +34,7 @@ Two values must be managed for Sidekiq:
 It is best practice for these values to be the same for each Sidekiq service.
 By default, there is only one Sidekiq service.
 
-25 threads may suffice for an server with a few hundred active users or a larger server under light load.
+25 threads may suffice for a server with a few hundred active users or a larger server under light load.
 However, a single popular toot going viral can quickly cause queues to back up and timelines to stop updating until the backlog is processed.
 
 Moreover, when one server struggles, it can cause delays in other servers within the federation, leading to "red light" errors and other issues.
@@ -61,7 +61,7 @@ ExecStart=/root/.rbenv/shims/bundle exec sidekiq -c 25 -q push -q pull
 ...
 ```
 
-As configured this service fill will only process the push and the pull queues shown with the `-q` options, in the order listed.
+As configured, this service will only process the push and the pull queues shown with the `-q` options, in the order listed.
 It also has the maximum of open database connections of 25 set in `DB_POOL` with 25 threads set in the `-c` option.
 
 An explanation for the purpose of each queue can be found on [docs.joinmastodon.org](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues).

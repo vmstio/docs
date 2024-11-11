@@ -12,7 +12,7 @@ Decentralized platforms like Mastodon offer an opportunity for each server to se
 
 ## Corporate Accounts
 
-Corporate brand accounts are not permitted on vmst.io
+Corporate brand accounts are not permitted on vmst.io.
 
 We feel that brands and companies should be setting up their own servers under domains they're identified with and control.
 This not only benefits the brands by aiding fediverse users in verifying their accounts are legitimate, but helps users control their interactions with those brands.
@@ -24,7 +24,7 @@ It only prohibits such accounts from being hosted by vmst.io.
 
 ## Groups & Associations
 
-If you are a non-profit organization, community group of or other relevant association we may permit your account. If you are unsure if you qualify please contact a member of our team.
+If you are a non-profit organization, community group of or other relevant association, we may permit your account. If you are unsure if you qualify, please contact a member of our team.
 
 Examples of accounts allowed under this policy would be the non-profit [@WestportObservatory](https://vmst.io/@WestportObservatory) or the hypothetical "Kansas City Anker Power Cable User Group" where there may be a loose affiliation with the brand but is otherwise run for fun or user networking.
 

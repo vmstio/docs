@@ -29,5 +29,5 @@ SMTP_DELIVERY_METHOD=smtp
 
 Our domain policies instruct your email provider to reject any other party that is attempting to use the `@vmst.io` domain to phish you.
 
-When you sign up for an account, and you provide us an email address, we promise to only contact you there regarding your Mastodon account.
+When you sign up for an account, and you provide us with an email address, we promise to only contact you there regarding your Mastodon account.
 For more details, refer to our [Privacy Policy](https://vmst.io/privacy-policy)

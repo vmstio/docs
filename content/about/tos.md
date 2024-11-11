@@ -4,7 +4,7 @@ title: Terms of Service
 
 # Terms of Service
 
-These terms describe how the Mastodon server vmst.io collects, protects and uses the personally identifiable information you may provide through the vmst.io website or its API.
+These terms describe how the Mastodon server vmst.io collects, protects, and uses the personally identifiable information you may provide through the vmst.io website or its API.
 The policy also describes the choices available to you regarding our use of your personal information and how you can access and update this information.
 
 This policy does not apply to the practices of companies that vmst.io does not own or control, or to individuals that vmst.io does not employ or manage.
@@ -28,15 +28,15 @@ Definitions of various terms used throughout this document:
 | API         | Application programming interface, a way for two or more computer programs to communicate with each other. |
 | Federation  | Server to server communication, passing posts and other user data back and forth via an API. |
 | Database    | The system/location dedicated to storage of user data submitted through our website, via an API or from another client application. |
-| Media Store | The system/location dedicated to storage of images, video, audio or other attachments submitted through our website, via an API or from another client application. |
+| Media Store | The system/location dedicated to storage of images, video, audio, or other attachments submitted through our website, via an API or from another client application. |
 
 ## System Functionality
 
 ### Basic account information
 
-- If you register on this server, you will be asked to enter a username, an email address and a password.
-- You may also enter additional profile information such as a display name, biography, links, upload a profile picture and/or header image.
-- Your username, display name, biography, links, profile picture and header image are always listed publicly.
+- If you register on this server, you will be asked to enter a username, an email address, and a password.
+- You may also enter additional profile information such as a display name, biography, links, upload a profile picture, and/or header image.
+- Your username, display name, biography, links, profile picture, and header image are always listed publicly.
 
 ### Social graph
 
@@ -47,17 +47,17 @@ Definitions of various terms used throughout this document:
 
 ### Post visibility and delivery
 
-- When you submit a post, the date and time is stored as well as the application you submitted the post from. Posts may optionally contain media attachments, such as pictures and videos.
-- Your posts are delivered to your local followers, as well as other federated servers and copies are stored there. Due to circumstances outside out control we cannot guarantee that all federated servers will receive or process the your post.
-- When you delete posts, they are removed from the local database and a deletion request is sent to federated servers that may contain that data. Due to circumstances outside out control we cannot guarantee that all federated servers will receive or process the deletion.
+- When you submit a post, the date and time are stored as well as the application you submitted the post from. Posts may optionally contain media attachments, such as pictures and videos.
+- Your posts are delivered to your local followers, as well as other federated servers, and copies are stored there. Due to circumstances outside our control, we cannot guarantee that all federated servers will receive or process your post.
+- When you delete posts, they are removed from the local database, and a deletion request is sent to federated servers that may contain that data. Due to circumstances outside our control, we cannot guarantee that all federated servers will receive or process the deletion.
 - All completed posts are stored and processed in the server database.
-- There is no server-side draft functionality nor does the server save data from uncompleted posts to the database.
+- There is no server-side draft functionality, nor does the server save data from uncompleted posts to the database.
 - Your browser or third-party client application may store uncompleted copies of posts in a cache or as a feature of the application, separately from our database and outside of these terms.
 
 #### Public and unlisted content
 
 - Public posts are visible to anyone who visits your profile page, to all your followers, as well as anyone viewing the Local or Federated timelines.
-- Unlisted posts are visible to anyone who visits your profile page, and to all your followers, therefore both public and unlisted posts are available publicly.
+- Unlisted posts are visible to anyone who visits your profile page, and to all your followers; therefore, both public and unlisted posts are available publicly.
 - The action of boosting or liking another post is always public.
 - When you pin/feature a post on your profile, that is also publicly available information.
 
@@ -66,17 +66,17 @@ Definitions of various terms used throughout this document:
 - Followers-only posts are delivered to your followers and users who are mentioned in them, and Private mention posts are delivered only to users mentioned in them.
 - We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so.
 
-Please keep in mind that it is technically possible for the operators of the server and any receiving server to view such messages, and that recipients may screenshot, copy or otherwise re-share them.
+Please keep in mind that it is technically possible for the operators of the server and any receiving server to view such messages, and that recipients may screenshot, copy, or otherwise re-share them.
 
 ## IPs and Other Metadata
 
 When you log in, we record the IP address you log in from, as well as the User Agent of your browser or application.
-All the logged in sessions are available for your review and revocation in the settings.
+All the logged-in sessions are available for your review and revocation in the settings.
 
 Any of the information we collect from you may be used in the following ways:
 
 - To provide the core functionality of Mastodon as defined above.
-- To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.
+- To aid moderation of the community, for example, comparing your IP address with other known ones to determine ban evasion or other violations.
 - To troubleshoot issues with the service, either reported by you or observed by our administrators.
 - The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, respond to inquiries, and/or other requests or questions.
 
@@ -91,18 +91,18 @@ You should enable two-factor authentication to further secure access to your acc
 
 ### What is our data retention policy?
 
-We do not automatically delete data uploaded by our server users on any regular basis, however you may individually [schedule regular deletions](https://vmst.io/statuses_cleanup) of your previous posts.
+We do not automatically delete data uploaded by our server users on any regular basis; however, you may individually [schedule regular deletions](https://vmst.io/statuses_cleanup) of your previous posts.
 
-In order to minimize the growth of our database, we periodically purge remote user posts older than 90 days which has been received through federation (either directly or via relay) but have not been interacted with by a local user during that time.
-We also periodically purge media store data (images, videos, etc) from remote user posts that are older than 7 days, but this data may be retrieved on demand by our systems if requested again after this time period.
+In order to minimize the growth of our database, we periodically purge remote user posts older than 90 days which have been received through federation (either directly or via relay) but have not been interacted with by a local user during that time.
+We also periodically purge media store data (images, videos, etc.) from remote user posts that are older than 7 days, but this data may be retrieved on demand by our systems if requested again after this time period.
 
 #### Account deletion requests
 
-You may irreversibly [delete your account](https://docs.joinmastodon.org/user/moving/#delete) and your data at anytime.
+You may irreversibly [delete your account](https://docs.joinmastodon.org/user/moving/#delete) and your data at any time.
 
-When you delete your account, it is completely removed from the local database and a deletion request is sent to all federated servers that may be aware of your account.
+When you delete your account, it is completely removed from the local database, and a deletion request is sent to all federated servers that may be aware of your account.
 
-- Due to the decentralized nature of Mastodon and other circumstances outside out control, we cannot guarantee that all federated servers will receive or process the deletion.
+- Due to the decentralized nature of Mastodon and other circumstances outside our control, we cannot guarantee that all federated servers will receive or process the deletion.
 - If you have concerns that another server may still be holding your data after the completion of a deletion request, you will need to contact the administrators of that server relevant to their policies.
 
 We will make a good faith effort to automatically process all remote account deletion requests as they are received.
@@ -118,7 +118,7 @@ Your data may remain in backups of our infrastructure for up to 7 days beyond an
 
 In addition to regular backups we make of our infrastructure, you can backup your data and [export it](https://docs.joinmastodon.org/user/moving/#export) at any time.
 
-Such exports will include archive of your content, including:
+Such exports will include an archive of your content, including:
 
 - Your posts
 - Media attachments
@@ -129,7 +129,7 @@ Such exports will include archive of your content, including:
 - Lists you've created
 - Bookmarks you've made
 
-You may backup and export your data once every seven days, without then deleting or moving your account.
+You may back up and export your data once every seven days, without then deleting or moving your account.
 To prevent abuse, followers cannot be exported without completing a user account migration to another Mastodon-compatible server.
 
 ### Do we use cookies?
@@ -163,12 +163,12 @@ You are in control of your identity and your social graph on Mastodon (and other
 
 ### EU or the EEA users
 
-Our site, products and services are all directed to people who are at least 16 years old.
+Our site, products, and services are all directed to people who are at least 16 years old.
 If you are under the age of 16, per the requirements of the GDPR ([General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)) do not use this site.
 
 ### USA users
 
-Our site, products and services are all directed to people who are at least 13 years old.
+Our site, products, and services are all directed to people who are at least 13 years old.
 If you are under the age of 13, per the requirements of COPPA ([Children's Online Privacy Protection Act](https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act)) do not use this site.
 
 ## Legal Jurisdictions

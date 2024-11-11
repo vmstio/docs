@@ -12,8 +12,8 @@ Our connection to Redis is configured as a `REDIS_URL` variable using a connecti
 
 ```text
 REDIS_URL=rediss://default:password@redis.db.ondigitalocean.com:25061
+REDIS_DRIVER=ruby
 ```
 
 Note that the second `s` in `rediss` is not a typo and is used for TLS connections only.
-Standard deployments of Mastodon currently cannot use this connection type, due to limitations of the `hiredis` driver.
-We disable `hiredis` in our implementation.
+Use of this connection type requires using the `REDIS_DRIVER` setting in Mastodon 4.3.

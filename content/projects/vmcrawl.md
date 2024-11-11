@@ -4,9 +4,9 @@ title: vmcrawl
 
 # vmcrawl
 
-vmcrawl is a Mastodon-focused version reporting crawler.
+vmcrawl is a Mastodon-focused version of a reporting crawler.
 It is written in Python, with a SQLite database backend.
-It performs perodic polling of known Mastodon instances.
+It performs periodic polling of known Mastodon instances.
 
 ## Crawled Endpoints
 
@@ -23,7 +23,7 @@ Based on those results, if it's determined that your server is running Mastodon,
 - `/api/v1/instance` for Mastodon 3.x
 - `/about` for Mastodon 3.x
 
-vmcrawl may perodically attempt to access the following endpoint from known deployments:
+vmcrawl may periodically attempt to access the following endpoint from known deployments:
 
 - `/api/v1/instance/peers`
 
@@ -44,7 +44,7 @@ It will also respect a disallow of all bots/crawlers in this file, or an HTTP 41
 
 ## Collected Data
 
-vmcrawl collects the following data only from instances that it identifies as Mastodon, or a related fork.
+vmcrawl collects the following data only from instances that it identifies as Mastodon, or a related fork:
 
 - Domain Name
 - Software Version
@@ -53,5 +53,5 @@ vmcrawl collects the following data only from instances that it identifies as Ma
 - Administrator Email Address
 - Source Code Repository
 
-vmcrawl may perodically request a list of peer instances from a server, but only to discover new servers to request the data outlined above.
+vmcrawl may periodically request a list of peer instances from a server, but only to discover new servers to request the data outlined above.
 It does not store peer information for any server.

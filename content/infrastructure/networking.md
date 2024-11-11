@@ -4,7 +4,7 @@ title: Networking
 
 # Networking
 
-The local IP space used between systems on our virtual private cloud (VPC) network is issued by DigitalOcean, with static IP addresses that are assigned at creation of the Droplet and persist throughout the lifecycle of the virtual machines.
+The local IP space used between systems on our virtual private cloud (VPC) network is issued by DigitalOcean, with static IP addresses that are assigned at the creation of the Droplet and persist throughout the lifecycle of the virtual machines.
 
 Where possible, any communication between internal nodes is encrypted even though the communication takes place on the VPC network.
 
@@ -12,11 +12,11 @@ There are a few cases where traffic leaves our VPC but still communicates within
 
 ## Public IPs
 
-The public IP addresses assigned to our load balancer, CDN and virtual machines are IP addresses issued and owned by DigitalOcean.
+The public IP addresses assigned to our load balancer, CDN, and virtual machines are IP addresses issued and owned by DigitalOcean.
 
 ### IPv6
 
-At this time none of our systems are accessible via IPv6.
+At this time, none of our systems are accessible via IPv6.
 This is due to a [known limitation](https://docs.digitalocean.com/products/networking/load-balancers/details/limits/) of DigitalOcean's managed load balancer service.
 
 As the load balancer is our entry point for all other services, we do not enable IPv6 for Droplets even though it is technically supported.
@@ -27,7 +27,7 @@ We use [DNSimple](https://dnsimple.com/) for our domain registrar and use Digita
 
 ## Security
 
-In order to protect our user's privacy and data, we implement a number of different security measures on our systems.
+In order to protect our users’ privacy and data, we implement a number of different security measures on our systems.
 
 They include:
 

@@ -15,18 +15,18 @@ In order to keep the number of junk accounts on vmst.io as low as possible, we a
 
 ::alert{type="danger"}
 All new account requests that do not complete email and hCaptcha verification **within 7 days** are automatically deleted.
-If our systems identify your account request as a risk, we may decline it or requests additional information before approval.
+If our systems identify your account request as a risk, we may decline it or request additional information before approval.
 ::
 
 ## Preserving Your Account
 
 Some servers are happy to juice their registration numbers with drive-by registrations.
 We want to set a higher bar and advertise folks who are part of our community.
-As such expect that all accounts on vmst.io will be active, at some point.
-You can be a lurker, but if you sign up and never come back we reserve the right to delete your account.
+As such, expect that all accounts on vmst.io will be active at some point.
+You can be a lurker, but if you sign up and never come back, we reserve the right to delete your account.
 
 The intention is not to delete accounts which fall out of use, only to avoid namesquatting or artificially boosting our registration numbers.
-We also feel this helps mitigate against sleeper attacks, where accounts are created and sit idle until activated later, to appear with older registration dates, and hence bypass other anti-abuse migitations built into the platform.
+We also feel this helps mitigate against sleeper attacks, where accounts are created and sit idle until activated later, to appear with older registration dates, and hence bypass other anti-abuse migrations built into the platform.
 
 Complete any of the following actions to confirm the account is not abandoned:
 

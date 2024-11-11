@@ -13,7 +13,7 @@ We use DigitalOcean managed load balancer objects to distribute user traffic acr
 ## Reverse Proxies
 
 We use [Nginx](https://www.nginx.com) as our reverse proxy software.
-In our Kubernetes environment this is in the form of the [Ingress Nginx Controller](https://kubernetes.github.io/ingress-nginx/).
+In our Kubernetes environment, this is in the form of the [Ingress Nginx Controller](https://kubernetes.github.io/ingress-nginx/).
 
 ![Reverse Proxy Diagram](/reverse-proxy.png)
 

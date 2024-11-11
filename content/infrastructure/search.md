@@ -4,23 +4,23 @@ title: Search
 
 # Search
 
-Search in Mastodon, and the wider Fediverse, can be a confusing and contentious topic.
+Search in Mastodon and the wider Fediverse can be a confusing and contentious topic.
 
 There are two levels of search supported by Mastodon:
 
 - Basic Search
 - Full Text Search
 
-The availability of the more advanced full text searching depends on if your server has implemented additional indexing infrastructure.
+The availability of the more advanced full text searching depends on whether your server has implemented additional indexing infrastructure.
 
 ## Basic Search
 
 By default, Mastodon has limited abilities to allow searching of hashtags and to display recent posts made with that tag, using data stored in the primary PostgreSQL database.
-Including a hashtag in your post can that post discoverable by anyone else who might click on the hashtag in the interface.
+Including a hashtag in your post can make that post discoverable by anyone else who might click on the hashtag in the interface.
 
 ![Debian Search](/debian-search.png)
 
-Anything that is posted with a hashtag may be found by local users, or federated other servers and discoverable by searching for that hashtag.
+Anything that is posted with a hashtag may be found by local users or federated other servers and discoverable by searching for that hashtag.
 
 ![Debian Tags](/debian-tags.png)
 
@@ -28,7 +28,7 @@ Anything that is posted with a hashtag may be found by local users, or federated
 
 If an administrator chooses to implement it, Mastodon can integrate with [Elasticsearch](https://www.elastic.co/elasticsearch/) or [OpenSearch](https://opensearch.org) to provide the ability to do additional searching on:
 
-- Users profile information (unless they opt-out)
+- Users’ profile information (unless they opt-out)
 - Full text search of **your own** posts (including alt-text data)
 - Full text search of replies to **your own** posts
 - Any other post that **you** have directly interacted with (bookmarked, marked as a favorite, or boosted)
@@ -107,7 +107,7 @@ As this feature is further developed, more modifiers may become available.
 
 ### Operators
 
-- To exclude content using from a modifier, include a `-` operator as part of the search. For example, `-has:media` would exclude any post that includes media attachments.
+- To exclude content using a modifier, include a `-` operator as part of the search. For example, `-has:media` would exclude any post that includes media attachments.
 - When you include multiple search terms or modifiers together, there is a hidden `AND` between each component.
 - There is currently not an `OR` type operator.
 - To search for a specific multi-word phrase, put the term in single or double quotes like `'Search Term'` or `"Search Term"`
