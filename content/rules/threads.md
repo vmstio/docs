@@ -44,8 +44,8 @@ At this time, Threads has limited federation abilities:
 
 - You are only able to follow Threads users that opt-in to Fediverse support, which Meta labels as a "beta" feature.
 - Threads users can only opt-in if they live in counties where Meta has enabled the feature (basically, everywhere except the European Union).
-- Threads users cannot follow Mastodon accounts at this time.
+- Threads users can only follow Mastodon accounts that have previously interacted with them.
 - Replies you make to Threads user posts look like any other Fediverse reply to vmst.io and other Mastodon users, but on the Threads side can only be seen by the post author.
-- Replies you make can only be liked by the post author.
+- Replies you make can only be liked or replied to by the post author.
 - Meta-imposes a delay to post federation of **fifteen minutes**. This is visible on your timeline where posts may appear out-of-order as they were displayed when they were received by our server with the original timestamp.
 - Threads will only federate with servers where their Trust & Safety teams have the ability to review a public local timeline (see: [https://help.instagram.com/914046486923176/](https://help.instagram.com/914046486923176/))
