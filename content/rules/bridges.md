@@ -16,22 +16,6 @@ There are a few issues here:
 
 In general, vmst.io does not connect to these services or allow our users' posts to be accessed through these services.
 
-## Twitter
-
-Bridging with Twitter is typically a one-way operation, where software like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) runs on a server connecting to the Twitter API. The software then creates stub accounts of Twitter users and uses the stub accounts to mirror their content as accounts on Mastodon.
-
-Although the bridge might work to make Twitter content visible, it can't create real conversation.
-Your likes and replies with the person running the Twitter account are not sent back to Twitter and are never seen by the author.
-
-We have, since late 2022, actively been defederated from known and active Twitter bridge sites.
-
-### Exceptions
-
-We have not typically defederated from servers and applications where the bridged content is curated, maintained, and clearly identified as a Twitter bot, or where the content is being collected from many sources to create a unique product.
-An example is content from [sportsbots.xyz](https://www.sportsbots.xyz).
-
-We may re-evaluate this in the future.
-
 ## Bluesky
 
 Bluesky intends to be a decentralized and federated service like Mastodon, but using their own [AT Protocol](https://atproto.com) instead of ActivityPub.
@@ -51,3 +35,16 @@ Threads, the micro-blogging app from Meta, has announced their intent to impleme
 Since this is a native implementation and not a bridge, it is not covered by our general prohibition on these services.
 
 More information can be found [here](/rules/threads).
+
+## X-Twitter
+
+From our start in 2022 through late 2024, we blocked federation with X-Twitter applications [bird.makeup](https://sr.ht/~cloutier/bird.makeup/) and similar clones.
+
+After re-evaluating this policy, we now allow limited federation with these types of platforms so they can be directly added by a user but will not appear in general search results.
+Users will receive an alert that the domain is limited by our systems before viewing the profiles when they're identified.
+
+Unlike bridging solutions for Bluesky or Nostr, which are two-way, applications that bridge X-Twitter are exclusively a one-way operation.
+Your likes and replies with the person running the X-Twitter account are visible to other vmst.io users, but are not sent back and are never seen by the author.
+Boosts are shared to your followers, and visible to them only if they are on servers that do not block them.
+
+No vmst.io user data is ever shared with X-Twitter.
