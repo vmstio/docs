@@ -14,7 +14,7 @@ Clients
     #title
     Web
     #description
-    [Official Client](https://vmst.io), [Bird UI](/clients/bird), [Tangerine](/clients/tangerine), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
+    [Official Client](https://vmst.io), [Bird UI](/about/bird), [Tangerine](/about/tangerine), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
     ::
 
     ::card{icon="ph:android-logo-bold"}
