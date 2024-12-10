@@ -4,7 +4,7 @@ title: Versions
 
 # Versions
 
-The overwhelming majority of Mastodon servers are running the standard "tagged" releases from the Mastodon project, and look something like `v4.1.6`, but as explained before, we do things a little differently here.
+The overwhelming majority of Mastodon servers are running the standard "tagged" releases from the Mastodon project, and look something like `v4.3.2`, but as explained before, we do things a little differently here.
 
 Mastodon, like most [Ruby](https://www.ruby-lang.org/en/) programs, uses something called "semver" or [Semantic Versioning] to represent its version number.
 This is represented as `vMAJOR.MINOR.PATCH` such as with Mastodon `v4.1.6` as mentioned above.
@@ -18,9 +18,10 @@ The process of submitting those changes is called a _pull request_.
 Once a pull request has been approved by the project team, it's _merged_ back into the main branch.
 
 Once the project team has determined that all of the features they want to include in a new MAJOR.MINOR version of Mastodon are ready for public consumption, the current status of the main branch is tagged, and starts its own stable/release branch.
-For example, when Mastodon 4.1.0 was released, there was a new branch called `stable-4-1` that was created.
+For example, when Mastodon 4.3.0 was released, there was a new branch called `stable-4-3` that was created.
 
-Work then begins on Mastodon 4.2.0, with pull requests being merged into `main`. As bugs are found and fixed that impact previous stable releases, those changes are also merged into the other supported stable branches, and then tagged for release as `v4.1.1`, `v3.5.7`, etc.
+Work then begins on Mastodon 4.4.0, with pull requests being merged into `main`.
+As bugs are found and fixed that impact previous stable releases, those changes are also merged into the other supported stable branches, and then tagged for release as `v4.2.x`, `v4.1.x`, etc.
 
 In order to get new features, Mastodon administrators must upgrade to the next `vMAJOR.MINOR` release.
 
@@ -29,9 +30,9 @@ In order to get new features, Mastodon administrators must upgrade to the next `
 ## Pre-releases
 
 Some Mastodon servers, including vmst.io, run pre-release versions of Mastodon to get quicker access to new features as well as to help with testing before they're released to the community for administrators who want to only run stable releases.
-Our users’ feedback helps shape the Mastodon product for everyone!
+Our user feedback helps shape the Mastodon product for everyone!
 
-Starting with Mastodon 4.2, the project is standardizing the use of `alpha`, `nightly`, `beta`, and `rc` pre-releases.
+Starting with Mastodon 4.2, the project standarized the use of `alpha`, `nightly`, `beta`, and `rc` pre-releases.
 
 - `alpha.X` is used to identify servers running directly from the `main` branch on GitHub, either compiled from source directly or using their own container images.
 - `nightly` is used to identify servers running typically from the project compiled container images which are automatically published with the current status of `main` every night.
@@ -39,7 +40,7 @@ Starting with Mastodon 4.2, the project is standardizing the use of `alpha`, `ni
 
 Servers which run on `alpha.X` or `nightly` are typically running the latest code available when it went into production, and not waiting for an official release.
 
-Additional "metadata" about the release can be added after the pre-release flag, such as a GitHub commit or PR. (Ex: `v4.3.0-alpha.0+pr-41231`)
+Additional "metadata" about the release can be added after the pre-release flag, such as a GitHub commit or PR. (Ex: `v4.4.0-alpha.1+pr-54321`)
 
 ## Forks & Metadata
 
@@ -52,6 +53,6 @@ Version information is visible in the lower left corner of the web interface on 
 
 ![About Version](/about.png)
 
-In the image example, vmst.io is running the `4.4.0-alpha.1` version of Mastodon, which the `alpha.1` indicates it was being built from the `main` branch on GitHub, at commit [c78dc23](https://github.com/mastodon/mastodon/commit/c78dc23b497ae71e91c6362b91c57a4810715b72) (represented by the first seven characters of the hash), plus minimal local changes specific to vmst.io as noted by `+io`.
+In the image example, vmst.io is running the `4.4.0-alpha.1` version of Mastodon, which the `alpha.1` indicates it was being built from the `main` branch on GitHub, at commit [e4e35ab](https://github.com/mastodon/mastodon/commit/c78dc23b497ae71e91c6362b91c57a4810715b72) (represented by the first seven characters of the hash).
 
-Once Mastodon 4.4 is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.5.0-alpha.1+io` automatically.
+Once Mastodon 4.4 is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.5.0-alpha.1` automatically.
