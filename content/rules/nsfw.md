@@ -4,7 +4,7 @@ title: NSFW
 
 # NSFW
 
-We require that users refrain from posting sexually explicit content using their vmst.io accounts.
+We request that users refrain from posting sexually explicit content using their vmst.io accounts.
 While the definition of what is considered explicit might differ from region to region, this is generally understood to be content that would be considered explicit for users in the United States and Canada where our services are hosted.
 
 Absolutely under no circumstance is 18+ content allowed without a content warning.
@@ -18,7 +18,7 @@ As a result, explicit content may show up on the Federated timeline where it’s
 Moderators will make an effort to issue limitations to remote accounts who regularly post explicit content.
 Limiting the account will enable those who directly follow the account to continue accessing it, while preventing its visibility on the Federated timeline.
 
-If local accounts are deemed to be following such content in an attempt to “poison” the federated timeline, those accounts should be suspended after consultation with an Administrator.
+If local accounts are deemed to be following such content in an attempt to “poison” the federated timeline, those accounts will be suspended.
 
 ## CSAM
 

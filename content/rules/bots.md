@@ -1,8 +1,8 @@
 ---
-title: Bot Accounts
+title: Bots
 ---
 
-# Bot Accounts
+# Bots
 
 Bot accounts are not prohibited on vmst.io, so long as they provide some clear purpose or value to either the vmst.io community or wider Fediverse.
 

@@ -1,12 +1,8 @@
 ---
-title: SPAM
+title: Advertising
 ---
 
-# SPAM
-
-No advertising, spam, or excessive promotion.
-
-## Advertising
+# Advertising
 
 The prohibition against advertising generally applies to posts where the user is being financially compensated for their content, also known as "sponsored posting".
 There is a lot of nuance here, in that posting a link to a video or blog entry of a product review where the product was given to the reviewer in exchange for their work as a reviewer may not be considered a violation of this policy, but a post directly to vmst.io itself promoting a product may be considered in breach.
@@ -25,7 +21,8 @@ vmst.io itself cannot evaluate every request for donations, so we ask users to u
 
 There is no hard and fast measure for what defines excessive.
 
-Generally, the types of accounts we want on vmst.io are personal accounts where you identify as you, with your name and face. You speak in your voice, you participate in the community and the wider Fediverse as you.
+Generally, the types of accounts we want on vmst.io are personal accounts where you identify as you, with your name and face.
+You speak in your voice, you participate in the community and the wider Fediverse as you.
 
 You can post about life, work, hobbies, ups and downs, memes, whatever you'd like (within the [rules](/rules).)
 
@@ -33,11 +30,3 @@ As outlined above, life and work may cross over into revenue-generating activity
 Until we reach the 23rd century Star Trek utopia where we can live our dreams without worry about how our basic needs are fulfilled, we live in societies where we have to have money to survive.
 
 When the bulk of your activity on the site becomes in service of that promotion, or borders on being considered a [corporate or brand account](/rules/brands), we would ask that you migrate to another server that better fits your needs.
-
-## Hashtags Overuse
-
-Due to the federated nature of Mastodon, and current limitations in searching, hashtags are used to help with content delivery and discovery.
-However, their overuse can be disruptive and degrade their value.
-
-Users who misuse or overuse hashtags may be asked by server staff to stop, or have limitations placed on their account which would prevent their non-followers from discovering their content.
-Continued misuse may result in temporary or permanent account suspension.

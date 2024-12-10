@@ -1,8 +1,8 @@
 ---
-title: Moderation Process
+title: Moderation
 ---
 
-# Moderation Process
+# Moderation
 
 In the spirit of full disclosure, we have decided to make our moderation process open to public viewing.
 The purpose is to guide our staff in their decisions to take action on a member.

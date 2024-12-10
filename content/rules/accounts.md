@@ -7,7 +7,7 @@ title: Accounts
 In order to keep the number of junk accounts on vmst.io as low as possible, we ask you to:
 
 ::list{type="success"}
-- Register for an account at [vmst.io/auth/sign_up](https://vmst.io/auth/sign_up)
+- [Register for an account](https://vmst.io/auth/sign_up)
 - Verify your provided email address by clicking a link we'll send to you from [mastodon@ses.vmst.io](/infrastructure/mailer)
 - Complete a [hCaptcha](https://www.hcaptcha.com) verification
 - Wait while our moderation system approves your account for use
