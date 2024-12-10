@@ -7,7 +7,7 @@ title: Clients
 One of the great things about Mastodon is that in addition to the default user interface, you have the ability to use any variety of third-party clients that you like.
 Some of these are hosted on other websites like [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and some are baked directly into the vmst.io deployment.
 
-## Bird UI
+## Bird
 
 Bird UI is an alternative theme for the main Mastodon web interface and provides an interface similar to what you might find from legacy Birdsites.
 
@@ -54,7 +54,7 @@ Other Clients
     #title
     Web
     #description
-    [Official Client](https://vmst.io), [Bird UI](/about/bird), [Tangerine](/about/tangerine), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
+    [Official Client](https://vmst.io), [Bird UI](/about/clients#bird), [Tangerine](/about/clients#tangerine), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
     ::
 
     ::card{icon="ph:android-logo-bold"}
