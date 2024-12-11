@@ -32,12 +32,12 @@ If an administrator chooses to implement it, Mastodon can integrate with [Elasti
 - Full text search of **your own** posts (including alt-text data)
 - Full text search of replies to **your own** posts
 - Any other post that **you** have directly interacted with (bookmarked, marked as a favorite, or boosted)
-- Starting in Mastodon 4.2, **any post** from users who **opt-in** to full text search indexing.
+- **Any post** from users who **opt-in** to full text search indexing.
 
 ![John Mastodon Example Search](/john-mastodon.png)
 
 While this is considered an optional component for Mastodon deployments, it is utilized on [vmst.io](https://vmst.io).
-We use a multi-node Elasticsearch 7.x implementation running on our Kubernetes cluster.
+We use a Digital Ocean managed implementation of OpenSearch.
 
 _How will I know if full text searching is enabled on my server?_
 
@@ -82,13 +82,12 @@ Changing this setting is not recommended.
 The `discoverable` and `indexable` settings are federated to other Mastodon servers running version 4.2 beta 2 or higher, as well as other Fediverse software platforms that are programmed to recognize this setting.
 The Mastodon project carefully considers and debates the implementation of features like search with a goal of providing for user consent while avoiding misuse.
 
-However, some Mastodon servers have side-stepped some of the privacy concerns and previously implemented an enhanced full text search which does not currently respect this `indexable` flag, while other Fediverse projects and forks have done so in their own ways.
-
+However, some servers may side-step some of the privacy concerns and implement an different full text search method which does not respect this `indexable` flag, while other Fediverse projects and forks have done so in their own ways.
 vmst.io has limited controls over how other federated platforms index your posts.
 
 ## Search Modifiers
 
-The following search modifiers are available as of Mastodon 4.2:
+The following search modifiers are available on vmst.io, and other servres using at least Mastodon 4.2:
 
 | Operator        | Modifies search to                                                   |
 |-----------------|----------------------------------------------------------------------|
@@ -118,4 +117,4 @@ As this feature is further developed, more modifiers may become available.
 - Searching for `"Star Wars"` will only return posts that contain the combined phrase.
 - To see all indexed posts which mention the phrase `John Mastodon` AND include an image posted before August 1, use the following search: `'John Mastodon' has:image before:2023-08-01`
 - To see all indexed posts for Star Trek that include images but exclude SNW to avoid spoilers, for example, use `'Star Trek' has:image -SNW`
-- To see posts from [@vmstan] that mention VMware but exclude any replies, use `from:vmstan -is:reply VMware`
+- To see posts from [@vmstan] that mention "coffee" but exclude any replies, use `from:vmstan -is:reply coffee`
