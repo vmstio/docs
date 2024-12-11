@@ -4,7 +4,7 @@ title: Threads
 
 # Threads
 
-Threads, the micro-blogging app from Meta, has is working towards implementing ActivityPub and join its user base to the rest of the Fediverse.
+Threads, the micro-blogging app from Meta, is working towards implementing ActivityPub and join its user base to the rest of the Fediverse.
 
 ## Known Issues
 
