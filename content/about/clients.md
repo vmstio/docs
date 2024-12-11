@@ -7,40 +7,37 @@ title: Clients
 One of the great things about Mastodon is that in addition to the default user interface, you have the ability to use any variety of third-party clients that you like.
 Some of these are hosted on other websites like [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and some are baked directly into the vmst.io deployment.
 
-## Bird
+## Web Themes
+
+Mastodon has multiple built in themes that work great on both desktop and mobile, including an automatic theme that select light or dark based on your system configuration.
+There are also manual options for the dark, light and a darker high-contrast theme.
+
+To change the theme on your vmst.io account, visit Preferences > [Appearance](https://vmst.io/settings/preferences/appearance) > Site Theme.
+
+Additionally, vmst.io includes a couple of popular third-party themes.
+
+### Bird
 
 Bird UI is an alternative theme for the main Mastodon web interface and provides an interface similar to what you might find from legacy Birdsites.
-
-The code for Bird UI is maintained by [Roni Laukkarinen](https://vmst.io/@rolle@mementomori.social).
-It is [available on GitHub](https://github.com/ronilaukkarinen/mastodon-bird-ui).
-
-To enable Bird UI on your vmst.io account, visit Preferences > [Appearance](https://vmst.io/settings/preferences/appearance) > Site Theme > Bird UI.
+The code for Bird UI is maintained by [Roni Laukkarinen](https://vmst.io/@rolle@mementomori.social) and is [available on GitHub](https://github.com/ronilaukkarinen/mastodon-bird-ui).
 
 :button-link[Enable Bird UI]{icon="fluent-emoji-high-contrast:bird" href="https://vmst.io/settings/preferences/appearance" blank}
 
-This will work with the default single-column or Advanced multi-column layout options.
+Bird UI will work with the default single-column or Advanced multi-column layout options.
 There are also High Contrast and Light color theme options available.
 Unlike the default Mastodon theme, there is currently no automatic color switching for the Bird UI with your system light/dark settings.
 
-To disable Bird UI, simply select one of the default Mastodon themes from the same control panel option.
-
 _This option was previously known as Elephant in the web interface_.
 
-## Tangerine
+### Tangerine
 
 Tangerine is an alternative theme for the main Mastodon web interface.
-
-The code for Tangerine is maintained by [Niléane](https://vmst.io/@nileane@nileane.fr).
-It is [available on GitHub](https://github.com/nileane/TangerineUI-for-Mastodon).
-
-To enable Tangerine on your vmst.io account, visit Preferences > [Appearance](https://vmst.io/settings/preferences/appearance) > Site Theme > Tangerine.
+The code for Tangerine is maintained by [Niléane](https://vmst.io/@nileane@nileane.fr) and it is [available on GitHub](https://github.com/nileane/TangerineUI-for-Mastodon).
 
 :button-link[Enable Tangerine]{icon="fluent-emoji-high-contrast:tangerine" href="https://vmst.io/settings/preferences/appearance" blank}
 
 Tangerine will automatically switch between dark and light mode based on your system settings.
 There are also multiple color variants like Cherry and Lagoon, and for folks who like the layout options of Tangerine, but prefer the stock Mastodon color scheme, there is also a purple option.
-
-To disable Tangerine, select one of the default Mastodon themes from the same control panel option.
 
 ::card-grid
 #title
@@ -54,28 +51,28 @@ Other Clients
     #title
     Web
     #description
-    [Official Client](https://vmst.io), [Bird UI](/about/clients#bird), [Tangerine](/about/clients#tangerine), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
+    [Official Client](https://vmst.io), [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and [Semaphore](https://semaphore.social)
     ::
 
     ::card{icon="ph:android-logo-bold"}
     #title
     Android
     #description
-    [Official Client](https://play.google.com/store/apps/details?id=org.joinmastodon.android), [Fedilab](https://fedilab.app/), [Megalodon](https://sk22.github.io/megalodon/), [Tusky](https://tusky.app/), or [Tooot](https://tooot.app/)
+    [Official Client](https://play.google.com/store/apps/details?id=org.joinmastodon.android), [Fedilab](https://fedilab.app/), [Tusky](https://tusky.app/).
     ::
 
     ::card{icon="majesticons:iphone-x-apps"}
     #title
     iOS
     #description
-    [Official Client](https://apps.apple.com/us/app/mastodon-for-iphone-and-ipad/id1571998974), [Ivory](https://apps.apple.com/app/id6444602274), [Ice Cubes](https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884), [Feditext](https://github.com/feditext/feditext), [Toot](https://apps.apple.com/app/toot/id1229021451?ls=1), [Mastoot](https://apps.apple.com/us/app/mastoot/id1501485410), [Tusker](https://apps.apple.com/us/app/tusker/id1498334597), [Mona](https://apps.apple.com/us/app/mona-for-mastodon/id1659154653), [Mammoth](https://getmammoth.app), [Woolly](https://apps.apple.com/us/app/woolly-for-mastodon/id6444360628), [Radiant](https://apps.apple.com/us/app/radiant-for-mastodon/id6444323022), [Manny](https://apps.apple.com/us/app/manny-for-mastodon/id1668409667), or [Herd](https://apps.apple.com/pl/app/herd-for-mastodon/id6447533834)
+    [Official Client](https://apps.apple.com/us/app/mastodon-for-iphone-and-ipad/id1571998974), [Ivory](https://apps.apple.com/app/id6444602274), [Ice Cubes](https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884), [Feditext](https://github.com/feditext/feditext), [Tusker](https://apps.apple.com/us/app/tusker/id1498334597), [Mona](https://apps.apple.com/us/app/mona-for-mastodon/id1659154653), [Mammoth](https://apps.apple.com/us/app/mammoth-for-mastodon/id1667573899), or [Radiant](https://apps.apple.com/us/app/radiant-for-mastodon/id6444323022)
     ::
 
     ::card{icon="ph:apple-logo-fill"}
     #title
     macOS
     #description
-    [Ivory](https://tapbots.com/ivory/), [Mastonaut](https://github.com/chucker/Mastonaut/releases), [Mona](https://apps.apple.com/us/app/mona-for-mastodon/id1659154653), [Mammoth](https://getmammoth.app), [Manny](https://apps.apple.com/us/app/manny-for-mastodon/id1668409667)
+    [Ivory](https://apps.apple.com/us/app/ivory-for-mastodon-by-tapbots/id6444602274), [Mastonaut](https://github.com/chucker/Mastonaut/releases), [Mona](https://apps.apple.com/us/app/mona-for-mastodon/id1659154653), [Mammoth](https://apps.apple.com/us/app/mammoth-for-mastodon/id1667573899), or [Tusker](https://apps.apple.com/us/app/tusker/id1498334597)
     ::
 
     ::card{icon="ph:windows-logo-fill"}
