@@ -86,7 +86,7 @@ Examples of clear and obvious might be new accounts or accounts from other serve
 * Posts in excess, particularly if they appear automated.
 * Use excessive mentions or hashtags.
 
-Please refer to our rules on [Advertising & Excessive Promotion](/rules/advertising) for items which might run afoul of this rule but are less clear and obvious.
+Please refer to our rules on [Commerce, Advertising & Brands](/about/commerce) for items which might run afoul of this rule but are less clear and obvious.
 
 ### Extremism
 
@@ -97,11 +97,11 @@ If the account has just signed up or their time on the server has only been used
 
 ### NSFW/Sexual Content
 
-Please refer to our rules on [NSFW](/rules/advertising) content for items which might run afoul of this rule.
+Please refer to our rules on [NSFW](/about/explicit) content for items which might run afoul of this rule.
 
 Sexual content might generally fall into one of three categories:
 
-* 18+
+* 18+/NSFW
 * Explicit
 * Illegal
 
@@ -111,7 +111,7 @@ Illegal content, such as CSAM or content that violates the consent of others, wi
 
 ### Brand Accounts
 
-Brands who create accounts in violation of our [policies](/rules/brands) will generally be asked to migrate their account to a different server.
+Brands who create accounts in violation of our [policies](/rules/commerce) will generally be asked to migrate their account to a different server.
 These types of violations should be handled by Administrators.
 
 ## Report Types
