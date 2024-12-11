@@ -9,7 +9,7 @@ This helps with content discovery and more to complete conversation threads and 
 
 Federation and content discovery still happen without relays, but relays create an express lane between servers who participate.
 
-## Relays Participation
+## Participation
 
 ::alert{type="info"}
 Effective November 1, 2024, we are no longer participating in any relay systems.
