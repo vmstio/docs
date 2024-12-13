@@ -9,7 +9,7 @@ While the creation and use of large language models are not inherently unethical
 
 ## Data Training
 
-Except where necessary to provide core Mastodon services such as indexing content to return search results via our web interface or API, we do not, and will not, train any LLMs using vmst.io or federated user data.
+Except where necessary to provide core Mastodon services such as indexing content to return search results via our web interface or API, we do not, and will not, train any data models using vmst.io or federated user data.
 We do not, and will not, provide access for third-parties to use vmst.io or federated user data for any training purposes.
 
 ## Prohibited Uses
