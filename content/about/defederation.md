@@ -7,7 +7,7 @@ title: Defederation
 We defederate (aka Fediblock) vmst.io from other servers that are incompatible with our fundamental rules, in an effort to protect our users and limit our liability.
 We would rather be proactive in blocking bad actors versus waiting for abuse to happen.
 
-The fill list of defederated servers is available [from Mastodon](https://vmst.io/about).
+The full list of defederated servers is available [from Mastodon](https://vmst.io/about).
 
 ## Sources
 
