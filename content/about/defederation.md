@@ -55,7 +55,7 @@ The opinion of any named individual users were not specifically considered as pa
 
 Most respondents emphasized the importance of personal choice in federation:
 
-> "I still think the decision to block/not block should be left to individual users" reflects a common sentiment throughout the responses.
+> "I still think the decision to block/not block should be left to individual users."
 
 Users value the ability to make granular decisions about their Threads interactions, with some maintaining separate accounts for different purposes.
 
@@ -77,8 +77,9 @@ Strong concerns about Meta's corporate behavior appeared frequently:
 
 Users often referenced their direct experience:
 
-- "Hasn't been a problem so far and I do follow a couple of Threads accounts" reflects a pragmatic view shared by several respondents.
-- Some questioned whether blocking would actually prevent Meta from accessing content, suggesting a focus on practical rather than symbolic actions.
+> "Hasn't been a problem so far and I do follow a couple of Threads accounts."
+
+Some questioned whether blocking would actually prevent Meta from accessing content, suggesting a focus on practical rather than symbolic actions.
 
 ##### Overall Sentiment
 
@@ -88,4 +89,9 @@ The feedback suggests a nuanced community position:
 - Openness to implementing limitations rather than full defederation
 - Recognition of both Meta's problematic history and Threads' potential value
 - Preference for evidence-based decisions over preemptive actions
-- Many users indicated they would support administrative decisions either way, but the majority favored maintaining some level of federation while implementing appropriate safeguards.
+
+Many users indicated they would support administrative decisions either way, but the majority favored maintaining some level of federation while implementing appropriate safeguards.
+
+#### Administrator Decision
+
+At this time vmst.io will not be making any changes reguarding our federation with Threads.
