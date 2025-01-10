@@ -36,11 +36,11 @@ The survey was prompted mainly by Meta's announcement of [changes to their moder
 Users were given the following options to consider:
 
 1. "Suspend" (aka Defederate) the `threads.net` domain which would completely block any interaction between `vmst.io` and Threads users.
-2. "Limit" the domain so that Threads posts would not appear in public (Live Feeds > Other Servers) timelines, viewing Threads user profiles in the Web UI would have an additional notice added that the domain is limited, and Threads users would not be able to follow vmstio accounts without user approval.
+2. "Limit" the domain so that Threads posts would not appear in public (Live Feeds > Other Servers) timelines, viewing Threads user profiles in the Web UI would have an additional notice added that the domain is limited, and Threads users would not be able to follow vmst.io accounts without user approval.
 3. Take no action against Threads at this time. Administrators and moderators continue to evaluate changes to Threads and take action against any individual users as needed.
 
 Users can block the `threads.net` domain on an individual basis without an instance-wide limitation.
-However, if an instance-wide suspension were implemented, individual vmstio users would not be able to federate or interact with Threads users.
+However, if an instance-wide suspension were implemented, individual vmst.io users would not be able to federate or interact with Threads users.
 
 The survey was anonymous unless members choose to share their name as part of the submission.
 The opinion of any named individual users were not specifically considered as part of the results, and the survey itself was used onl to guide administrator decision making in the policy not dictate any final outcome.
