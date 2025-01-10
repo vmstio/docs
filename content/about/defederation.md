@@ -31,7 +31,7 @@ Additionally, Mastodon provides controls for individual users to block any domai
 We conducted a survey of members in the first week of January 2025, relating to our continued federation with Threads.
 At the time of the survey there were 7,680 Threads users visible by our server, with 505 follow relationships.
 
-The survey was prompted mainly by Meta's announcement of [changes to their moderation polcies](https://www.theverge.com/2025/1/7/24338471/meta-hate-speech-hateful-conduct-policy-moderation).
+The survey was prompted mainly by Meta's announcement of [changes to their moderation policies](https://www.theverge.com/2025/1/7/24338471/meta-hate-speech-hateful-conduct-policy-moderation).
 
 Users were given the following options to consider:
 
