@@ -40,4 +40,4 @@ It is not possible for any third-party server to insert ad-like posts into your 
 
 If someone you follow makes a sponsored post and you do not want to see it, you can unfollow or mute that person, just as if that other person was on a Mastodon server.
 
-### [Defederation →][/about/defederation#threads]
+### [Defederation →](/about/defederation#threads)
