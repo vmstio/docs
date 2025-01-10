@@ -42,7 +42,7 @@ Users were given the following options to consider:
 Users can block the `threads.net` domain on an individual basis without an instance-wide limitation.
 However, if an instance-wide suspension were implemented, individual vmst.io users would not be able to federate or interact with Threads users.
 
-The survey was anonymous unless members choose to share their name as part of the submission.
+The survey was anonymous unless members chose to share their name as part of the submission.
 The opinion of any named individual users were not specifically considered as part of the results, and the survey itself was used onl to guide administrator decision making in the policy not dictate any final outcome.
 
 - 55% favored making no changes to vmst.io policy at this time.
