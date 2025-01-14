@@ -12,10 +12,11 @@ The majority of our income comes from monthly subscriptions through [Ko-Fi](http
 
 At the moment, all of our staff are volunteers, and our only expenses are monthly bills to our various server providers.
 
-| **Vendor**    | **Monthly** |
-|---------------|-------------|
-| DigitalOcean  | $618        |
-| AWS           | $1          |
+| **Vendor**   | **Monthly** |
+| ------------ | ----------- |
+| DigitalOcean | $430        |
+| DeepL        | $7          |
+| AWS          | $1          |
 
 Money is set aside to cover any tax expenses or unforeseen costs.
 Additional funds have also been used to make donations to open-source software projects that we use, such as Mastodon and Elk.
@@ -23,7 +24,7 @@ Additional funds have also been used to make donations to open-source software p
 We also periodically test different service offerings to decide if their long-term use would be a good fit.
 After a period of review and testing, we may discontinue such offerings if they do not contribute to the community as shown by use.
 
-Last Updated: August 2024.
+Last Updated: January 2025.
 
 ## Processing Fees
 
