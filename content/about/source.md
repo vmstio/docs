@@ -15,6 +15,8 @@ Our server-specific customizations include:
 
 - Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
 - Raising the post character count limit from 500 to 640 ([vmstan/mastodon #36](https://github.com/vmstan/mastodon/pull/36))
+- Modifying the timeline media indicators ([vmstan/mastodon #45](https://github.com/vmstan/mastodon/pull/45) & [vmstan/mastodon #48](https://github.com/vmstan/mastodon/pull/48))
+- Adding some whimsey during the winter holidays ([vmstan/mastodon #51](https://github.com/vmstan/mastodon/pull/51))
 - Adding the [Bird UI](/about/clients#bird) and [Tangerine](/about/clients#tangerine) themes ([vmstan/mastodon #6](https://github.com/vmstan/mastodon/pull/6))
 
 Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [official project repository](https://github.com/mastodon/mastodon) or in the [vmst.io development fork](https://github.com/vmstan/mastodon/pulls?q=is%3Apr+is%3Aopen+label%3Avmst.io%2Fdeployed).
