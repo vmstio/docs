@@ -2,6 +2,8 @@
 title: Norms
 ---
 
+# Norms
+
 Outside of our [Rules](/rules), there are certain "norms" of Mastodon and the Fediverse that you'll be expected to respect while you are a member of this server.
 Some of these norms may be different than what you're used to on other platforms.
 
