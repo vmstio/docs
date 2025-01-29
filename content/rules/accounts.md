@@ -7,7 +7,7 @@ title: Accounts
 In order to keep the number of junk accounts on vmst.io as low as possible, we ask you to:
 
 ::list{type="success"}
-- [Register for an account](https://vmst.io/auth/sign_up)
+- [Register for an account](https://vmst.io/auth/sign_up) and provide your intended use case
 - Verify your provided email address by clicking a link we'll send to you from [mastodon@ses.vmst.io](/infrastructure/mailer)
 - Complete a [hCaptcha](https://www.hcaptcha.com) verification
 - Wait while our moderation system approves your account for use
@@ -17,6 +17,28 @@ In order to keep the number of junk accounts on vmst.io as low as possible, we a
 All new account requests that do not complete email and hCaptcha verification **within 7 days** are automatically deleted.
 If our systems identify your account request as a risk, we may decline it or request additional information before approval.
 ::
+
+## Rejection
+
+Some registration requests may be automatically flagged by our spam detection system.
+This automated screening helps us maintain a healthy community by preventing automated signups and potential abuse and may be flagged for one or more of the following reasons:
+
+- The email address used has patterns commonly associated with temporary or disposable email services
+- The IP address used for registration has been associated with suspicious activity
+
+In some cases our moderation team may manually reject your registration request, for one of more of the following reasons:
+
+- The registration attempt matched patterns typical of automated bot signups
+- Multiple rapid registration attempts were detected from your network
+- Your intended use case was unclear or in violation of our site policies
+
+In either case, if you feel we've rejected your account request in error:
+
+- Send an email to [our administrators](/about/staff) with a brief explanation of how you plan to use your vmst.io account
+- Include any relevant links to your presence on other Mastodon instances or social media
+- Provide additional context about your interest in joining our community
+
+We will review your response and manually provision an account for you, if appropriate.
 
 ## Preserving Your Account
 
