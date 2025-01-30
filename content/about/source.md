@@ -30,9 +30,11 @@ Individual container builds may include additional changes which are being teste
 Our customized container image is available from both Docker and GitHub container registries. This is suitable for the web/Puma and Sidekiq services.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/mastodon)
+- [Docker Hub](https://hub.docker.com/r/vmstan/mastodon)
 
 ### Streaming Image
 
 Mastodon 4.3-based images and beyond use a seperate container image for the Streaming API.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/mastodon-streaming)
+- [Docker Hub](https://hub.docker.com/r/vmstan/mastodon-streaming)
