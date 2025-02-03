@@ -17,29 +17,41 @@ There are a few issues here:
 - There can be inconsistency in behaviors when bridged accounts are interacted with (followed/unfollowed, replied to, boosted, liked, etc.)
 - Creates a single point of failure between networks, bridge implementations may not respond properly because they are overloaded or incorrectly implemented.
 
-In general, vmst.io does not connect to these services or allow our users' posts to be accessed through these services.
+## Protocol Level
 
-## Bluesky
+Protocol level bridging is generally prohibited on vmst.io.
+We do not connect to these services or allow our users' posts to be accessed through these services.
+
+### Bluesky
 
 Bluesky intends to be a decentralized and federated service, but using their own [AT Protocol](https://atproto.com) instead of ActivityPub.
 
 At this time, we have defederated from the known Bluesky bridge that is being developed, [brid.gy](https://github.com/snarfed/bridgy-fed).
 
-## Nostr
+### Nostr
 
 Nostr is another decentralized and federated service that uses their own protocol instead of ActivityPub.
 
 At this time, we have defederated from the known Nostr bridges in operation, based on [Mostr](https://gitlab.com/soapbox-pub/mostr).
 
-## X-Twitter
+## Republishing
 
-From our start in 2022 through late 2024, we blocked federation with X-Twitter applications like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/), and similar clones.
+Services which provide republishing of content from other services are allowed to federate, but with some restrictions.
 
-After re-evaluating this policy, we now allow limited federation with these types of platforms so they can be directly added by a user -- but they will not appear in general search results.
-Users will receive an alert that the domain is limited by our systems before viewing the profiles when they're identified.
-
-Unlike bridging solutions for Bluesky or Nostr, which are two-way, applications that bridge X-Twitter are exclusively a one-way operation.
-Your likes and replies with the person running the X-Twitter account are visible to other vmst.io users, but are not sent back and are never seen by the author.
+These services provide a "bot-like" account that may appear to be a native ActivityPub-enabled account, consumable in Mastodon.
+Likes and replies with the person running the source account are visible to other vmst.io users, but are not sent back and are never seen by the author.
 Boosts are shared to your followers, and visible to them only if they are on servers that do not block them.
 
+Sources for republished content may be from RSS-feeds, X-Twitter, Instagram, or centralized services.
+
+### X-Twitter
+
+From our start in 2022 through late 2024, we blocked federation with applications like [bird.makeup](https://sr.ht/~cloutier/bird.makeup/).
+
+After re-evaluating this policy, we now allow limited federation with these types of platforms so they can be directly added by a user.
+
 **No vmst.io user data is ever shared with X-Twitter.**
+
+### Instagram
+
+Similar to our policy on X-Twitter, there is a deployment called [kilogram.makeup](https://sr.ht/~cloutier/bird.makeup/).
