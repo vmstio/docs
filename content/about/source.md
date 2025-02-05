@@ -19,7 +19,10 @@ Our server-specific customizations include:
 - Modifying the timeline media indicators ([vmstan/mastodon #45](https://github.com/vmstan/mastodon/pull/45) & [vmstan/mastodon #48](https://github.com/vmstan/mastodon/pull/48))
 - Adding some whimsey during the winter holidays ([vmstan/mastodon #51](https://github.com/vmstan/mastodon/pull/51))
 - Adding Docs link to the sidebar ([vmstan/mastodon #53](https://github.com/vmstan/mastodon/pull/53))
+- Raising image attachment maximums from 8MP to 48MP ([vmstan/mastodon #54](https://github.com/vmstan/mastodon/pull/4))
+- Raising the poll option limit from 4 yo 6 ([vmstan/mastodon #55](https://github.com/vmstan/mastodon/pull/55))
 - Flip the translate button location ([mastodon/mastodon #33619](https://github.com/mastodon/mastodon/pull/33619))
+- Limit alt-text reminders on replies and private mentions ([mastodon/mastodon #33784](https://github.com/mastodon/mastodon/pull/33783))
 
 Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [official project repository](https://github.com/mastodon/mastodon) or in the [vmst.io development fork](https://github.com/vmstan/mastodon/pulls?q=is%3Aopen+is%3Apr+label%3Avmst.io%2Fdeployed%2Cvmst.io%2Ftesting).
 
