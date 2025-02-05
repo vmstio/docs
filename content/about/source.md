@@ -20,7 +20,7 @@ Our server-specific customizations include:
 - Adding some whimsey during the winter holidays ([vmstan/mastodon #51](https://github.com/vmstan/mastodon/pull/51))
 - Adding Docs link to the sidebar ([vmstan/mastodon #53](https://github.com/vmstan/mastodon/pull/53))
 - Raising image attachment maximums from 8MP to 48MP ([vmstan/mastodon #54](https://github.com/vmstan/mastodon/pull/4))
-- Raising the poll option limit from 4 yo 6 ([vmstan/mastodon #55](https://github.com/vmstan/mastodon/pull/55))
+- Raising the poll option limit from 4 to 6 ([vmstan/mastodon #55](https://github.com/vmstan/mastodon/pull/55))
 - Flip the translate button location ([mastodon/mastodon #33619](https://github.com/mastodon/mastodon/pull/33619))
 - Limit alt-text reminders on replies and private mentions ([mastodon/mastodon #33784](https://github.com/mastodon/mastodon/pull/33783))
 
