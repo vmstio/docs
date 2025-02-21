@@ -10,7 +10,7 @@ It performs periodic polling of known Mastodon instances.
 
 **Source:** [https://github.com/vmstio/vmcrawl](https://github.com/vmstio/vmcrawl)
 
-![/vmcrawl.png](Screenshot of a Grafana dashboard with vmcrawl data)
+![Screenshot of a Grafana dashboard with vmcrawl data](/vmcrawl.png)
 
 ## Crawled Endpoints
 
