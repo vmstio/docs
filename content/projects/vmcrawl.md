@@ -4,7 +4,7 @@ title: vmcrawl
 
 # vmcrawl
 
-vmcrawl is a Mastodon-focused version of a reporting crawler.
+vmcrawl is a Mastodon-focused version reporting crawler.
 It is written in Python, with a Postgres database backend.
 It performs periodic polling of known Mastodon instances.
 
