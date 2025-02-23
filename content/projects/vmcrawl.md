@@ -19,9 +19,9 @@ vmcrawl may attempt to access the following endpoints of your Fediverse server:
 - `/robots.txt`
 - `/.well-known/webfinger`
 - `/.well-known/host-meta`
-- `/.well-known/nodeinfo` (and alternative locations referenced in this document)
+- `/.well-known/nodeinfo`
 
-Based on those results, if it's determined that your server is running Mastodon, it may contact:
+Based on those results, if it's determined that your server is running Mastodon, it may access:
 
 - `/api/v2/instance` for Mastodon 4.x
 - `/api/v1/instance` for Mastodon 3.x
@@ -50,15 +50,13 @@ It will also respect a disallow of all bots/crawlers in this file, or an HTTP 41
 
 vmcrawl collects the following data only from instances that it identifies as Mastodon, or a related fork:
 
-- Domain Name
 - Software Version
-- Total Users Count
-- Active Users Count
-- Administrator Email Address
-- Source Code Repository
+- Total & Active Users Count
+- Administrator Address
+- Code Repository
 
 vmcrawl may periodically request a list of peer instances from a server, but only to discover new servers to request the data outlined above.
-It does not store peer information for any server.
+It does not store specific peer information for any server.
 
 ## Uncrawled Instances
 
@@ -70,3 +68,4 @@ Some instances may not appear in our results based on many factors:
 - Instances which do not allow unauthenticated access to their public instance API (as shown above) cannot be included
 - Instances running versions of Mastodon prior to 3.0 lack the proper APIs, and cannot be included
 - Instances which report suspiscious user counts (ex: active users larger than total users) are not included
+- Instances which report distorted version information
