@@ -8,7 +8,8 @@ vmcrawl is a Mastodon-focused version reporting crawler.
 It is written in Python, with a Postgres database backend.
 It performs periodic polling of known Mastodon instances.
 
-**Source:** [https://github.com/vmstio/vmcrawl](https://github.com/vmstio/vmcrawl)
+- [Source](https://github.com/vmstio/vmcrawl)
+- [Dashboard](https://grafana.vmst.io) (login required, available upon request)
 
 ![Screenshot of a Grafana dashboard with vmcrawl data](/vmcrawl.png)
 
