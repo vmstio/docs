@@ -13,15 +13,22 @@ We then build the modified code inside a Docker container, publish it to GitHub 
 
 Our server-specific customizations include:
 
-- Customizing the Mastodon logo, if needed, for events like Pride Month ([SVG](https://cdn.vmst.io/docs/masto-pride.zip))
+- Customizing the Mastodon logo colors (if needed) for events like Pride Month, etc.
 - Adding the [Bird UI](/about/clients#bird) and [Tangerine](/about/clients#tangerine) themes ([vmstan/mastodon #6](https://github.com/vmstan/mastodon/pull/6))
 - Raising the post character count limit from 500 to 640 ([vmstan/mastodon #36](https://github.com/vmstan/mastodon/pull/36))
 - Modifying the timeline media indicators ([vmstan/mastodon #45](https://github.com/vmstan/mastodon/pull/45) & [vmstan/mastodon #48](https://github.com/vmstan/mastodon/pull/48))
 - Adding some whimsey during the winter holidays ([vmstan/mastodon #51](https://github.com/vmstan/mastodon/pull/51))
 - Adding Docs link to the sidebar ([vmstan/mastodon #53](https://github.com/vmstan/mastodon/pull/53))
-- Raising image attachment maximums from 8MP to 48MP ([vmstan/mastodon #54](https://github.com/vmstan/mastodon/pull/4))
+- Raising image attachment maximums from 8MP to 48MP ([vmstan/mastodon #54](https://github.com/vmstan/mastodon/pull/54))
 - Raising the poll option limit from 4 to 6 ([vmstan/mastodon #55](https://github.com/vmstan/mastodon/pull/55))
+- Fixing YouTube link previews by modifying the User-Agent for youtube.com ([vmstan/mastodon #57](https://github.com/vmstan/mastodon/pull/57))
+
+Items from the main Mastodon repo that we are regularly testing to provide upstream feedback include:
+
+- Fix wide custom emoji styling ([mastodon/mastodon #27969](https://github.com/mastodon/mastodon/pull/27969))
+- Add streaming updates for profiles ([mastodon/mastodon #33236](https://github.com/mastodon/mastodon/pull/33236))
 - Flip the translate button location ([mastodon/mastodon #33619](https://github.com/mastodon/mastodon/pull/33619))
+- Rearrange Yarn operations in Dockerfile to minimize cache impact ([mastodon/mastodon #34094](https://github.com/mastodon/mastodon/pull/34094))
 
 Individual container builds may include additional changes which are being tested on vmst.io, and may be sourced from PR's in the [official project repository](https://github.com/mastodon/mastodon) or in the [vmst.io development fork](https://github.com/vmstan/mastodon/pulls?q=is%3Aopen+is%3Apr+label%3Avmst.io%2Fdeployed%2Cvmst.io%2Ftesting).
 
