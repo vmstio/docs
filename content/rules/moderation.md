@@ -1,7 +1,3 @@
----
-title: Moderation
----
-
 # Moderation
 
 In the spirit of full disclosure, we have decided to make our moderation process open to public viewing.

@@ -1,7 +1,3 @@
----
-title: Object Storage 
----
-
 # Object Storage
 
 Object storage is a scalable and cost-effective storage solution that is used in Mastodon to store and manage large volumes of unstructured data, such as media files (images, videos, and audio) and static assets.

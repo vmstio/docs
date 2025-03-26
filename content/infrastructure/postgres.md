@@ -1,7 +1,3 @@
----
-title: PostgreSQL
----
-
 # PostgreSQL
 
 [PostgreSQL](https://www.postgresql.org), often referred to as Postgres, is an open-source relational database management system.

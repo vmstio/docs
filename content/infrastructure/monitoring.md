@@ -1,7 +1,3 @@
----
-title: Monitoring
----
-
 # Monitoring
 
 We monitor the health and availability of our infrastructure in a few different ways.

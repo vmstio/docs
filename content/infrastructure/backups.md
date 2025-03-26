@@ -1,7 +1,3 @@
----
-title: Backups
----
-
 # Backups
 
 We backup the persistent data storage of vmst.io multiple times per day/week and to different locations.

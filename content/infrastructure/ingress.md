@@ -1,7 +1,3 @@
----
-title: Ingress
----
-
 # Ingress
 
 Routing of inbound HTTP requests.

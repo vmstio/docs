@@ -1,7 +1,3 @@
----
-title: Commerce
----
-
 # Commerce
 
 ## Advertising

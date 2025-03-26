@@ -1,7 +1,3 @@
----
-title: E-mail
----
-
 # E-mail
 
 All email notifications associated with the vmst.io Mastodon server should come from: `mastodon@ses.vmst.io`.

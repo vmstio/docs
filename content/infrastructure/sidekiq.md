@@ -1,7 +1,3 @@
----
-title: Sidekiq
----
-
 # Sidekiq
 
 [Sidekiq](https://sidekiq.org) is a popular background job processing library for Ruby applications, and it is used in Mastodon for various purposes:

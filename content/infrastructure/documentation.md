@@ -1,7 +1,3 @@
----
-title: Documentation
----
-
 # Documentation
 
 This documentation website, [docs.vmst.io](https://docs.vmst.io), runs on the Digital Ocean app platform as a static website.

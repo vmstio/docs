@@ -1,7 +1,3 @@
----
-title: Automation
----
-
 # Automation
 
 We use the open source [n8n](https://n8n.io/) platform to perform automation tasks and send notifications.

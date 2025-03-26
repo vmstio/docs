@@ -1,7 +1,3 @@
----
-title: Redis
----
-
 # Redis
 
 [Redis](https://redis.io) is an open-source, in-memory data structure store that is used as a database, cache, and message broker. In Mastodon, Redis is used for various purposes to improve the performance, scalability, and reliability of the platform.

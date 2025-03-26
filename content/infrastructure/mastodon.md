@@ -1,7 +1,3 @@
----
-title: Mastodon
----
-
 # Mastodon
 
 Aside from the various external dependencies, Mastodon has three main applications:

@@ -1,7 +1,3 @@
----
-title: Providers
----
-
 # Providers
 
 This list represents the cloud provider dependencies to which vmst.io has a direct relationship.

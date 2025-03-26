@@ -1,7 +1,3 @@
----
-title: Networking
----
-
 # Networking
 
 The local IP space used between systems on our virtual private cloud (VPC) network is issued by DigitalOcean, with static IP addresses that are assigned at the creation of the Droplet and persist throughout the lifecycle of the virtual machines.

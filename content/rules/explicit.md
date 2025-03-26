@@ -1,7 +1,3 @@
----
-title: Sex & Violence
----
-
 # Sex & Violence
 
 Some user might generally fall into one of three categories:

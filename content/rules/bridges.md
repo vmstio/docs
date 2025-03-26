@@ -1,7 +1,3 @@
----
-title: Bridges
----
-
 # Bridges
 
 While there are millions of active Mastodon users and great diversity in the people and organizations that participate in the Fediverse, others may participate in different decentralized network like Bluesky or Nostr which do not use ActivityPub as their federation protocol.
