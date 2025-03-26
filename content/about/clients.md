@@ -16,6 +16,10 @@ To change the theme on your vmst.io account, visit Preferences > [Appearance](ht
 
 Additionally, vmst.io includes a couple of popular third-party themes.
 
+::alert{type="danger"}
+Due to an upcoming change in the Mastodon code, we have had to temporarily disable third-party themes. Users of these themes have been reverted to the default/system theme. We apologize for the inconvenience.
+::
+
 ### Bird
 
 Bird UI is an alternative theme for the main Mastodon web interface and provides an interface similar to what you might find from legacy Birdsites.
