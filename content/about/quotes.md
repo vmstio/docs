@@ -1,7 +1,3 @@
----
-title: Quote Posts
----
-
 # Quote Posts
 
 New users to Mastodon may notice there is no built-in feature for "Quote Posts" like in Twitter or Threads.

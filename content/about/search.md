@@ -1,7 +1,3 @@
----
-title: Search
----
-
 # Search
 
 Search in Mastodon and the wider Fediverse can be a confusing and contentious topic.

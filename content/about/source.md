@@ -1,7 +1,3 @@
----
-title: Source Code
----
-
 # Source Code
 
 Our goal is to provide the best possible Mastodon experience for our members.

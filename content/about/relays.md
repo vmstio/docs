@@ -1,7 +1,3 @@
----
-title: Relays
----
-
 # Relays
 
 Relays allow all content from participating servers to be directly federated to everyone else, without waiting for a direct user connection to be established.

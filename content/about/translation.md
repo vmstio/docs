@@ -1,7 +1,3 @@
----
-title: Translation
----
-
 # Translation
 
 In order for Mastodon to offer to translate a post into a different language, the post must be marked in that language and it must be in a language that is possible for the translation engine to process.

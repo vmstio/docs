@@ -1,7 +1,3 @@
----
-title: Defederation
----
-
 # Defederation
 
 We defederate (aka Fediblock) vmst.io from other servers that are incompatible with our fundamental rules, in an effort to protect our users and limit our liability.

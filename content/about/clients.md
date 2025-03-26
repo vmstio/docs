@@ -1,7 +1,3 @@
----
-title: Clients
----
-
 # Clients
 
 One of the great things about Mastodon is that in addition to the default user interface, you have the ability to use any variety of third-party clients that you like.

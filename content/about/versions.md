@@ -1,7 +1,3 @@
----
-title: Versions
----
-
 # Versions
 
 The overwhelming majority of Mastodon servers are running the standard "tagged" releases from the Mastodon project, and look something like `v4.3.2`, but as explained before, we do things a little differently here.

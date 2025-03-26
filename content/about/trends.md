@@ -1,8 +1,3 @@
----
-title: Trends
-description: Are you a human or a robot?
----
-
 # Trends
 
 One of the key features of Mastodon is that there's no sophisticated algorithm to drive more traffic to the site or influence your thinking.

@@ -1,7 +1,3 @@
----
-title: AI & LLMs
----
-
 # AI & LLMs
 
 Large language models, like ChatGPT, is a type of "artificial intelligence" program designed to understand and generate human-like text by processing vast amounts of written language.

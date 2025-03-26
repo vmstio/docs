@@ -1,6 +1,3 @@
----
----
-
 # Custom Emoji
 
 We love our Custom Emoji here at vmst.io.
