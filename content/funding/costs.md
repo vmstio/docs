@@ -1,7 +1,3 @@
----
-title: Costs
----
-
 # Cost Overview
 
 ## Income
