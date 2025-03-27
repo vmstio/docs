@@ -3,6 +3,10 @@
 One of the great things about Mastodon is that in addition to the default user interface, you have the ability to use any variety of third-party clients that you like.
 Some of these are hosted on other websites like [Elk](https://elk.zone/), [Phanpy](https://phanpy.social), and some are baked directly into the vmst.io deployment.
 
+::alert{type="danger"}
+Due to recent changes in the Mastodon code, we have had to temporarily disable third-party themes. Previous users of these themes have been reverted to the default/system theme. We apologize for the inconvenience.
+::
+
 ## Themes
 
 Mastodon has multiple built in themes that work great on both desktop and mobile, including an automatic theme that select light or dark based on your system configuration.
@@ -11,10 +15,6 @@ There are also manual options for the dark, light and a darker high-contrast the
 To change the theme on your vmst.io account, visit Preferences > [Appearance](https://vmst.io/settings/preferences/appearance) > Site Theme.
 
 Additionally, vmst.io includes a couple of popular third-party themes.
-
-::alert{type="danger"}
-Due to an upcoming change in the Mastodon code, we have had to temporarily disable third-party themes. Users of these themes have been reverted to the default/system theme. We apologize for the inconvenience.
-::
 
 ### Bird
 
