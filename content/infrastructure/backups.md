@@ -2,7 +2,7 @@
 
 We backup the persistent data storage of vmst.io multiple times per day/week and to different locations.
 
-## Database Backups
+## Databases
 
 Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databases with Redis used as a key-value store and timeline cache.
 
@@ -10,18 +10,18 @@ Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databa
 - Full database backups are currently made every week and replicated twice across geographies.
 - In addition to full backups, DigitalOcean provides transaction-level rollback functionality as part of their managed database service.
 
-## Media Backups
+## Media
 
 - Media data is stored on S3-compatible storage which is then synced directly to another object store via the `rclone` [utility](https://rclone.org).
 - This is done using some custom scripts that process each task and then fire off notifications to our backend channels.
 - Media backups currently run every day.
 - Only the latest copy of media data is retained.
 
-## Configuration Backups
+## Configuration
 
 - All configuration files for core applications, documentation, and web clients are stored on GitHub with changes committed there before being applied to servers.
 
-## Backup Image
+## Docker Image
 
 We have a customized container image available from both Docker and GitHub container registries used for backup purposes.
 This image is designed for backup, replication, and maintenance of container-based Mastodon implementations.
