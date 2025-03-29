@@ -10,12 +10,12 @@ Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databa
 - Full database backups are currently made every week and replicated twice across geographies.
 - In addition to full backups, DigitalOcean provides transaction-level rollback functionality as part of their managed database service.
 
-## Media/CDN Store Backups
+## Media Backups
 
-- The CDN/media data is synced directly to another DigitalOcean object store via the `rclone` [utility](https://rclone.org).
+- Media data is stored on S3-compatible storage which is then synced directly to another object store via the `rclone` [utility](https://rclone.org).
 - This is done using some custom scripts that process each task and then fire off notifications to our backend channels.
-- CDN backups currently run every day.
-- Only the latest copy of CDN data is retained.
+- Media backups currently run every day.
+- Only the latest copy of media data is retained.
 
 ## Configuration Backups
 
