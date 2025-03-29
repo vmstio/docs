@@ -2,27 +2,9 @@
 
 All email notifications associated with the vmst.io Mastodon server should come from: `no-reply@vmst.io`.
 
-We use [Amazon Simple Email Service](https://aws.amazon.com/ses/) as our managed SMTP service, used for sending new user sign-up verifications, and other account notifications.
-
-Example of `.env.production` configuration settings relevant to SMTP:
-
-```text
-# Mail
-SMTP_SERVER=email-smtp.amazonaws.com
-SMTP_PORT=465
-SMTP_LOGIN=YoUrSESIssuEdUsErNAME
-SMTP_PASSWORD=123456789+098765432
-SMTP_FROM_ADDRESS='Mastodon <no-reply@vmst.io>'
-SMTP_SSL=true
-SMTP_DELIVERY_METHOD=smtp
-```
-
+* We use [Amazon Simple Email Service](https://aws.amazon.com/ses/) as our managed SMTP service, used for sending new user sign-up verifications, and other account notifications.
 * We leverage industry technologies like `SPF` and `DKIM` to help verify we are the only ones sending you emails.
 * We use **[Fastmail](https://fastmail.com)** for receiving and sending non-automated messages in the `@vmst.io` domain.
-
-## Phishing and Privacy
-
-Our domain policies instruct your email provider to reject any other party that is attempting to use the `@vmst.io` domain to phish you.
 
 When you sign up for an account, and you provide us with an email address, we promise to only contact you there regarding your Mastodon account.
 For more details, refer to our [Privacy Policy](https://vmst.io/privacy-policy)
