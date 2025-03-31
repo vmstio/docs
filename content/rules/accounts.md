@@ -1,4 +1,4 @@
-# Account Sign-Up
+# Accounts
 
 In order to keep the number of junk accounts on vmst.io as low as possible, we ask you to:
 
