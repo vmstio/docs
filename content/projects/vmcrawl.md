@@ -40,7 +40,7 @@ User-agent: vmcrawl
 Disallow: /
 ```
 
-It will also respect a disallow of all bots/crawlers in this file, or an HTTP 410 reply to this file.
+It will also respect a disallow of all bots/crawlers in this file, or an HTTP 410 reply to any endpoint.
 
 ## Collected Data
 
