@@ -7,6 +7,7 @@ The full list of defederated servers is available [from Mastodon](https://vmst.i
 
 ## Sources
 
-In addition to instances which are manually added by our administrative staff, we import the following sources:
+In addition to instances which are manually added by our administrative staff, we regularly import the following sources:
 
 - [IFTAS DNI](https://connect.iftas.org/library/iftas-documentation/iftas-dni-list/)
+- [IFTAS CARIAD](https://cariad.fedicheck.iftas.org/)
