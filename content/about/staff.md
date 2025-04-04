@@ -7,10 +7,10 @@ In the event of a disaster which limits those people from performing their dutie
 
 ## Administrators
 
-| Name            | Mastodon                 | Matrix                   | Email                        |
-|-----------------|-------------------------------|-------------------------------|------------------------------|
-| Michael Stanclift | [@vmstan@vmst.io](https://vmst.io/@vmstan) | [@vmstan:matrix.org](https://matrix.to/#/@vmstan:matrix.org) | [mx@vmstan.com](mailto:mx@vmstan.com) |
-| Daryl White     | [@djwfyi@vmst.io](https://vmst.io/@djwfyi) | [@djwfyi:matrix.org](https://matrix.to/#/@djwfyi:matrix.org) |                              |
+| Name            | Mastodon                 |
+|-----------------|-------------------------------|
+| Michael Stanclift | [@vmstan@vmst.io](https://vmst.io/@vmstan) |
+| Daryl White     | [@djwfyi@vmst.io](https://vmst.io/@djwfyi) |
 
 <a rel="me" href="https://vmst.io/@vmstan"></a>
 <a rel="me" href="https://vmst.io/@djwfyi"></a>
