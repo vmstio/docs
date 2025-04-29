@@ -93,8 +93,6 @@ If the account has just signed up or their time on the server has only been used
 
 ### NSFW/Sexual Content
 
-Please refer to our rules on [NSFW](/rules/explicit) content for items which might run afoul of this rule.
-
 Sexual content might generally fall into one of three categories:
 
 * 18+/NSFW
