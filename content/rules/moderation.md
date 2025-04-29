@@ -82,11 +82,11 @@ Examples of clear and obvious might be new accounts or accounts from other serve
 * Posts in excess, particularly if they appear automated.
 * Use excessive mentions or hashtags.
 
-Please refer to our rules on [Commerce, Advertising & Brands](/rules/commerce) for items which might run afoul of this rule but are less clear and obvious.
+Please refer to our rules on [advertising](/rules/advertising) for items which might run afoul of this rule but are less clear and obvious.
 
 ### Extremism
 
-We have a zero tolerance policy for violations of our bigotry or extremism policies.
+We have a zero tolerance policy for violations of our harassment or extremism policies.
 If you find users posting openly hateful content, you are authorized to immediately suspend the user’s account.
 
 If the account has just signed up or their time on the server has only been used for such content, reach out to an Administrator for immediate deletion of the account profile.
@@ -107,7 +107,7 @@ Illegal content, such as CSAM or content that violates the consent of others, wi
 
 ### Brand Accounts
 
-Brands who create accounts in violation of our [policies](/rules/commerce) will generally be asked to migrate their account to a different server.
+Brands who create accounts in violation of our [policies](/rules/brands) will generally be asked to migrate their account to a different server.
 These types of violations should be handled by Administrators.
 
 ## Report Types
