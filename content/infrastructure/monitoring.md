@@ -10,7 +10,6 @@ It monitors the status of our external endpoints:
 - Mastodon API
 - Streaming API
 - Automation API
-- Search API
 - Media CDN
 - Documentation (this site)
 
@@ -22,10 +21,3 @@ In addition to providing a page for members to check when there might be issues,
 ## DigitalOcean
 
 We use integrated metrics monitoring available through DigitalOcean to monitor and alert on CPU, memory, disk, and other performance metrics of the host virtual machine and managed database systems.
-
-![DigitalOcean Alerts](/do-alert.png)
-
-## Community Monitoring
-
-- [FediDB Entry](https://fedidb.org/network/instance?domain=vmst.io)
-- [Instances.social](https://instances.social/vmst.io)
