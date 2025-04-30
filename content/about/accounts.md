@@ -33,7 +33,7 @@ In some cases our moderation team may manually reject your registration request,
 In either case, if you feel we've rejected your account request in error:
 
 - Send an email to [our administrators](/about/staff) with a brief explanation of how you plan to use your vmst.io account
-- Include any relevant links to your presence on other Mastodon instances or social media
+- Include any relevant links to your presence on other Mastodon servers or social media
 - Provide additional context about your interest in joining our community
 
 We will review your response and manually provision an account for you, if appropriate.

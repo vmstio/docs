@@ -16,7 +16,7 @@ There are a few issues here:
 ## Protocol Level
 
 Protocol level bridging is generally prohibited on vmst.io.
-We do not connect to these services or allow our users' posts to be accessed through these services.
+We do not connect to these servers or allow our users' posts to be accessed through these servers.
 
 ### Bluesky
 
@@ -32,9 +32,9 @@ At this time, we have defederated from the known Nostr bridges in operation, bas
 
 ## Republishing
 
-Services which provide republishing of content from other services are allowed to federate, but with some restrictions.
+Servers which provide republishing of content from other services are allowed to federate, but with some restrictions.
 
-These services provide a "bot-like" account that may appear to be a native ActivityPub-enabled account, consumable in Mastodon.
+These servers provide a "bot-like" account that may appear to be a native ActivityPub-enabled account, consumable in Mastodon.
 Likes and replies with the person running the source account are visible to other vmst.io users, but are not sent back and are never seen by the author.
 Boosts are shared to your followers, and visible to them only if they are on servers that do not block them.
 
