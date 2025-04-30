@@ -1,4 +1,4 @@
-## Federation
+# Federation
 
 Mastodon is built on open standards, using sustainable technologies (i.e. no blockchain) that have powered the web for decades.
 ActivityPub is what makes social networks like Mastodon work across different servers, kind of like how email lets you message people regardless of whether they use Gmail or Outlook.
