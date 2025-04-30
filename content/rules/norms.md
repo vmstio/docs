@@ -32,3 +32,11 @@ However, their overuse can be disruptive and degrade their value.
 
 Users who misuse or overuse hashtags may be asked by server staff to stop, or have limitations placed on their account which would prevent their non-followers from discovering their content.
 Continued misuse may result in temporary or permanent account suspension.
+
+## Content Attibution
+
+Sharing content created by others must include clear attribution to the original author, creator, or source.
+Avoid sharing content that you do not have the proper permission or license to distribute.
+
+While sharing AI-generated content is allowed, it must include a disclosure indicating its origin.
+Accounts should not exclusively post AI-generated content.

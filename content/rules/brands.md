@@ -1,4 +1,4 @@
-# Brand Accounts
+# Brands
 
 Corporate brand accounts are not permitted on vmst.io.
 We believe brands and companies should establish their own servers under domains they control and identify with.
