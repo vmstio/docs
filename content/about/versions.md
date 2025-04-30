@@ -1,6 +1,16 @@
 # Versions
 
-The overwhelming majority of Mastodon servers are running the standard "tagged" releases from the Mastodon project, and look something like `v4.3.2`, but as explained before, we do things a little differently here.
+The overwhelming majority of Mastodon servers are running the standard "tagged" releases from the Mastodon project, and look something like `v4.3.2`, but we do things a little differently here.
+
+Version information for our Mastodon server is visible in the lower left corner of the web interface on desktop, or at the bottom of the [About](https://vmst.io/about) page on mobile.
+
+![About Version](/about.png)
+
+In the image example, vmst.io is running the `4.4.0-alpha.1` version of Mastodon, which the `alpha.1` indicates it was being built from the `main` branch on GitHub, at commit [e4e35ab](https://github.com/mastodon/mastodon/commit/c78dc23b497ae71e91c6362b91c57a4810715b72) (represented by the first seven characters of the hash).
+
+Once Mastodon `v4.4.0` is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.5.0-alpha.1` automatically.
+
+## Deepdive
 
 Mastodon, like most [Ruby](https://www.ruby-lang.org/en/) programs, uses something called "semver" or [Semantic Versioning] to represent its version number.
 This is represented as `vMAJOR.MINOR.PATCH` such as with Mastodon `v4.1.6` as mentioned above.
@@ -23,7 +33,7 @@ In order to get new features, Mastodon administrators must upgrade to the next `
 
 ![Mastodon Branches](/mastodon-branches.png)
 
-## Pre-releases
+### Pre-releases
 
 Some Mastodon servers, including vmst.io, run pre-release versions of Mastodon to get quicker access to new features as well as to help with testing before they're released to the community for administrators who want to only run stable releases.
 Our user feedback helps shape the Mastodon product for everyone!
@@ -38,17 +48,7 @@ Servers which run on `alpha.X` or `nightly` are typically running the latest cod
 
 Additional "metadata" about the release can be added after the pre-release flag, such as a GitHub commit or PR. (Ex: `v4.4.0-alpha.1+pr-54321`)
 
-## Forks & Metadata
+### Forks & Metadata
 
 Forks or other local code modifications are indicated by additional `+text` at the end of the version string.
 One popular soft-fork of Mastodon, called [Glitch](https://glitch-soc.github.io/docs/), is typically identified by `+glitch` at the end of the version.
-
-## Our Versions
-
-Version information is visible in the lower left corner of the web interface on desktop, or at the bottom of the [About](https://vmst.io/about) page on mobile.
-
-![About Version](/about.png)
-
-In the image example, vmst.io is running the `4.4.0-alpha.1` version of Mastodon, which the `alpha.1` indicates it was being built from the `main` branch on GitHub, at commit [e4e35ab](https://github.com/mastodon/mastodon/commit/c78dc23b497ae71e91c6362b91c57a4810715b72) (represented by the first seven characters of the hash).
-
-Once Mastodon 4.4 is officially released, and work starts on the next minor.major release, our version will increment to something like `v4.5.0-alpha.1` automatically.
