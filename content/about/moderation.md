@@ -82,7 +82,7 @@ Examples of clear and obvious might be new accounts or accounts from other serve
 * Posts in excess, particularly if they appear automated.
 * Use excessive mentions or hashtags.
 
-Please refer to our rules on [advertising](/rules/advertising) for items which might run afoul of this rule but are less clear and obvious.
+Please refer to our rules on [advertising](/about/rules#advertising) for items which might run afoul of this rule but are less clear and obvious.
 
 ### Extremism
 
@@ -105,7 +105,7 @@ Illegal content, such as CSAM or content that violates the consent of others, wi
 
 ### Brand Accounts
 
-Brands who create accounts in violation of our [policies](/rules/brands) will generally be asked to migrate their account to a different server.
+Brands who create accounts in violation of our [policies](/about/accounts#brands) will generally be asked to migrate their account to a different server.
 These types of violations should be handled by Administrators.
 
 ## Report Types
