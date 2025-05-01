@@ -3,10 +3,10 @@
 Mastodon is built on open standards, using sustainable technologies (i.e. no blockchain) that have powered the web for decades.
 ActivityPub is what makes social networks like Mastodon work across different servers, kind of like how email lets you message people regardless of whether they use Gmail or Outlook.
 
-Think of each server as a community center that keeps copies of messages for its members.
-When you're on one server (vmst.io) and want to follow someone on another, our server talks to their server to exchange information and create that trusted relationship.
-When you post something, our server shares it with all the other servers where your followers are, and they show it to the right people.
-This means you can be on Server A and still see posts from your friend on Server B, even though you're in different places – the servers handle all the communication behind the scenes to make it feel seamless.
+Think of each server as a community hub that stores messages for its members.
+When you follow someone on another server, the servers communicate to exchange information and establish a trusted connection.
+When you post, your server shares it with the servers of your followers, ensuring they see it.
+This allows you to interact seamlessly with friends on different servers, as the servers handle all the behind-the-scenes communication.
 
 ![Federation](/federation.png)
 
