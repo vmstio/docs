@@ -37,4 +37,4 @@ There are `/root/backups` and `/root/scripts` directories suitable for mounting 
 In order to use rclone, you'll need to mount an existing `rclone.conf` file to `/root/.config/rclone/rclone.conf`.
 
 - [GitHub](https://github.com/users/vmstan/packages/container/package/rclone)
-- [Docker](https://hub.docker.com/r/vmstan/rclone)
+
