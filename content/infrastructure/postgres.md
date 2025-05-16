@@ -7,8 +7,9 @@ PostgreSQL plays a crucial role in Mastodon's architecture, providing persistenc
 We use the DigitalOcean managed PostgresSQL database service, which delivers a highly available database backend.
 Updates and maintenance are performed by DigitalOcean, independent of our administration efforts.
 
-There is one active PostgreSQL service, ([Majel](https://memory-alpha.fandom.com/wiki/Majel_Barrett_Roddenberry)), with 4 vCPU and 16GB of memory, with dedicated vCPU cores allocated.
+We have highly available database cluster, ([Majel](https://memory-alpha.fandom.com/wiki/Majel_Barrett_Roddenberry)), with two nodes running 4 vCPU and 16GB of memory, with dedicated vCPU cores allocated.
 We use PostgreSQL 16.x.
+The primary database node handles all of the write activity, which is then actively replicated to the standby node which is then used as a read-replica for Mastodon.
 
 DigitalOcean Droplet "T-Shirt" sizes for databases are determined by vCPU, memory, disk size, and connections to the database.
 The connection count limits are based on sizing best practices for PostgreSQL, with a few held in reserve for their use to manage the service.
