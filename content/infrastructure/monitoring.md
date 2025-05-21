@@ -13,7 +13,6 @@ It monitors the status of our external endpoints:
 - Media CDN
 - Asset CDN
 - Documentation (this site)
-- Bots & Automation
 
 Uptime is calculated for the last 30/90 days.
 We regularly report on these statistics from our [@iostat](https://vmst.io/@iostat) bot.
