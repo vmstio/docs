@@ -64,4 +64,6 @@ An explanation for the purpose of each queue can be found on [docs.joinmastodon.
 
 ## Queue Design
 
+vmst.io has multiple Sidekiq processes running, with seperation of the workloads based on priority and to efficently process user requests.
+
 ![Queue Design](/sidekiq-queues.png)
