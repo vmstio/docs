@@ -5,7 +5,7 @@ In order to keep the number of junk accounts on vmst.io as low as possible, we a
 ::list{type="success"}
 
 - [Register for an account](https://vmst.io/auth/sign_up), providing your intended use case and affirmation that you are at least 17 years of age
-- Verify your provided email address by clicking a link we'll send to you from [no-reply@vmst.io](/infrastructure/mailer)
+- Verify your provided email address by clicking a link we'll send to you from `no-reply@vmst.io`
 - Complete the [hCaptcha](https://www.hcaptcha.com) verification
 - Wait while our moderation system approves your account for use
 
