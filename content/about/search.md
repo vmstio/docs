@@ -1,6 +1,6 @@
 # Search
 
-Search in Mastodon and the wider Fediverse can be a confusing and contentious topic.
+Search in Mastodon and the wider Fediverse can be a confusing topic.
 
 There are two levels of search supported by Mastodon:
 
@@ -8,6 +8,8 @@ There are two levels of search supported by Mastodon:
 - Full Text Search
 
 The availability of the more advanced full text searching depends on whether your server has implemented additional indexing infrastructure.
+
+On vmst.io we have full text search backended by our dedicated search indexing server ([Khan](https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh)) which is a 2 vCPU x 8GB RAM managed OpenSearch instance hosted at DigitalOcean.
 
 ## Basic Search
 
@@ -32,10 +34,7 @@ If an administrator chooses to implement it, Mastodon can integrate with [Elasti
 
 ![John Mastodon Example Search](/john-mastodon.png)
 
-While this is considered an optional component for Mastodon deployments, it is utilized on [vmst.io](https://vmst.io).
-We use a Digital Ocean managed implementation of OpenSearch.
-
-_How will I know if full text searching is enabled on my server?_
+_How will I know if full text searching is enabled?_
 
 When you start searching, the dropdown will say "Posts matching ..." your term.
 If you don't see this, full text searching is not enabled.
@@ -75,15 +74,15 @@ Changing this setting is not recommended.
 
 ### Unauthorized Indexing
 
-The `discoverable` and `indexable` settings are federated to other Mastodon servers running version 4.2 beta 2 or higher, as well as other Fediverse software platforms that are programmed to recognize this setting.
-The Mastodon project carefully considers and debates the implementation of features like search with a goal of providing for user consent while avoiding misuse.
+The `discoverable` and `indexable` settings are federated to other Mastodon servers running version 4.2 beta 2 or higher, as well as other Fediverse software platforms that recognize this flag.
 
 However, some servers may side-step some of the privacy concerns and implement an different full text search method which does not respect this `indexable` flag, while other Fediverse projects and forks have done so in their own ways.
+
 vmst.io has limited controls over how other federated platforms index your posts.
 
 ## Search Modifiers
 
-The following search modifiers are available on vmst.io, and other servres using at least Mastodon 4.2:
+The following search modifiers are available on vmst.io, and other servres Mastodon 4.2 or higher:
 
 | Operator        | Modifies search to                                                   |
 |-----------------|----------------------------------------------------------------------|
@@ -110,7 +109,8 @@ As this feature is further developed, more modifiers may become available.
 ### Examples
 
 - Searching for `Star Wars` will return posts that contain both the word `Star` and `Wars` but not necessarily `Star Wars`.
-- Searching for `"Star Wars"` will only return posts that contain the combined phrase.
-- To see all indexed posts which mention the phrase `John Mastodon` AND include an image posted before August 1, use the following search: `'John Mastodon' has:image before:2023-08-01`
+- Searching for `'Star Wars'` or `"Star Wars"` will only return posts that contain the exact combonation.
+- To see all indexed posts which mention the phrase `John Mastodon` AND include an image posted before August 1, 2023, use the following search: `'John Mastodon' has:image before:2023-08-01`
+- To see all your posted links before the year 2024 about , use `from:me before:2024 has:link`
 - To see all indexed posts for Star Trek that include images but exclude SNW to avoid spoilers, for example, use `'Star Trek' has:image -SNW`
 - To see posts from [@vmstan] that mention "coffee" but exclude any replies, use `from:vmstan -is:reply coffee`
