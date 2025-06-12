@@ -9,7 +9,7 @@ There are two levels of search supported by Mastodon:
 
 The availability of the more advanced full text searching depends on whether your server has implemented additional indexing infrastructure.
 
-On vmst.io we have full text search backended by our dedicated search indexing server ([Khan](https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh)) which is a 2 vCPU x 8GB RAM managed OpenSearch instance hosted at DigitalOcean.
+On vmst.io we have full text search backended by our dedicated search indexing server ([Khan](https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh)) which is a cluster of three 2 vCPU x 4GB RAM managed OpenSearch instance hosted at DigitalOcean.
 
 ## Basic Search
 
