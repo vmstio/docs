@@ -9,7 +9,7 @@ Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databa
 - The primary backup method for our PostgreSQL database cluster is via Digital Ocean's managed backups, which provide transaction-level rollback functionality in addition to nightly backups.
 - In addition we use `pg_dump` with some custom scripts that performs additional full database backups every weekend, which is then and replicated twice across geographies.
 
-Data in the Valkey databases is mostly ephemeral but to avoid problems has a snapshot taken during pod startup/shutdown operations that the Valkey controller can restore to in the event of a service failure.
+Data in the Valkey databases is mostly ephemeral but to avoid problems a snapshot taken perodically to restore in the event of a service failure.
 
 ## Media
 
