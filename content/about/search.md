@@ -9,8 +9,6 @@ There are two levels of search supported by Mastodon:
 
 The availability of the more advanced full text searching depends on whether your server has implemented additional indexing infrastructure.
 
-On vmst.io we have full text search backended by our dedicated search indexing server ([Khan](https://memory-alpha.fandom.com/wiki/Khan_Noonien_Singh)) which is a cluster of three node 2 vCPU x 4GB RAM managed OpenSearch instance hosted at DigitalOcean.
-
 ## Basic Search
 
 By default, Mastodon has limited abilities to allow searching of hashtags and to display recent posts made with that tag, using data stored in the primary PostgreSQL database.

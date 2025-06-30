@@ -12,12 +12,6 @@ Translation is done per-post only on-request by a user, as it would be computati
 
 ![Screenshot of Translate Button in Mastodon Interface](/translate.png)
 
-[DeepL](https://www.deepl.com/whydeepl) is used as the translation API for our main web interface and client API.
-It is known for its accuracy and ability to grasp nuances in language better than many other translation services.
-For a list of languages that DeepL is able to process, please refer to [their documentation](https://developers.deepl.com/docs/getting-started/supported-languages).
-
-DeepL is free for limited use, but we pay for the professional plan which has additional data security standards that delete requests from their servers after they are translated.
-
 The our translation API is also available to other client applications you may download to your devices.
 These clients may also offer additional translation services which are outside of our control; for example, Ivory will use Apple's on-device translation API first, but then use the server's API if an unsupported language is detected.
 
