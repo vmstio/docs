@@ -2,8 +2,6 @@
 
 We have several internal Bots:
 
-- <a rel="me" href="https://vmst.io/@modbot">@modbot</a>
-- <a rel="me" href="https://vmst.io/@funding">@funding</a>
 - <a rel="me" href="https://vmst.io/@iostat">@iostat</a>
 - <a rel="me" href="https://vmst.io/@mergebot">@mergebot</a>
 
