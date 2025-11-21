@@ -109,4 +109,4 @@ Many users indicated they would support administrative decisions either way, but
 
 #### Administrator Decision
 
-At this time vmst.io will not be making any changes reguarding our federation with Threads.
+At this time vmst.io will not be making any changes regarding our federation with Threads.

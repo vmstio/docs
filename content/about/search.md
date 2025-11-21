@@ -80,7 +80,7 @@ vmst.io has limited controls over how other federated platforms index your posts
 
 ## Search Modifiers
 
-The following search modifiers are available on vmst.io, and other servres Mastodon 4.2 or higher:
+The following search modifiers are available on vmst.io, and other servers Mastodon 4.2 or higher:
 
 | Operator        | Modifies search to                                                   |
 |-----------------|----------------------------------------------------------------------|

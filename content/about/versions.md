@@ -38,7 +38,7 @@ In order to get new features, Mastodon administrators must upgrade to the next `
 Some Mastodon servers, including vmst.io, run pre-release versions of Mastodon to get quicker access to new features as well as to help with testing before they're released to the community for administrators who want to only run stable releases.
 Our user feedback helps shape the Mastodon product for everyone!
 
-Starting with Mastodon 4.2, the project standarized the use of `alpha`, `nightly`, `beta`, and `rc` pre-releases.
+Starting with Mastodon 4.2, the project standardized the use of `alpha`, `nightly`, `beta`, and `rc` pre-releases.
 
 - `alpha.X` is used to identify servers running directly from the `main` branch on GitHub, either compiled from source directly or using their own container images.
 - `nightly` is used to identify servers running typically from the project compiled container images which are automatically published with the current status of `main` every night.

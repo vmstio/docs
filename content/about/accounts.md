@@ -69,7 +69,7 @@ We believe brands and companies should establish their own servers under domains
 
 This approach:
 
-- Helps fediverse users verify account legitimacy
+- Helps Fediverse users verify account legitimacy
 - Enables users to better control their interactions with brands
 - Maintains the personal nature of our community
 
