@@ -7,9 +7,8 @@ We monitor the health and availability of our infrastructure in a few different 
 [BetterUptime](https://betterstack.com/uptime) powers our [status.vmst.io](https://status.vmst.io) page.
 It monitors the status of our external endpoints:
 
-- Mastodon API
+- Client API
 - Streaming API
-- Automation API
 - Media CDN
 - Asset CDN
 - Documentation (this site)
