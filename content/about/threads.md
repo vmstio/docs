@@ -1,6 +1,10 @@
-# Threads
+---
+title: Threads
+description: The micro-blogging app from Meta, is working towards implementing ActivityPub and join its user base to the rest of the Fediverse.
 
-Threads, the micro-blogging app from Meta, is working towards implementing ActivityPub and join its user base to the rest of the Fediverse.
+navigation:
+  icon: i-material-symbols-alternate-email
+---
 
 ## Known Issues
 

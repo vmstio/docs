@@ -1,6 +1,9 @@
-# Monitoring
-
-We monitor the health and availability of our infrastructure in a few different ways.
+---
+title: Monitoring
+description: We monitor the health and availability of our infrastructure in a few different ways.
+navigation:
+  icon: i-material-symbols-chat-error-outline
+---
 
 ## BetterUptime
 

@@ -27,7 +27,7 @@ Geeks and nerds of every type and stripe
   ---
   color: neutral
   size: xl
-  to: /about
+  to: /funding
   trailing-icon: i-lucide-arrow-right
   ---
   Learn More
@@ -62,7 +62,7 @@ Why choose vmst.io as your Mastodon server?
   Powered by [Nuxt UI]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  We extend the Mastodon default post limit to 640 characters, which ought to be enough for anybody.
   :::
 
   :::u-page-feature
@@ -75,7 +75,7 @@ Why choose vmst.io as your Mastodon server?
   Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  We are 100% member-funded! Our shareholders are our users.
   :::
 
   :::u-page-feature
@@ -88,7 +88,7 @@ Why choose vmst.io as your Mastodon server?
   Customize with [Nuxt App Config]{.text-primary}
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  We have clear rules against extremism and harassment, upholding the guidelines of the Mastodon Server Covenant.
   :::
 
   :::u-page-feature
@@ -101,7 +101,7 @@ Why choose vmst.io as your Mastodon server?
   Collaborate on [Nuxt Studio]{.text-primary}
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  We're built to be highly performant and highly available, and committed to taking ownership of issues when things go south.
   :::
 
   :::u-page-feature
@@ -114,6 +114,6 @@ Why choose vmst.io as your Mastodon server?
   Built-in navigation and [full-text search]{.text-primary}
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  We have an A+ ratings from Mozilla Observatory/Qualys SSL Labs, and we don't leverage any third-party cookies, use trackers, or run ads on our server
   :::
 ::

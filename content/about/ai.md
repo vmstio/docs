@@ -1,7 +1,9 @@
-# AI & LLMs
-
-Large language models, like ChatGPT, is a type of "artificial intelligence" program designed to understand and generate human-like text by processing vast amounts of written language.
-While the creation and use of large language models are not inherently unethical or illegal, there are many important questions about how companies obtain their data to train their models and how that data is used.
+---
+title: AI/ML
+description: Large language models, like ChatGPT, is a type of "artificial intelligence" program designed to understand and generate human-like text by processing vast amounts of written language. While the creation and use of large language models are not inherently unethical or illegal, there are many important questions about how companies obtain their data to train their models and how that data is used.
+navigation:
+  icon: i-material-symbols-psychology-alt-outline
+---
 
 ## Data Training
 

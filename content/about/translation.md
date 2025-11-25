@@ -1,4 +1,10 @@
-# Translation
+---
+title: Translation
+description: Translation is done per-post only on-request by a user, as it would be computationally expensive to translate all posts that the server sees.
+
+navigation:
+  icon: i-material-symbols-language-chinese-dayi
+---
 
 In order for Mastodon to offer to translate a post into a different language:
 
@@ -7,8 +13,6 @@ In order for Mastodon to offer to translate a post into a different language:
 - The translation engine must be able to process the given combination.
 
 _ex: If a user posts content in Dutch, but the post is marked as being in English and your user interface is set to English, the Mastodon interface will not offer to translate the post._
-
-Translation is done per-post only on-request by a user, as it would be computationally expensive to translate all posts that the server sees.
 
 ![Screenshot of Translate Button in Mastodon Interface](/translate.png)
 

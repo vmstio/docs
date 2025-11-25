@@ -1,6 +1,9 @@
-# Backups
-
-We backup the persistent data storage of vmst.io multiple times per day/week and to different locations.
+---
+title: Backups
+description: We backup the persistent data storage of vmst.io multiple times per day/week and to different locations.
+navigation:
+  icon: i-material-symbols-storage
+---
 
 ## Databases
 
@@ -36,5 +39,3 @@ It includes rclone, s3cmd, PostgreSQL, and Valkey utilities.
 There are `/root/backups` and `/root/scripts` directories suitable for mounting and processing relevant files.
 
 In order to use rclone, you'll need to mount an existing `rclone.conf` file to `/root/.config/rclone/rclone.conf`.
-
-- [GitHub](https://github.com/users/vmstan/packages/container/package/rclone)

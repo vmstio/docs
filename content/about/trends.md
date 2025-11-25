@@ -1,7 +1,9 @@
-# Trends
-
-One of the key features of Mastodon is that there's no sophisticated algorithm to drive more traffic to the site or influence your thinking.
-All posts are displayed in a traditional chronological timeline with the newest posts or boosts made by people or hashtags you follow displayed at the top of the page.
+---
+title: Trends
+description: One of the key features of Mastodon is that there's no sophisticated algorithm to drive more traffic to the site or influence your thinking. All posts are displayed in a traditional chronological timeline with the newest posts or boosts made by people or hashtags you follow displayed at the top of the page.
+navigation:
+  icon: i-material-symbols-trending-up
+---
 
 Mastodon does offer trending hashtags, posts, and links features on the [Explore page](https://vmst.io/explore) that are based on observed activity within vmst.io and other federated servers.
 

@@ -1,7 +1,9 @@
-# Moderation
-
-In the spirit of full disclosure, we have decided to make our moderation process open to public viewing.
-The purpose is to guide our staff in their decisions to take action on a member.
+---
+title: Moderation
+description: In the spirit of full disclosure, we have decided to make our moderation process open to public viewing. The purpose is to guide our staff in their decisions to take action on a member.
+navigation:
+  icon: i-material-symbols-back-hand-outline
+---
 
 There may be times where moderators and administrators deviate from this document as needed, specifically when new issues arise that have not been covered by existing processes.
 Ultimately, our staff may take action on any account they deem necessary to protect the health and safety of the server and other users.
