@@ -41,12 +41,12 @@ Why choose vmst.io as your Mastodon server?
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-deployed-code
   target: _blank
-  to: https://nuxt.com
+  to: /about/source
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Updated [Mastodon]{.text-primary}
   
   #description
   We run the latest available Mastodon code and regularly contribute fixes back to the Mastodon project.
@@ -54,12 +54,12 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-speaker-phone-outline
   target: _blank
   to: https://ui.nuxt.com/
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Say [More]{.text-primary}
   
   #description
   We extend the Mastodon default post limit to 640 characters, which ought to be enough for anybody.
@@ -67,12 +67,12 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-money-bag-outline
   target: _blank
-  to: https://content.nuxt.com
+  to: /funding
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Member [Supported]{.text-primary}
   
   #description
   We are 100% member-funded! Our shareholders are our users.
@@ -80,12 +80,12 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-back-hand-outline
   target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  to: /rules
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  No [Nonsense]{.text-primary}
   
   #description
   We have clear rules against extremism and harassment, upholding the guidelines of the Mastodon Server Covenant.
@@ -93,12 +93,12 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-area-chart-outline
   target: _blank
-  to: https://content.nuxt.com/studio
+  to: /about/infrastructure
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Professionally [Operated]{.text-primary}
   
   #description
   We're built to be highly performant and highly available, and committed to taking ownership of issues when things go south.
@@ -106,14 +106,14 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-material-symbols-security
   target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  to: https://developer.mozilla.org/en-US/observatory/analyze?host=vmst.io
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Privacy [Focused]{.text-primary}
   
   #description
-  We have an A+ ratings from Mozilla Observatory/Qualys SSL Labs, and we don't leverage any third-party cookies, use trackers, or run ads on our server
+  We have an A+ ratings from Mozilla Observatory, and we don't leverage any third-party cookies, use trackers, or show you ads.
   :::
 ::
