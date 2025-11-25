@@ -1,6 +1,9 @@
-# Custom Emoji
-
-We love our Custom Emoji here at vmst.io.
+---
+title: Custom Emoji
+description: We love our Custom Emoji here at vmst.io.
+navigation:
+  icon: i-material-symbols-emoji-language-outline
+---
 
 A complete list of all the available options and their `:short_codes:` is [available via emojos.in](https://emojos.in/vmst.io).
 

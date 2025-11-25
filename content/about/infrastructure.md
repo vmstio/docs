@@ -1,11 +1,14 @@
-# Infrastructure
-
-## Introduction
+---
+title: Infrastructure
+description: Running a full-featured, highly available, and performant Mastodon server, costs money.
+navigation:
+  icon: i-material-symbols-cloud-lock-outline
+---
 
 The purpose of these documents is to provide an overview of the infrastructure used to operate the Mastodon server, [vmst.io](https://vmst.io).
 It should explain how the various services interact and how "the magic" happens when our users open the Mastodon app on their phone or enter our address into their web browser.
 
-::alert{type="warning"}
+::tip
 Unfortunately, it's not really magic, but rather a series of databases and services from various open-source vendors running in a number of different best-in-class public cloud providers.
 ::
 
@@ -13,7 +16,6 @@ It should also help provide some assurance to our current and potential members 
 
 ## Architecture Goals
 
-::list{type="success"}
 - Provide better than 99.9% availability each month for our users.
 - All critical components should be easily recoverable in the event of failure.
 - Be easily scalable, both vertically and horizontally.
@@ -21,7 +23,6 @@ It should also help provide some assurance to our current and potential members 
 - Don't operate what we're not best suited to operating.
 - Automate as much as possible for upgrades to enable the fastest time to implementation.
 - Maintain a stable endpoint on the [ActivityPub](https://activitypub.rocks) network.
-::
 
 ## Layout
 

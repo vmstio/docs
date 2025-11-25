@@ -1,6 +1,9 @@
-# Search
-
-Search in Mastodon and the wider Fediverse can be a confusing topic.
+---
+title: Search
+description: Search in Mastodon and the wider Fediverse can be a confusing topic.
+navigation:
+  icon: i-material-symbols-document-search-outline
+---
 
 There are two levels of search supported by Mastodon:
 

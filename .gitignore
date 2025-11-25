@@ -1,2 +1,8 @@
 node_modules
 .DS_Store
+.output
+.server
+.data
+.nuxt
+node_modules
+package-lock.json
