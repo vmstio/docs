@@ -43,9 +43,10 @@ Some of these services are paid for, while others are free to use.
 
 | Vendor        | Service                                                                                                                                                                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DigitalOcean  | Kubernetes, PostgreSQL, Valkey, OpenSearch, Object Storage, Software Defined Network (SDN), Content Delivery Network (CDN), Internal Container Registery, App Platform, and Nameservers |
+| DigitalOcean  | Kubernetes, PostgreSQL, Valkey, OpenSearch, Object Storage, Software Defined Network (SDN), Content Delivery Network (CDN), Internal Container Registery and Nameservers |
 | AWS           | Simple Email Service                                                                                                                                                                    |
 | Better Stack  | Status Monitoring, Error Logging & Metrics                                                                                                                                              |
+| Netlify       | Static Site Generator (Documentation) |
 | DeepL         | Translation Services                                                                                                                                                                    |
 | DNSimple      | Domain Registrar                                                                                                                                                                        |
 | Let's Encrypt | SSL Certificates                                                                                                                                                                        |
