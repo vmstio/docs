@@ -12,9 +12,6 @@ It monitors the status of our external endpoints:
 
 - Client API
 - Streaming API
-- Media CDN
-- Asset CDN
-- Documentation (this site)
 
 Uptime is calculated for the last 30/90 days.
 We regularly report on these statistics from our [@iostat](https://vmst.io/@iostat) bot.
