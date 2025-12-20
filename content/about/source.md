@@ -10,7 +10,7 @@ One way to deliver on that is by delivering the most up-to-date Mastodon code.
 We "run off main", which means using the latest commits to the `main` branch of the Mastodon codebase found on the project's official [GitHub](https://github.com/mastodon/mastodon) repository.
 
 We take a clean copy of the latest Mastodon code and then apply a limited set of modifications with a custom script.
-We then build the modified code inside a Docker container, publish it to GitHub Container Registry, for consumption by our Kubernetes cluster.
+We then build the modified code inside a Docker container and publish it to our internal container registry for consumption by our Kubernetes cluster.
 
 Among other things, our server-specific customizations include:
 
