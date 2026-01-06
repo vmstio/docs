@@ -12,7 +12,6 @@ vmst.io is a member-funded Mastodon server with:
 
 - **100% Member Funded** - No ads, no investors, no data selling
 - **Professional Infrastructure** - Kubernetes-based deployment with 99.9%+ uptime
-- **Extended Features** - 640 character posts, 48MP images, 6 poll options
 - **Latest Technology** - Running Mastodon from the main branch
 - **Respectful Community** - Clear rules and active moderation
 

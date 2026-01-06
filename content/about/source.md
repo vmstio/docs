@@ -15,7 +15,7 @@ We then build the modified code inside a Docker container and publish it to our 
 Among other things, our server-specific customizations include:
 
 - Customizing the Mastodon logo colors (if needed) for events like Pride Month, etc.
-- Raising the post character count limit from 500 to 640
+- Raising the post character count limit
 - Raising image attachment maximums from 8MP to 48MP
 - Raising the poll option limit from 4 to 6
 

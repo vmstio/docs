@@ -54,45 +54,6 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-material-symbols-speaker-phone-outline
-  target: _blank
-  to: https://ui.nuxt.com/
-  ---
-  #title
-  Say [More]{.text-primary}
-  
-  #description
-  We extend the Mastodon default post limit to 640 characters, which ought to be enough for anybody.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-material-symbols-money-bag-outline
-  target: _blank
-  to: /funding
-  ---
-  #title
-  Member [Supported]{.text-primary}
-  
-  #description
-  We are 100% member-funded! Our shareholders are our users.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-material-symbols-back-hand-outline
-  target: _blank
-  to: /rules
-  ---
-  #title
-  No [Nonsense]{.text-primary}
-  
-  #description
-  We have clear rules against extremism and harassment, upholding the guidelines of the Mastodon Server Covenant.
-  :::
-
-  :::u-page-feature
-  ---
   icon: i-material-symbols-area-chart-outline
   target: _blank
   to: /about/infrastructure
@@ -106,14 +67,14 @@ Why choose vmst.io as your Mastodon server?
 
   :::u-page-feature
   ---
-  icon: i-material-symbols-security
+  icon: i-material-symbols-money-bag-outline
   target: _blank
-  to: https://developer.mozilla.org/en-US/observatory/analyze?host=vmst.io
+  to: /funding
   ---
   #title
-  Privacy [Focused]{.text-primary}
+  Member [Supported]{.text-primary}
   
   #description
-  We have an A+ ratings from Mozilla Observatory, and we don't leverage any third-party cookies, use trackers, or show you ads.
+  We are 100% member-funded! Our shareholders are our users.
   :::
 ::
