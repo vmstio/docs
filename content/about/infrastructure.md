@@ -41,22 +41,20 @@ This list represents the cloud provider dependencies to which vmst.io has a dire
 If any of these providers have issues, it may create issues for vmst.io services.
 Some of these services are paid for, while others are free to use.
 
-| Vendor        | Service                                                                                                                                                                                 |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DigitalOcean  | Kubernetes, PostgreSQL, Valkey, OpenSearch, Object Storage, Software Defined Network (SDN), Content Delivery Network (CDN), Internal Container Registery and Nameservers |
-| AWS           | Simple Email Service                                                                                                                                                                    |
-| Better Stack  | Status Monitoring, Error Logging & Metrics                                                                                                                                              |
-| Netlify       | Static Site Generator (Documentation) |
-| DeepL         | Translation Services                                                                                                                                                                    |
-| DNSimple      | Domain Registrar                                                                                                                                                                        |
-| Let's Encrypt | SSL Certificates                                                                                                                                                                        |
-| GitHub        | Configuration/Settings, Public Container Registry                                                                                                                                       |
-| Docker Hub    | Public Container Registry                                                                                                                                                               |
-| hCaptcha      | Bot Detection                                                                                                                                                                           |
-| Apivoid       | IP Information                                                                                                                                                                          |
-| Grafana       | vmcrawl Dashboard                                                                                                                                                                       |
-| Backblaze     | Object Store & Application Backups                                                                                                                                                      |
-| n8n Cloud     | Automation Platform                                                                                                                                                                     |
+| Vendor        | Service                                                                                                                               |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| DigitalOcean  | Managed Kubernetes, Managed Databases (PostgreSQL, Valkey & OpenSearch), Object Storage with CDN, Container Registry, and Nameservers |
+| AWS           | Simple Email Service                                                                                                                  |
+| Netlify       | Static Site Generator (Documentation)                                                                                                 |
+| DeepL         | Translation Services                                                                                                                  |
+| DNSimple      | Domain Registrar                                                                                                                      |
+| Let's Encrypt | SSL Certificates                                                                                                                      |
+| GitHub        | Configuration/Settings                                                                                                                |
+| hCaptcha      | Bot Detection                                                                                                                         |
+| Apivoid       | IP Information                                                                                                                        |
+| Grafana       | Infrastructure Logging & Metrics, Monitoring                                                                                          |
+| Backblaze     | Object Store Backups                                                                                                                  |
+| n8n Cloud     | Automation Platform                                                                                                                   |
 
 Other vendors or open-source projects that we consume or utilize but do not have an ongoing external API or system connection to are not included in this list.
 For example, rclone is used to back up our platform, but it is integrated into a custom container image that is built and deployed.
