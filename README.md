@@ -76,7 +76,7 @@ docs/
 - **Content**: Nuxt Content (file-based markdown CMS)
 - **Styling**: Tailwind CSS 4
 - **UI Components**: Nuxt UI
-- **Hosting**: Netlify
+- **Hosting**: DigitalOcean App Platform
 
 ## Contributing
 
