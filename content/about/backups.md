@@ -7,7 +7,7 @@ navigation:
 
 ## Databases
 
-Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databases with ValkeyDB used as a replacement for Valkey as a key-value store and timeline cache.
+Posts made to [vmst.io](https://vmst.io) are stored in backend PostgreSQL databases with Valkey (as a replacement for Redis) as a key-value store and timeline cache.
 
 - The primary backup method for our PostgreSQL database cluster is via Digital Ocean's managed backups, which provide transaction-level rollback functionality in addition to nightly backups.
 - In addition we use `pg_dump` with some custom scripts that performs additional full database backups every weekend, which is then and replicated twice across geographies.
