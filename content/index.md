@@ -75,6 +75,6 @@ Why choose vmst.io as your Mastodon server?
   Member [Supported]{.text-primary}
   
   #description
-  We are 100% member-funded! Our shareholders are our users.
+  We are 100% member-funded! Our shareholders are our users. Without your support, we couldn't exist.
   :::
 ::
