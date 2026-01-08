@@ -37,7 +37,7 @@ In either case, if you feel we've rejected your account request in error:
 
 We will review your response and manually provision an account for you, if appropriate.
 
-## Preserving Your Account
+## Inactivity
 
 Some servers are happy to juice their registration numbers with drive-by registrations.
 We want to set a higher bar and advertise folks who are part of our community.
@@ -46,10 +46,6 @@ If you sign up and never come back, we reserve the right to delete your account.
 
 The intention is not to delete accounts which fall out of use, only to avoid namesquatting or artificially boosting our registration numbers.
 We also feel this helps mitigate against sleeper attacks, where accounts are created and sit idle until activated later, to appear with older registration dates, and hence bypass other anti-abuse migrations built into the platform.
-
-::note
-Accounts that are created but show no activity within the first 30 days are subject to suspension, pending deletion.
-::
 
 If you join vmst.io and decide it isn't the best home for your Mastodon experience, you also have the ability to [move](https://docs.joinmastodon.org/user/moving/#migration) or [delete](https://docs.joinmastodon.org/user/moving/#delete) your own account at any time.
 
