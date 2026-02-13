@@ -1,15 +1,15 @@
 ---
 seo:
   title: docs.vmst.io
-  description: Mastodon for respectful technologists, geeks and nerds of every type and stripe
+  description: Mastodon for geeks and nerds of every type and stripe
 ---
 
 ::u-page-hero
 #title
-Mastodon for respectful technologists
+Mastodon for geeks and nerds of every type and stripe
 
 #description
-Geeks and nerds of every type and stripe
+Find out what makes us different
 
 #links
   :::u-button
