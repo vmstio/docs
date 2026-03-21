@@ -5,9 +5,8 @@ navigation:
   icon: i-material-symbols-account-circle
 ---
 
-- [Register for an account](https://vmst.io/auth/sign_up), providing your intended use case and affirmation that you are at least 17 years of age
+- [Register for an account](https://vmst.io/auth/sign_up)
 - Verify your provided email address by clicking a link we'll send to you from `no-reply@vmst.io`
-- Complete the [hCaptcha](https://www.hcaptcha.com) verification
 - Wait while our moderation system approves your account for use
 
 ::warning
