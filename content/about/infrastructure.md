@@ -156,13 +156,20 @@ Updates and maintenance are performed by DigitalOcean, independent of our admini
 #### Ingress
 
 The idea of "ingress" covers the routing of inbound HTTP requests.
-We use DigitalOcean managed software defined network objects like load balancers and gateway objects to distribute user traffic across our frontend pods.
+We use DigitalOcean managed software defined network objects like load balancers and Kubernetes gateway objects to distribute user traffic across our frontend pods.
 
-We use [Gateway API](https://gateway-api.sigs.k8s.io) to perform layer 7 routing and TLS termination, running in our Kubernetes environment, via [Cilium Gateway](https://cilium.io/use-cases/gateway-api/).
+The managed load balancer service performs TLS termination at the Internet edge.
+This edge supports IPv4 and IPv6 connectivity as of March 2026.
+
+The load balancer hands off traffic to managed instances of Envoy running on our Kubernetes nodes.
+We use the [Gateway API](https://gateway-api.sigs.k8s.io) provided by DigitalOcean's managed Cilium deployment to manage the network configuration and HTTP routing.
+
+From there, traffic is passed to the Mastodon pods, which run a custom implemention of the Mastodon networking stack to include [Thruster](https://github.com/basecamp/thruster) to perform caching of static assets as well as native HTTP/2 connectivity between pods.
+Within the pods, traffic is then proxied directly to Puma which is the native Mastodon web service.
+
+Streaming traffic is passed from Envoy directly to the Node.js web service running on those pods without any additional customization.
 
 ![Reverse Proxy Diagram](/reverse-proxy.png)
-
-Cilium is the native software defined network technology for Kubernetes provided by Digital Ocean, so by leveraging Envoy as part of our deployment we no longer need to upgrade and manage separate Kubernetes Ingress services.
 
 ### Additional Components
 
