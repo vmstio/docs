@@ -6,23 +6,16 @@ navigation:
 ---
 
 The purpose of these documents is to provide an overview of the infrastructure used to operate the Mastodon server, [vmst.io](https://vmst.io).
-It should explain how the various services interact and how "the magic" happens when our users open the Mastodon app on their phone or enter our address into their web browser.
 
-::tip
-Unfortunately, it's not really magic, but rather a series of databases and services from various open-source vendors running in a number of different best-in-class public cloud providers.
-::
-
-It should also help provide some assurance to our current and potential members that care has been taken in architecting and operating this Mastodon instance.
+It should help provide some assurance to our current and potential members that care has been taken in architecting and operating this Mastodon instance, with the goal of providing better than 99.9% availability, each month, for our users.
 
 ## Architecture Goals
 
-- Provide better than 99.9% availability each month for our users.
-- All critical components should be easily recoverable in the event of failure.
+- Be easily recoverable in the event of failure.
 - Be easily scalable, both vertically and horizontally.
 - Provide a highly performant experience for our users.
 - Don't operate what we're not best suited to operating.
-- Automate as much as possible for upgrades to enable the fastest time to implementation.
-- Maintain a stable endpoint on the [ActivityPub](https://activitypub.rocks) network.
+- Automate as much as possible.
 
 ## Layout
 
@@ -31,8 +24,7 @@ It should also help provide some assurance to our current and potential members 
 ## Core Services
 
 [DigitalOcean](https://www.digitalocean.com) is our primary hosting provider.
-We have workloads and data hosted in the TOR1 and NYC3 data centers.
-Toronto is the home of our primary computing workloads, while New York is used for object storage hosting of uploaded and federated media.
+We have workloads in the TOR1 and NYC3 data centers, with Toronto being our primary compute workloads, and New York providing media hosting.
 
 ### Service Providers
 
@@ -55,14 +47,8 @@ Some of these services are paid for, while others are free to use.
 | n8n Cloud     | Automation Platform                                                                                                                                |
 
 Other vendors or open-source projects that we consume or utilize but do not have an ongoing external API or system connection to are not included in this list.
-For example, rclone is used to back up our platform, but it is integrated into a custom container image that is built and deployed.
-The availability of the application on its download site is not mandatory for the operational readiness of vmst.io.
 
 ### Compute Resources
-
-#### Virtual Machines
-
-We use an all-virtual architecture using DigitalOcean "Droplets" as the compute backend for all our hosted services and databases.
 
 #### Kubernetes
 
