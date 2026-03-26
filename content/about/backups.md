@@ -9,7 +9,7 @@ navigation:
 
 Posts made to [vmst.io](https://vmst.io) are stored in a backend PostgreSQL.
 Valkey (as a replacement for Redis) is used as a key-value store and timeline cache.
-Search index data is stored in Elasticsearch.
+Search index data is stored in OpenSearch.
 
 - The primary backup method for our database clusters is via Digital Ocean's managed backups, which provide transaction-level rollback functionality in addition to nightly backups.
 - In addition we use `pg_dump` with some custom scripts that performs additional full PostgreSQL backups, as-needed, which is then saved across geographies.
