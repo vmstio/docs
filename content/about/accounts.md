@@ -5,16 +5,18 @@ navigation:
   icon: i-material-symbols-account-circle
 ---
 
+## Signup
+
 - [Register for an account](https://vmst.io/auth/sign_up)
 - Verify your provided email address by clicking a link we'll send to you from `no-reply@vmst.io`
 - Wait while our moderation system approves your account for use
 
 ::warning
-All new account requests that do not complete email and hCaptcha verification **within 7 days** are automatically deleted.
+Account requests that do not complete email verification **within 30 days** are automatically deleted.
 If our systems identify your account request as a risk, we may decline it or request additional information before approval.
 ::
 
-## Rejection
+### Rejection
 
 Some registration requests may be automatically flagged by our spam detection system.
 This automated screening helps us maintain a healthy community by preventing automated signups and potential abuse and may be flagged for one or more of the following reasons:
