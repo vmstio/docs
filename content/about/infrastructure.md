@@ -31,9 +31,8 @@ It should also help provide some assurance to our current and potential members 
 ## Core Services
 
 [DigitalOcean](https://www.digitalocean.com) is our primary hosting provider.
-We have workloads and data hosted in the TOR1, NYC3, and SFO3 data centers.
-Toronto is the home of our primary computing workloads, while New York is used for object storage hosting of the media CDN and documentation site.
-San Francisco houses regular backups while an additional replicated copy is located in Kansas City.
+We have workloads and data hosted in the TOR1 and NYC3 data centers.
+Toronto is the home of our primary computing workloads, while New York is used for object storage hosting of uploaded and federated media.
 
 ### Service Providers
 
@@ -130,7 +129,7 @@ We use the DigitalOcean managed PostgresSQL database service, which delivers a h
 Updates and maintenance are performed by DigitalOcean, independent of our administration efforts.
 
 We have one database server ([Majel](https://memory-alpha.fandom.com/wiki/Majel_Barrett_Roddenberry)) with 2 dedicated vCPU and 16GB of memory.
-We use PostgreSQL 17.x.
+We use PostgreSQL 18.x.
 
 DigitalOcean Droplet "T-Shirt" sizes for databases are determined by vCPU, memory, disk size, and connections to the database.
 The connection count limits are based on sizing best practices for PostgreSQL, with a few held in reserve for their use to manage the service.
@@ -161,13 +160,13 @@ We use DigitalOcean managed software defined network objects like load balancers
 The managed load balancer service performs TLS termination at the Internet edge.
 This edge supports IPv4 and IPv6 connectivity as of March 2026.
 
-The load balancer hands off traffic to managed instances of Envoy running on our Kubernetes nodes.
-We use the [Gateway API](https://gateway-api.sigs.k8s.io) provided by DigitalOcean's managed Cilium deployment to manage the network configuration and HTTP routing.
+The load balancer hands off traffic to managed instances of [Envoy](https://www.envoyproxy.io) running on our Kubernetes nodes.
+We use the [Gateway API](https://gateway-api.sigs.k8s.io) provided by DigitalOcean's managed [Cilium](https://cilium.io) deployment to manage the network configuration and HTTP routing.
 
 From there, traffic is passed to the Mastodon pods, which run a custom implemention of the Mastodon networking stack to include [Thruster](https://github.com/basecamp/thruster) to perform caching of static assets as well as native HTTP/2 connectivity between pods.
-Within the pods, traffic is then proxied directly to Puma which is the native Mastodon web service.
+Within the pods, traffic is then proxied directly to [Puma](https://puma.io), which is the native Mastodon web service.
 
-Streaming traffic is passed from Envoy directly to the Node.js web service running on those pods without any additional customization.
+Streaming traffic is passed from Envoy directly to the Node.js provided [Websocket](https://github.com/websockets/ws) running on those pods without any additional customization.
 
 ![Reverse Proxy Diagram](/reverse-proxy.png)
 
