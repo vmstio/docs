@@ -23,30 +23,18 @@ This automated screening helps us maintain a healthy community by preventing aut
 
 - The email address used has patterns commonly associated with temporary or disposable email services
 - The IP address used for registration has been associated with suspicious activity
+- The fingerprint of the account matched other known patterns of automated/bot signups
 
-In some cases our moderation team may manually reject your registration request, for one of more of the following reasons:
+In this case, you will be contacted via e-mail with ways to follow up with us if you feel we've rejected your account request in error.
 
-- The registration attempt matched patterns typical of automated bot signups
-- Multiple rapid registration attempts were detected from your network
-- Your intended use case was unclear or in violation of our site policies
-
-In either case, if you feel we've rejected your account request in error:
-
-- Send an email to [our administrators](/about/staff) with a brief explanation of how you plan to use your vmst.io account
-- Include any relevant links to your presence on other Mastodon servers or social media
-- Provide additional context about your interest in joining our community
-
-We will review your response and manually provision an account for you, if appropriate.
+We also may also reject your registration request if your intended use case was unclear, or in violation of our site policies.
 
 ## Inactivity
 
-Some servers are happy to juice their registration numbers with drive-by registrations.
-We want to set a higher bar and advertise folks who are part of our community.
-As such, expect that all accounts on vmst.io will be active at some point.
+We expect that all accounts on vmst.io will be active at some point.
 If you sign up and never come back, we reserve the right to delete your account.
 
-The intention is not to delete accounts which fall out of use, only to avoid namesquatting or artificially boosting our registration numbers.
-We also feel this helps mitigate against sleeper attacks, where accounts are created and sit idle until activated later, to appear with older registration dates, and hence bypass other anti-abuse migrations built into the platform.
+The intention is not to delete accounts which fall out of use, only to avoid namesquatting or sleeper attacks where accounts sit idle until activated later (to appear with older registration dates) and hence bypass other anti-abuse migrations built into the platform.
 
 If you join vmst.io and decide it isn't the best home for your Mastodon experience, you also have the ability to [move](https://docs.joinmastodon.org/user/moving/#migration) or [delete](https://docs.joinmastodon.org/user/moving/#delete) your own account at any time.
 
@@ -59,48 +47,3 @@ While we are generally supportive of such things, we like to know ahead of time 
 ::caution
 Development accounts designed to scrape and/or index user data via our API or other means are prohibited.
 ::
-
-## Brands
-
-Corporate brand accounts are not permitted on vmst.io.
-We believe brands and companies should establish their own servers under domains they control and identify with.
-
-This approach:
-
-- Helps Fediverse users verify account legitimacy
-- Enables users to better control their interactions with brands
-- Maintains the personal nature of our community
-
-Examples of prohibited accounts include official accounts for companies like Fastmail or Proton.
-Note that unofficial brand accounts are also prohibited under our account impersonation policy.
-
-### Exceptions and Special Cases
-
-#### Groups & Associations
-
-- Non-profit organizations and community groups may be permitted
-- Example: [@WestportObservatory](https://vmst.io/@WestportObservatory) or user groups with loose brand affiliations
-- Contact staff if unsure about qualification
-
-#### Open Source Projects
-
-- Maintainers may maintain project accounts separate from personal accounts
-- Projects with direct financial relationships or major corporate sponsorship may be prohibited
-- Example: A Pi-hole project official account would be permitted
-- Contact staff to verify eligibility
-
-### General Guidelines
-
-We encourage users to:
-
-- Maintain personal accounts identifying as themselves
-- Participate authentically in the community
-- Post about life, work, hobbies, and interests within the rules
-- Be mindful of the balance between personal content and promotional activity
-
-While we understand the need for revenue-generating activity in today's society, accounts whose primary purpose becomes promotion may be asked to migrate to more suitable servers.
-
-Important Notes:
-
-- This policy does not prevent vmst.io members from interacting with or boosting brand content (when not excessive)
-- Brand accounts can still federate and interact with our server
