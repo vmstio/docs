@@ -14,8 +14,6 @@ In order for Mastodon to offer to translate a post into a different language:
 
 _ex: If a user posts content in Dutch, but the post is marked as being in English and your user interface is set to English, the Mastodon interface will not offer to translate the post._
 
-![Screenshot of Translate Button in Mastodon Interface](/translate.png)
-
 The our translation API is also available to other client applications you may download to your devices.
 These clients may also offer additional translation services which are outside of our control; for example, Ivory will use Apple's on-device translation API first, but then use the server's API if an unsupported language is detected.
 
