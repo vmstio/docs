@@ -9,5 +9,6 @@ We have several internal Bots:
 
 - <a rel="me" href="https://vmst.io/@iostat">@iostat</a>
 - <a rel="me" href="https://vmst.io/@mergebot">@mergebot</a>
+- <a rel="me" href="https://vmst.io/@vmcrawl">@vmcrawl</a>
 
 Bot accounts that boost or crosspost content from other social networks, without the consent of the content owners, are prohibited.
