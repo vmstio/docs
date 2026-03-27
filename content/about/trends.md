@@ -5,7 +5,7 @@ navigation:
   icon: i-material-symbols-trending-up
 ---
 
-Mastodon does offer trending hashtags, posts, and links features on the [Explore page](https://vmst.io/explore) that are based on observed activity within vmst.io and other federated servers.
+Mastodon offers trending hashtags, posts, and links features that are based on observed activity within vmst.io and other federated servers.
 
 Trends are calculated based on a combination of boosts (reposts) and favorites, with a decaying score to make sure that older content cannot trend forever based on additional interactions.
 
